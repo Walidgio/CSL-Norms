@@ -8,7 +8,7 @@
             <div class="relative shrink-0">
                 <div class="absolute -inset-1 rounded-[1.15rem] bg-gradient-to-br from-orange-400 via-amber-500 to-orange-600 opacity-50 blur-md dark:opacity-35" aria-hidden="true"></div>
                 <div class="relative flex h-[4.5rem] w-[4.5rem] items-center justify-center overflow-hidden rounded-2xl border border-white/90 bg-white shadow-xl shadow-orange-500/15 ring-1 ring-orange-500/10 dark:border-slate-600/80 dark:bg-slate-800 dark:ring-orange-500/20 sm:h-[5.25rem] sm:w-[5.25rem]">
-                    @include('norms::codes.rpa.rpa2024.rpa24_icon', ['class' => 'h-full w-full'])
+                    <x-icon name="rpa-seismic" class="h-11 w-11 text-orange-600 dark:text-orange-400 sm:h-12 sm:w-12" />
                 </div>
             </div>
 
@@ -272,6 +272,235 @@
             :root.dark .doc-theme-responsive .rpa-inline-link,
             .dark .doc-theme-responsive .rpa-inline-link {
                 color: #93c5fd !important; /* blue-300: Softer than blue-400 */
+            }
+
+            /* Figure 3.1 showcase (HTML + vector SVG) */
+            .rpa-figure-showcase {
+                margin: 2.75rem auto;
+                max-width: 56rem;
+            }
+            .rpa-figure-showcase__surface {
+                position: relative;
+                border-radius: 1.35rem;
+                padding: 1.35rem 1.1rem 1.6rem;
+                background: linear-gradient(145deg, rgba(255, 255, 255, 0.98) 0%, rgba(255, 251, 235, 0.55) 45%, rgba(254, 243, 199, 0.35) 100%);
+                border: 1px solid rgba(251, 191, 36, 0.35);
+                box-shadow:
+                    0 1px 0 rgba(255, 255, 255, 0.8) inset,
+                    0 10px 28px -8px rgba(234, 88, 12, 0.14),
+                    0 4px 12px -4px rgba(15, 23, 42, 0.08);
+                transition: box-shadow 0.28s ease, border-color 0.28s ease;
+            }
+            .rpa-figure-showcase__surface:hover {
+                border-color: rgba(251, 146, 60, 0.55);
+                box-shadow:
+                    0 1px 0 rgba(255, 255, 255, 0.85) inset,
+                    0 16px 40px -10px rgba(234, 88, 12, 0.2),
+                    0 6px 16px -4px rgba(15, 23, 42, 0.1);
+            }
+            .rpa-figure-showcase__kicker {
+                text-align: center;
+                font-size: 0.7rem;
+                font-weight: 800;
+                letter-spacing: 0.22em;
+                text-transform: uppercase;
+                color: #b45309;
+                margin: 0 0 0.35rem;
+            }
+            .rpa-figure-showcase__svg {
+                margin-top: 0.5rem;
+                border-radius: 1.05rem;
+                overflow: hidden;
+                line-height: 0;
+            }
+            .rpa-figure-showcase__caption {
+                margin: 1.15rem 0 0;
+                text-align: center;
+                font-size: 0.95rem;
+                font-weight: 800;
+                color: #0f172a;
+                letter-spacing: -0.01em;
+            }
+            .rpa-figure-showcase__chips {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 0.65rem;
+                margin-top: 1rem;
+            }
+            .rpa-figure-showcase__chip {
+                display: inline-flex;
+                align-items: flex-start;
+                gap: 0.45rem;
+                max-width: min(100%, 20rem);
+                padding: 0.55rem 0.9rem 0.6rem;
+                border-radius: 0.85rem;
+                font-size: 0.72rem;
+                line-height: 1.35;
+                font-weight: 600;
+                border: 1px solid rgba(148, 163, 184, 0.35);
+                background: rgba(255, 255, 255, 0.75);
+                box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
+            }
+            .rpa-figure-showcase__chip--a {
+                border-color: rgba(59, 130, 246, 0.28);
+                background: linear-gradient(135deg, rgba(239, 246, 255, 0.95), rgba(255, 255, 255, 0.9));
+            }
+            .rpa-figure-showcase__chip--b {
+                border-color: rgba(249, 115, 22, 0.35);
+                background: linear-gradient(135deg, rgba(255, 247, 237, 0.98), rgba(255, 255, 255, 0.9));
+            }
+            .rpa-figure-showcase__chip-key {
+                flex-shrink: 0;
+                font-weight: 900;
+                font-size: 0.68rem;
+                letter-spacing: 0.04em;
+                color: #ea580c;
+            }
+            .rpa-figure-showcase__chip--a .rpa-figure-showcase__chip-key {
+                color: #2563eb;
+            }
+            .rpa-figure-showcase__chip-txt {
+                color: #475569;
+                text-align: left;
+            }
+            .rpa-figure-showcase__fineprint {
+                margin: 1rem 0 0;
+                text-align: center;
+                font-size: 0.62rem;
+                line-height: 1.45;
+                color: #94a3b8;
+            }
+            .dark .doc-theme-responsive .rpa-figure-showcase__surface {
+                background: linear-gradient(155deg, rgba(30, 41, 59, 0.97) 0%, rgba(15, 23, 42, 0.99) 55%, rgba(15, 23, 42, 1) 100%);
+                border-color: rgba(251, 146, 60, 0.28);
+                box-shadow:
+                    0 1px 0 rgba(255, 255, 255, 0.04) inset,
+                    0 18px 40px -12px rgba(0, 0, 0, 0.45);
+            }
+            .dark .doc-theme-responsive .rpa-figure-showcase__surface:hover {
+                border-color: rgba(251, 146, 60, 0.42);
+                box-shadow:
+                    0 1px 0 rgba(255, 255, 255, 0.06) inset,
+                    0 22px 48px -10px rgba(0, 0, 0, 0.55);
+            }
+            .dark .doc-theme-responsive .rpa-figure-showcase__kicker {
+                color: #fdba74;
+            }
+            .dark .doc-theme-responsive .rpa-figure-showcase__caption {
+                color: #f1f5f9 !important;
+            }
+            .dark .doc-theme-responsive .rpa-figure-showcase__chip {
+                background: rgba(30, 41, 59, 0.85);
+                border-color: rgba(71, 85, 105, 0.55);
+            }
+            .dark .doc-theme-responsive .rpa-figure-showcase__chip-txt {
+                color: #cbd5e1 !important;
+            }
+            .dark .doc-theme-responsive .rpa-figure-showcase__fineprint {
+                color: #64748b !important;
+            }
+
+            .rpa-figure-showcase__fineprint code {
+                font-size: 0.58rem;
+                padding: 0.08rem 0.28rem;
+                border-radius: 0.25rem;
+                background: rgba(15, 23, 42, 0.06);
+                color: #475569;
+            }
+            .dark .doc-theme-responsive .rpa-figure-showcase__fineprint code {
+                background: rgba(148, 163, 184, 0.12);
+                color: #94a3b8 !important;
+            }
+
+            /* Figure 3.1 — dual SVG panels (embedded official map) */
+            .rpa-fig31-mapgrid {
+                display: grid;
+                gap: 1.35rem;
+                grid-template-columns: 1fr;
+                margin-top: 0.35rem;
+            }
+            @media (min-width: 960px) {
+                .rpa-fig31-mapgrid {
+                    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+                    align-items: start;
+                }
+            }
+            .rpa-fig31-mapcard {
+                position: relative;
+                border-radius: 1.05rem;
+                padding: 0.65rem 0.65rem 0.75rem;
+                background: linear-gradient(160deg, rgba(255, 255, 255, 0.96), rgba(248, 250, 252, 0.99));
+                border: 1px solid rgba(148, 163, 184, 0.38);
+                box-shadow:
+                    0 1px 0 rgba(255, 255, 255, 0.9) inset,
+                    0 18px 38px -18px rgba(15, 23, 42, 0.12);
+                transition: transform 0.28s ease, box-shadow 0.28s ease, border-color 0.28s ease;
+            }
+            .rpa-fig31-mapcard:hover {
+                transform: translateY(-3px);
+                border-color: rgba(251, 146, 60, 0.45);
+                box-shadow:
+                    0 1px 0 rgba(255, 255, 255, 0.95) inset,
+                    0 26px 50px -22px rgba(234, 88, 12, 0.2);
+            }
+            .rpa-fig31-mapcard--b {
+                background: linear-gradient(165deg, rgba(255, 251, 235, 0.92), rgba(255, 255, 255, 0.98));
+            }
+            .rpa-fig31-mapcard__ribbon {
+                position: absolute;
+                top: 0.55rem;
+                left: 0.6rem;
+                z-index: 2;
+                font-size: 0.62rem;
+                font-weight: 900;
+                letter-spacing: 0.08em;
+                color: #fff;
+                background: linear-gradient(135deg, #2563eb, #0ea5e9);
+                padding: 0.2rem 0.45rem;
+                border-radius: 0.35rem;
+                box-shadow: 0 2px 8px rgba(37, 99, 235, 0.35);
+            }
+            .rpa-fig31-mapcard__ribbon--b {
+                background: linear-gradient(135deg, #ea580c, #fb923c);
+                box-shadow: 0 2px 8px rgba(249, 115, 22, 0.38);
+            }
+            .rpa-fig31-panel-svg {
+                display: block;
+                width: 100%;
+                height: auto;
+                border-radius: 0.65rem;
+            }
+            .rpa-fig31-panel-svg image {
+                image-rendering: auto;
+            }
+            .dark .doc-theme-responsive .rpa-fig31-mapcard {
+                background: linear-gradient(155deg, rgba(30, 41, 59, 0.94), rgba(15, 23, 42, 0.99));
+                border-color: rgba(71, 85, 105, 0.55);
+                box-shadow:
+                    0 1px 0 rgba(255, 255, 255, 0.04) inset,
+                    0 18px 42px -16px rgba(0, 0, 0, 0.45);
+            }
+            .dark .doc-theme-responsive .rpa-fig31-mapcard:hover {
+                border-color: rgba(251, 146, 60, 0.42);
+            }
+            .dark .doc-theme-responsive .rpa-fig31-panel-bg {
+                fill: #1e293b !important;
+            }
+
+            /* Raster inside SVG: single coordinate system, responsive width, crisp framing */
+            .rpa-figure-raster-svg {
+                max-height: min(85vh, 52rem);
+            }
+            .rpa-figure-raster-svg image {
+                shape-rendering: geometricPrecision;
+            }
+            .dark .doc-theme-responsive .rpa-figure-raster-frame {
+                border-color: #475569 !important;
+                background-color: rgba(15, 23, 42, 0.85) !important;
+            }
+            .dark .doc-theme-responsive .rpa-figure-raster-notes {
+                color: #94a3b8 !important;
             }
         </style>
 

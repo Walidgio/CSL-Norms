@@ -29,11 +29,9 @@ class NormsServiceProvider extends ServiceProvider
         // Load Routes
         $this->registerRoutes();
 
-        if ($this->app->runningInConsole()) {
-            $this->publishes([
-                __DIR__ . '/../assets/norms' => public_path('assets/norms'),
-            ], 'norms-assets');
-        }
+        $this->publishes([
+            __DIR__ . '/../assets/norms' => public_path('assets/norms'),
+        ], 'norms-assets');
     }
 
     /**

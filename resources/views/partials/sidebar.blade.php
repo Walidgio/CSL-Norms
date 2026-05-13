@@ -48,7 +48,7 @@
                         <x-icon name="chevron-right" class="w-3.5 h-3.5 text-gray-400 chevron-rotate" />
                         <span class="w-5 h-5 flex-shrink-0 flex items-center justify-center text-lg leading-none">
                             @if($family['slug'] === 'rpa')
-                                @include('norms::codes.rpa.rpa2024.rpa24_icon', ['class' => 'w-full h-full'])
+                                <x-icon name="rpa-seismic" class="h-5 w-5 text-orange-600 dark:text-orange-400" />
                             @else
                                 {{ $family['icon'] }}
                             @endif

@@ -14,7 +14,7 @@
                         <span class="mx-auto flex h-12 w-12 shrink-0 items-center justify-center overflow-hidden rounded-2xl border border-gray-100 bg-white shadow-md shadow-gray-200/60 ring-1 ring-black/[0.04] dark:border-gray-600 dark:bg-gray-800 dark:shadow-none dark:ring-white/10 sm:mx-0 sm:h-14 sm:w-14
                             {{ $currentFamily['slug'] === 'rpa' ? 'border-orange-200/80 shadow-orange-500/10 ring-orange-500/10 dark:border-orange-500/30 dark:ring-orange-400/15' : '' }}">
                             @if($currentFamily['slug'] === 'rpa')
-                                @include('norms::codes.rpa.rpa2024.rpa24_icon', ['class' => 'h-full w-full'])
+                                <x-icon name="rpa-seismic" class="h-8 w-8 text-orange-600 dark:text-orange-400 sm:h-9 sm:w-9" />
                             @else
                                 <span class="flex h-8 w-8 items-center justify-center text-2xl sm:h-9 sm:w-9 sm:text-3xl">{{ $currentFamily['icon'] }}</span>
                             @endif
@@ -127,7 +127,7 @@
                         {{-- Family Background Decor --}}
                         <div class="absolute top-0 right-0 p-6 w-32 h-44 opacity-[0.05] dark:opacity-[0.08] pointer-events-none group-hover:scale-110 group-hover:-rotate-3 transition-transform duration-700">
                             @if($family['slug'] === 'rpa')
-                                @include('norms::codes.rpa.rpa2024.rpa24_icon')
+                                <x-icon name="rpa-seismic" class="h-full w-full max-h-36 text-orange-500/25 dark:text-orange-400/20" />
                             @else
                                 <span class="text-8xl">{{ $family['icon'] }}</span>
                             @endif
@@ -145,7 +145,7 @@
                                     'amber' => 'bg-amber-50 dark:bg-amber-900/20',
                                  ][$family['color']] }}">
                                 @if($family['slug'] === 'rpa')
-                                    @include('norms::codes.rpa.rpa2024.rpa24_icon', ['class' => 'w-10 h-10'])
+                                    <x-icon name="rpa-seismic" class="h-10 w-10 text-orange-600 dark:text-orange-400" />
                                 @else
                                     <span class="text-3xl">{{ $family['icon'] }}</span>
                                 @endif

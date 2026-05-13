@@ -7,14 +7,28 @@
     </div>
     </div>
 
-    <div id="rpa-fig-3.1" class="text-center my-10">
-        <div class="mb-6">
-            <h4 class="text-sm font-bold uppercase tracking-widest text-slate-400 mb-2">Classification sismique des wilayas d'Algérie</h4>
-            <div class="relative inline-block border border-slate-200 p-2 bg-white shadow-sm rounded-xl">
-                <img src="{{ asset('assets/norms/rpa24/ch3/Ch3Img/rpa24_ch3_p47.jpg') }}" class="max-w-full h-auto block" alt="Figure 3.1: Zonage sismique de l'Algérie">
+    <figure id="rpa-fig-3.1" class="rpa-figure-showcase" style="scroll-margin-top: 100px;">
+        <div class="rpa-figure-showcase__surface">
+            <p class="rpa-figure-showcase__kicker">Classification sismique des wilayas d'Alg&eacute;rie</p>
+            <div class="rpa-figure-showcase__svg">
+                @include('norms::codes.rpa.rpa2024.chapitre3.Ch3Svg.rpa24_ch3_fig3_1')
             </div>
+            <figcaption class="rpa-figure-showcase__caption">
+                Figure 3.1 : Zonage sismique de l'Alg&eacute;rie
+            </figcaption>
+            <div class="rpa-figure-showcase__chips">
+                <span class="rpa-figure-showcase__chip rpa-figure-showcase__chip--a">
+                    <span class="rpa-figure-showcase__chip-key">(a)</span>
+                    <span class="rpa-figure-showcase__chip-txt">Toutes les zones sismiques 0 &agrave; VI</span>
+                </span>
+                <span class="rpa-figure-showcase__chip rpa-figure-showcase__chip--b">
+                    <span class="rpa-figure-showcase__chip-key">(b)</span>
+                    <span class="rpa-figure-showcase__chip-txt">Zoom sur les zones sismiques I &agrave; VI</span>
+                </span>
+            </div>
+            <p class="rpa-figure-showcase__fineprint">
+                Cartographie du r&egrave;glement : l&rsquo;image est servie depuis le paquet si les fichiers ne sont pas encore copi&eacute;s dans <code>public/assets/norms</code>. Pour une copie statique, ex&eacute;cutez <code class="whitespace-nowrap">php artisan vendor:publish --tag=norms-assets</code>.
+            </p>
         </div>
-        <p class="text-sm font-bold text-slate-700">Figure 3.1: Zonage sismique de l'Algérie</p>
-        <p class="text-xs text-slate-500 mt-1">(a) Toutes les zones sismiques 0 à VI | (b) Zoom sur les zones sismiques I à VI</p>
-    </div>
+    </figure>
 </section>
