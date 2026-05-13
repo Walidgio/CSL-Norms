@@ -1,23 +1,23 @@
 {{-- ==================== PAGE 60 ==================== --}}
 <section id="rpa-p60" class="rpa-page rpa-scroll-spy-section" data-annotatable="true">
-    <div class="rpa-header">
-        <span>60</span>
-        <span class="chapter">Chapter 3. CRITÈRES DE CLASSIFICATION</span>
-    </div>
-
-    <div class="mt-4">
-        que :
-        <div class="rpa-indent space-y-1">
-            <div class="rpa-bullet">* Bâtiments abritant les centres de décision stratégique ;</div>
-            <div class="rpa-bullet">* Bâtiments abritant le personnel et le matériel de secours et (ou) de défense nationale ayant un caractère opérationnel (casernes de pompiers, de police ou militaires, parcs d'engins et de véhicules d'intervention d'urgence et de secours,etc.) ;</div>
-            <div class="rpa-bullet">* Bâtiments des établissements publics de santé (les hôpitaux, centres dotés de services des urgences, de chirurgie et d'obstétrique,etc.) ;</div>
-            <div class="rpa-bullet">* Bâtiments des établissements publics de communications tels que les centres de télécommunications, de diffusion et de réception de l'information (radio et télévision), relais Hertziens, tours de contrôle des aéroports et contrôle de la circulation aérienne ;</div>
-            <div class="rpa-bullet">* Bâtiments de production et de stockage d'eau potable d'importance vitale ;</div>
-            <div class="rpa-bullet">* Bâtiments publics à caractère culturel ou historique d'importance nationale ;</div>
-            <div class="rpa-bullet">* Bâtiments des centres de production ou de distribution d'énergie, d'importance nationale ;</div>
-            <div class="rpa-bullet">* Bâtiments administratifs ou autre devant rester fonctionnels en cas de séisme.</div>
+    <div class="rpa-header-meta flex flex-wrap items-start justify-between gap-2 text-sm mb-6 border-b border-black/90 dark:border-slate-500 pb-2">
+        <span class="tabular-nums font-semibold text-slate-700 dark:text-slate-300">60</span>
+        <div class="text-right max-w-[min(100%,28rem)] space-y-0.5">
+            <div class="text-xs font-semibold text-amber-900/90 dark:text-amber-200/90">3.4 &mdash; Groupes d&rsquo;importance (liste 1A, suite)</div>
+            @include('norms::codes.rpa.rpa2024.chapitre3.partials.ch3-running-meta')
         </div>
     </div>
+
+    <ul class="list-disc ml-8 space-y-2 text-justify leading-relaxed">
+        <li>B&acirc;timents abritant les centres de d&eacute;cision strat&eacute;gique ;</li>
+        <li>B&acirc;timents abritant le personnel et le mat&eacute;riel de secours et (ou) de d&eacute;fense nationale ayant un caract&egrave;re op&eacute;rationnel (casernes de pompiers, de police ou militaires, parcs d'engins et de v&eacute;hicules d'intervention d'urgence et de secours, etc.) ;</li>
+        <li>B&acirc;timents des &eacute;tablissements publics de sant&eacute; (h&ocirc;pitaux, centres dot&eacute;s de services d'urgences, de chirurgie et d'obst&eacute;trique, etc.) ;</li>
+        <li>B&acirc;timents des &eacute;tablissements publics de communications tels que les centres de t&eacute;l&eacute;communications, de diffusion et de r&eacute;ception de l'information (radio et t&eacute;l&eacute;vision), relais hertziens, tours de contr&ocirc;le des a&eacute;roports et contr&ocirc;le de la circulation a&eacute;rienne ;</li>
+        <li>B&acirc;timents de production et de stockage d'eau potable d'importance vitale ;</li>
+        <li>B&acirc;timents publics &agrave; caract&egrave;re culturel ou historique d'importance nationale ;</li>
+        <li>B&acirc;timents des centres de production ou de distribution d'&eacute;nergie, d'importance nationale ;</li>
+        <li>B&acirc;timents administratifs ou autres devant rester fonctionnels en cas de s&eacute;isme.</li>
+    </ul>
 
     <div class="mt-6">
         <div id="rpa-art-3.4-g1b" class="rpa-bullet">• <b>Groupe 1B : Bâtiments de grande importance</b></div>
@@ -60,6 +60,6 @@
     </div>
 
     <p class="mt-8" style="text-align: justify;">
-        Les valeurs du coefficient d'importance, I, pour les groupes d'importance 1A, 1B, 2 et 3 sont données dans le Tableau (3.11), (cf. Eqn. (1.2) & Tableau (I.1)).
+        Les valeurs du coefficient d'importance, <i>I</i>, pour les groupes d'importance 1A, 1B, 2 et 3 sont données dans le <a href="#rpa-table-3.11" class="rpa-inline-link">Tableau (3.11)</a> (cf. <a href="{{ asset('assets/norms/rpa/RPA2024_Version_Finale.pdf') }}" target="_blank" rel="noopener noreferrer" class="rpa-inline-link" title="Chapitre 1 — document PDF">l'équation (1.2)</a> et le <a href="#rpa-table-I.1" class="rpa-inline-link">Tableau (I.1)</a>).
     </p>
 </section>

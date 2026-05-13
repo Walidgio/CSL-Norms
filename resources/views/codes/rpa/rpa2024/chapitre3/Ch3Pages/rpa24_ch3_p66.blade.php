@@ -1,8 +1,10 @@
 {{-- ==================== PAGE 66 ==================== --}}
 <section id="rpa-p66" class="rpa-page rpa-scroll-spy-section" data-annotatable="true">
-    <div class="rpa-header">
-        <span>66</span>
-        <span class="chapter">Chapter 3. CRITÈRES DE CLASSIFICATION</span>
+    <div class="rpa-header-meta flex flex-wrap items-start justify-between gap-2 text-sm mb-6 border-b border-black/90 dark:border-slate-500 pb-2">
+        <span class="tabular-nums font-semibold text-slate-700 dark:text-slate-300">66</span>
+        <div class="text-right max-w-[min(100%,28rem)] space-y-0.5">
+        @include('norms::codes.rpa.rpa2024.chapitre3.partials.ch3-running-meta')
+    </div>
     </div>
 
     <div class="mt-4 space-y-4">
@@ -60,7 +62,7 @@
                 Il s'agit d'un système de contreventement constitué de panneaux avec plaques en tôles d'acier capables de reprendre la totalité des forces latérales.
             </p>
             <p style="text-align: justify;" class="mt-2">
-                Le Tableau (3.15) précise le nombre maximal d'étages ainsi que la hauteur maximale, pour ce genre de système.
+                Le <a href="#rpa-table-3.15" class="rpa-inline-link">Tableau (3.15)</a> précise le nombre maximal d'étages ainsi que la hauteur maximale, pour ce genre de système.
             </p>
         </div>
 

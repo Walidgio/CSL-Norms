@@ -1,15 +1,17 @@
 {{-- ==================== PAGE 62 ==================== --}}
 <section id="rpa-p62" class="rpa-page rpa-scroll-spy-section" data-annotatable="true">
-    <div class="rpa-header">
-        <span>62</span>
-        <span class="chapter">Chapter 3. CRITÈRES DE CLASSIFICATION</span>
+    <div class="rpa-header-meta flex flex-wrap items-start justify-between gap-2 text-sm mb-6 border-b border-black/90 dark:border-slate-500 pb-2">
+        <span class="tabular-nums font-semibold text-slate-700 dark:text-slate-300">62</span>
+        <div class="text-right max-w-[min(100%,28rem)] space-y-0.5">
+        @include('norms::codes.rpa.rpa2024.chapitre3.partials.ch3-running-meta')
+    </div>
     </div>
 
     <p style="text-align: justify;" class="mt-4">
         Pour cette catégorie, les éléments de remplissage ne doivent pas gêner les déformations des portiques (cloisons désolidarisées, ou cloisons légères dont les liaisons ne gênent pas le déplacement des portiques).
     </p>
     <p style="text-align: justify;" class="mt-2">
-        Le Tableau (3.13) précise le nombre maximal d'étages ainsi que la hauteur maximale, pour ce genre de système.
+        Le <a href="#rpa-table-3.13" class="rpa-inline-link">Tableau (3.13)</a> précise le nombre maximal d'étages ainsi que la hauteur maximale, pour ce genre de système.
     </p>
 
     <div class="overflow-x-auto my-6">
@@ -40,7 +42,7 @@
                 </tr>
             </tbody>
         </table>
-        <div class="rpa-figure-title text-center mt-2" id="rpa-table-3.13">Table 3.13: Limitations en nombre de niveaux et en hauteur</div>
+        <div class="rpa-figure-title text-center mt-2" id="rpa-table-3.13" style="scroll-margin-top: 100px;">Table 3.13: Limitations en nombre de niveaux et en hauteur</div>
     </div>
 
     <div class="mt-6">
@@ -52,7 +54,7 @@
             Commentaire : Les éléments de remplissage de la structure sont constitués par des murs en maçonnerie, de petits éléments insérés dans le cadre poteaux-poutres dont l'épaisseur (hors crépissage) ne dépasse pas 10 cm, exception faite pour les remplissages périphériques ou les séparations entre deux (2) logements ou deux (2) locaux d'un même niveau où une deuxième paroi de 5 cm, du côté intérieur, est tolérée. Cette dernière peut éventuellement avoir une épaisseur de 10 cm à condition qu'elle ne soit pas insérée dans les cadres pour ne pas aggraver les phénomènes d'interaction. Ils devraient être disposés en plan aussi symétriquement que possible par rapport au centre de masse de chaque étage de façon à ne pas aggraver une dissymétrie éventuelle du système de contreventement en béton armé de l'étage.
         </p>
         <p style="text-align: justify;" class="mt-2">
-            Le Tableau (3.14) précise le nombre maximal d'étages ainsi que la hauteur maximale, pour ce genre de système.
+            Le <a href="#rpa-table-3.14" class="rpa-inline-link">Tableau (3.14)</a> précise le nombre maximal d'étages ainsi que la hauteur maximale, pour ce genre de système.
         </p>
 
         <div class="overflow-x-auto my-6">
@@ -83,7 +85,7 @@
                     </tr>
                 </tbody>
             </table>
-            <div class="rpa-figure-title text-center mt-2" id="rpa-table-3.14">Table 3.14: Limitations en nombre de niveaux et en hauteur</div>
+            <div class="rpa-figure-title text-center mt-2" id="rpa-table-3.14" style="scroll-margin-top: 100px;">Table 3.14: Limitations en nombre de niveaux et en hauteur</div>
         </div>
     </div>
 

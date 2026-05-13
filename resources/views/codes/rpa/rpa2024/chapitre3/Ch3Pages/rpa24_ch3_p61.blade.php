@@ -1,8 +1,11 @@
 {{-- ==================== PAGE 61 ==================== --}}
 <section id="rpa-p61" class="rpa-page rpa-scroll-spy-section" data-annotatable="true">
-    <div class="rpa-header">
-        <span>3.5 Classification des systèmes de contreventement</span>
-        <span>61</span>
+    <div class="rpa-header-meta flex flex-wrap items-start justify-between gap-2 text-sm mb-6 border-b border-black/90 dark:border-slate-500 pb-2">
+        <span class="tabular-nums font-semibold text-slate-700 dark:text-slate-300">61</span>
+        <div class="text-right max-w-[min(100%,28rem)] space-y-0.5">
+        <div class="text-xs font-semibold text-amber-900/90 dark:text-amber-200/90">3.5 Classification des systèmes de contreventement</div>
+        @include('norms::codes.rpa.rpa2024.chapitre3.partials.ch3-running-meta')
+    </div>
     </div>
 
     <div class="overflow-x-auto my-6">
@@ -29,13 +32,17 @@
                 </tr>
             </tbody>
         </table>
-        <div class="rpa-figure-title text-center mt-2" id="rpa-table-3.11">Table 3.11: Valeurs du coefficient d'importance</div>
+        <div class="rpa-figure-title text-center mt-2" id="rpa-table-3.11" style="scroll-margin-top: 100px;">Table 3.11: Valeurs du coefficient d'importance</div>
+    </div>
+
+    <div id="rpa-table-I.1" class="mt-4 p-3 border border-dashed border-slate-400 rounded text-sm text-justify" style="scroll-margin-top: 100px;">
+        <strong>Tableau I.1</strong> (Annexe I du RPA 2024) : tableau complémentaire des coefficients d'importance et des périodes de retour associées. Le détail exhaustif figure dans l'édition PDF officielle ; les valeurs principales pour le dimensionnement courant sont reprises au <a href="#rpa-table-3.11" class="rpa-inline-link">Tableau (3.11)</a> ci-dessus.
     </div>
 
     <div id="rpa-art-3.5" class="mt-8">
         <h2 class="rpa-h2">3.5 Classification des systèmes de contreventement</h2>
         <p style="text-align: justify;">
-            L'objet de la classification des systèmes de contreventement se traduit, dans les règles et méthodes de calcul, par l'attribution pour chacune des catégories de cette classification, d'une valeur numérique du coefficient de comportement, R (cf. Tableau (3.18)).
+            L'objet de la classification des systèmes de contreventement se traduit, dans les règles et méthodes de calcul, par l'attribution pour chacune des catégories de cette classification, d'une valeur numérique du coefficient de comportement, R (cf. <a href="#rpa-table-3.18" class="rpa-inline-link">Tableau (3.18)</a>).
         </p>
         <p style="text-align: justify;" class="mt-2">
             La classification des systèmes de contreventement est faite en tenant compte de leur capacité de dissipation de l'énergie vis-à-vis de l'action sismique. Le coefficient de comportement correspondant est fixé en fonction de la nature des matériaux constitutifs, du type de construction, des possibilités de redistribution d'efforts dans la structure et des capacités de déformation des éléments dans le domaine post-élastique.
@@ -58,7 +65,7 @@
                 Pour cette catégorie, les éléments de remplissage ne doivent pas gêner les déformations des portiques (cloisons désolidarisées ou cloisons légères dont les liaisons ne gênent pas le déplacement des portiques).
             </p>
             <p style="text-align: justify;" class="mt-2">
-                Le Tableau (3.12) précise le nombre maximal d'étages ainsi que la hauteur maximale, pour ce genre de système.
+                Le <a href="#rpa-table-3.12" class="rpa-inline-link">Tableau (3.12)</a> précise le nombre maximal d'étages ainsi que la hauteur maximale, pour ce genre de système.
             </p>
 
             <div class="overflow-x-auto my-6">
@@ -89,7 +96,7 @@
                         </tr>
                     </tbody>
                 </table>
-                <div class="rpa-figure-title text-center mt-2" id="rpa-table-3.12">Table 3.12: Limitations en nombre de niveaux et en hauteur</div>
+                <div class="rpa-figure-title text-center mt-2" id="rpa-table-3.12" style="scroll-margin-top: 100px;">Table 3.12: Limitations en nombre de niveaux et en hauteur</div>
             </div>
         </div>
 

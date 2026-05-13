@@ -1,13 +1,21 @@
 {{-- ==================== PAGE 59 ==================== --}}
 <section id="rpa-p59" class="rpa-page rpa-scroll-spy-section" data-annotatable="true">
-    <div class="rpa-header">
-        <span>3.4 Classification des bâtiments selon leur importance</span>
-        <span>59</span>
+    <div class="rpa-header-meta flex flex-wrap items-start justify-between gap-2 text-sm mb-6 border-b border-black/90 dark:border-slate-500 pb-2">
+        <span class="tabular-nums font-semibold text-slate-700 dark:text-slate-300">59</span>
+        <div class="text-right max-w-[min(100%,28rem)] space-y-0.5">
+            <div class="text-xs font-semibold text-amber-900/90 dark:text-amber-200/90">3.3.4 &mdash; Magnitude et dur&eacute;e des acc&eacute;l&eacute;rogrammes</div>
+            @include('norms::codes.rpa.rpa2024.chapitre3.partials.ch3-running-meta')
+        </div>
     </div>
 
-    <h4 class="font-bold mt-4">Magnitude et durée des accélérogrammes</h4>
+    <div class="rounded-xl border border-amber-100/80 bg-amber-50/20 dark:border-amber-900/25 dark:bg-amber-950/15 px-4 py-3 mb-6">
+        <p class="text-xs font-semibold uppercase tracking-wide text-amber-900/80 dark:text-amber-200/90 mb-0">Suite du paragraphe 3.3.4</p>
+        <p class="text-sm text-slate-700 dark:text-slate-300 mb-0">Tableau 3.10 et fin de la repr&eacute;sentation temporelle avant l&rsquo;ouverture du paragraphe 3.4.</p>
+    </div>
+
+    <h4 class="font-bold mt-2 text-slate-900 dark:text-slate-100">Magnitude et dur&eacute;e des acc&eacute;l&eacute;rogrammes</h4>
     <p style="text-align: justify;">
-        Pour les besoins de la simulation des accélérogrammes artificiels, de sélection des accélérogrammes enregistrés, et la vérification du potentiel de liquéfaction, le Tableau (3.10) donne, à titre indicatif, les valeurs de la magnitude (<i>M<sub>w</sub></i>) et de la durée de la phase forte (<i>T<sub>s</sub></i>) estimées en champ proche, pour les sept (07) zones de sismicité et les 04 classes de site.
+        Pour les besoins de la simulation des accélérogrammes artificiels, de sélection des accélérogrammes enregistrés, et la vérification du potentiel de liquéfaction, le <a href="#rpa-table-3.10" class="rpa-inline-link">Tableau (3.10)</a> donne, à titre indicatif, les valeurs de la magnitude (<i>M<sub>w</sub></i>) et de la durée de la phase forte (<i>T<sub>s</sub></i>) estimées en champ proche, pour les sept (07) zones de sismicité et les 04 classes de site.
     </p>
     <p style="text-align: justify;" class="mt-2">
         La phase forte, <i>T<sub>s</sub></i>, est définie comme la phase stationnaire du signal sismique. Le début et la fin de cette phase correspondent à 5% et 95% de l'énergie du signal, respectivement.
@@ -106,8 +114,10 @@
                 </tr>
             </tbody>
         </table>
-        <div class="rpa-figure-title text-center mt-2" id="rpa-table-3.10">Table 3.10: Valeurs de la magnitude et de la durée de la phase forte estimées pour les 06 zones de sismicité et les 04 classes de sol</div>
+        <p id="rpa-table-3.10" class="rpa-table-caption text-center mt-3 text-sm font-semibold" style="scroll-margin-top: 100px;">Tableau 3.10 : Valeurs de la magnitude et de la dur&eacute;e de la phase forte estim&eacute;es pour les sept (07) zones de sismicit&eacute; et les 04 classes de sol</p>
     </div>
+
+    <div class="my-10 h-px bg-gradient-to-r from-transparent via-amber-200 to-transparent dark:via-amber-800/50" aria-hidden="true"></div>
 
     <div id="rpa-art-3.4" class="mt-10">
         <h2 class="rpa-h2">3.4 Classification des bâtiments selon leur importance</h2>
@@ -115,10 +125,10 @@
             Le niveau minimal de protection sismique accordé à un bâtiment dépend de sa destination et de son importance vis à vis des objectifs de protection fixés par la collectivité. Ainsi, les bâtiments sont classés en 4 groupes d'importance.
         </p>
         <p style="text-align: justify;" class="mt-2">
-            Les groupes d'importance sont caractérisés par différents coefficients d'importance, I, décrits aux § 1.2 et § 3.1 et donnés par Eqn. (1.2).
+            Les groupes d'importance sont caract&eacute;ris&eacute;s par diff&eacute;rents coefficients d'importance, <i>I</i>, d&eacute;crits aux paragraphes 1.2 et 3.1 et donn&eacute;s par <a href="{{ asset('assets/norms/rpa/RPA2024_Version_Finale.pdf') }}" target="_blank" rel="noopener noreferrer" class="rpa-inline-link" title="Chapitre 1 — document PDF">l'&eacute;quation (1.2)</a>.
         </p>
         <p style="text-align: justify;" class="mt-2">
-            A ce titre, pour un bâtiment d'usage courant d'importance moyenne, le coefficient d'importance, I=1.0, est associé à l'action sismique ayant une période de retour de référence comme indiqué au § 1.2.1.
+            &Agrave; ce titre, pour un b&acirc;timent d'usage courant d'importance moyenne, le coefficient d'importance, <i>I</i> = 1,0, est associ&eacute; &agrave; l'action sismique ayant une p&eacute;riode de retour de r&eacute;f&eacute;rence comme indiqu&eacute; au paragraphe 1.2.1.
         </p>
         <p style="text-align: justify;" class="mt-2">
             Pour un bâtiment de plus grande importance (bâtiment accueillant beaucoup d'usagers, bâtiments stratégiques, etc), une plus grande protection ou sécurité est assurée par un coefficient d'importance supérieur à un (1), appliqué à la sollicitation d'un bâtiment courant, ce qui équivaut à augmenter la période de retour de l'événement sismique de calcul de ces bâtiments.
@@ -134,9 +144,9 @@
         </p>
 
         <div class="mt-6">
-            <div id="rpa-art-3.4-g1a" class="rpa-bullet">• <b>Groupe 1A : Bâtiments d'importance vitale</b></div>
+            <div id="rpa-art-3.4-g1a" class="rpa-bullet">• <b>Groupe 1A : B&acirc;timents d'importance vitale</b></div>
             <div class="rpa-indent">
-                <div class="rpa-bullet">- Bâtiments vitaux qui doivent demeurer opérationnels après un séisme majeur pour les besoins de la survie de la région, de la sécurité publique et de la défense nationale, tels...</div>
+                <p class="rpa-bullet text-justify leading-relaxed mb-2">- B&acirc;timents vitaux qui doivent demeurer op&eacute;rationnels apr&egrave;s un s&eacute;isme majeur pour les besoins de la survie de la r&eacute;gion, de la s&eacute;curit&eacute; publique et de la d&eacute;fense nationale, <strong>tels que :</strong></p>
             </div>
         </div>
     </div>

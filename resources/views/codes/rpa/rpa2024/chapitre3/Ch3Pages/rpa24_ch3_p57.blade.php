@@ -1,12 +1,15 @@
 {{-- ==================== PAGE 57 ==================== --}}
 <section id="rpa-p57" class="rpa-page rpa-scroll-spy-section" data-annotatable="true">
-    <div class="rpa-header">
-        <span>3.3 Actions sismiques</span>
-        <span>57</span>
+    <div class="rpa-header-meta flex flex-wrap items-start justify-between gap-2 text-sm mb-6 border-b border-black/90 dark:border-slate-500 pb-2">
+        <span class="tabular-nums font-semibold text-slate-700 dark:text-slate-300">57</span>
+        <div class="text-right max-w-[min(100%,28rem)] space-y-0.5">
+        <div class="text-xs font-semibold text-amber-900/90 dark:text-amber-200/90">3.3 Actions sismiques</div>
+        @include('norms::codes.rpa.rpa2024.chapitre3.partials.ch3-running-meta')
+    </div>
     </div>
 
     <p style="text-align: justify;">
-        probabiliste de l'aléa, ont une magnitude moment (<i>M<sub>w</sub></i> ≤ 5.5), le type de spectre 2 est adopté. Les valeurs devant être attribuées à <i>T<sub>1</sub>, T<sub>2</sub>, T<sub>3</sub>, &alpha;</i> et (<i>A<sub>v</sub>/A</i>), pour chaque classe de sol et type (forme) de spectre, sont données dans les Tableaux (3.8) et (3.9). La Figure (3.6) montre les formes des spectres de Type 1 et de Type 2, pour les sols de classes <i>S<sub>1</sub></i> à <i>S<sub>4</sub></i> pour <i>&xi;</i> = 5%, normalisés par (<i>A<sub>v</sub></i>).
+        Les valeurs devant être attribuées à <i>T<sub>1</sub>, T<sub>2</sub>, T<sub>3</sub>, &alpha;</i> et (<i>A<sub>v</sub>/A</i>), pour chaque classe de sol et type (forme) de spectre, sont données dans les <a href="#rpa-table-3.8" class="rpa-inline-link">Tableaux (3.8)</a> et <a href="#rpa-table-3.9" class="rpa-inline-link">(3.9)</a>. La <a href="#rpa-fig-3.6" class="rpa-inline-link">Figure (3.6)</a> montre les formes des spectres de Type 1 et de Type 2, pour les sols de classes <i>S<sub>1</sub></i> à <i>S<sub>4</sub></i> pour <i>&xi;</i> = 5%, normalisés par (<i>A<sub>v</sub></i>).
     </p>
 
     <div id="rpa-art-3.3.3" class="mt-8">
@@ -78,7 +81,7 @@
             où:
             <div class="rpa-indent space-y-1">
                 <div class="rpa-bullet">• <i>S<sub>ad</sub>(T)</i> : spectre de calcul normalisé par rapport à la valeur de l'accélération de la pesanteur, <b>g</b>;</div>
-                <div class="rpa-bullet">• <b>R</b> : coefficient de comportement de la structure (cf. § 3.6, Tableau (3.18)) ;</div>
+                <div class="rpa-bullet">• <b>R</b> : coefficient de comportement de la structure (cf. § 3.6, <a href="#rpa-table-3.18" class="rpa-inline-link">Tableau (3.18)</a>) ;</div>
                 <div class="rpa-bullet">• <b><i>Q<sub>F</sub></i></b> : facteur de qualité (cf. § 3.8).</div>
             </div>
         </div>
@@ -86,7 +89,7 @@
         <p class="mt-4 font-bold italic">Nota: Ces valeurs du spectre de calcul ne doivent, en aucun cas, être inférieures à (0.2A.I).</p>
 
         <p class="mt-6" style="text-align: justify;">
-            Pour la composante verticale de l'action sismique, le spectre de calcul est donné par Eqn. (3.16), avec l'accélération de calcul du sol dans la direction verticale, <i>A<sub>v</sub></i>, S étant pris égal à 1.0, R étant pris égal à 1.5 pour tout système de contreventement, <i>Q<sub>F</sub></i> étant pris égal à 1.0, et les autres paramètres tels que définis en § 3.3.2.
+            Pour la composante verticale de l'action sismique, le spectre de calcul est donné par <a href="#rpa-eqt-3.16" class="rpa-inline-link">Eqn. (3.16)</a>, avec l'accélération de calcul du sol dans la direction verticale, <i>A<sub>v</sub></i>, S étant pris égal à 1.0, R étant pris égal à 1.5 pour tout système de contreventement, <i>Q<sub>F</sub></i> étant pris égal à 1.0, et les autres paramètres tels que définis en § 3.3.2.
         </p>
 
         <div class="rpa-equation-container" id="rpa-eqt-3.16">

@@ -1,8 +1,10 @@
 {{-- ==================== PAGE 50 ==================== --}}
 <section id="rpa-p50" class="rpa-page rpa-scroll-spy-section" data-annotatable="true">
-    <div class="rpa-header">
-        <span>50</span>
-        <span class="chapter">Chapter 3. CRITÈRES DE CLASSIFICATION</span>
+    <div class="rpa-header-meta flex flex-wrap items-start justify-between gap-2 text-sm mb-6 border-b border-black/90 dark:border-slate-500 pb-2">
+        <span class="tabular-nums font-semibold text-slate-700 dark:text-slate-300">50</span>
+        <div class="text-right max-w-[min(100%,28rem)] space-y-0.5">
+        @include('norms::codes.rpa.rpa2024.chapitre3.partials.ch3-running-meta')
+    </div>
     </div>
 
     <div class="mt-8">
@@ -101,7 +103,7 @@
                     <span class="italic">Vérifier l'existence d'épaisseur totale d'argile molle supérieure à 3m.</span> Si ce critère est satisfait, classer le site en S<sub>4</sub> ;
                 </li>
                 <li>
-                    <span class="italic">Classer le site en utilisant les valeurs moyennes harmoniques des V<sub>s</sub> ou les résultats d'essais géotechniques</span> (pénétromètre statique, SPT, C<sub>u</sub>, pressiomètre, cisaillement non drainé et résistance à la compression simple) tels que définis dans le Tableau (3.2). Les classes de site sont fondamentalement définies en fonction de V<sub>s,30</sub> ou tout autre résultat d'essais géotechnique, de la surface du sol à une profondeur de 30 m du profil du site.
+                    <span class="italic">Classer le site en utilisant les valeurs moyennes harmoniques des V<sub>s</sub> ou les résultats d'essais géotechniques</span> (pénétromètre statique, SPT, C<sub>u</sub>, pressiomètre, cisaillement non drainé et résistance à la compression simple) tels que définis dans le <a href="#rpa-table-3.2" class="rpa-inline-link">Tableau (3.2)</a>. Les classes de site sont fondamentalement définies en fonction de V<sub>s,30</sub> ou tout autre résultat d'essais géotechnique, de la surface du sol à une profondeur de 30 m du profil du site.
                 </li>
             </ol>
         </div>
@@ -109,7 +111,7 @@
         <div id="rpa-art-3.3" class="mt-12" style="scroll-margin-top: 100px;">
             <h2 class="rpa-h2" style="color: #c05621;">3.3 Actions sismiques</h2>
             <p class="text-justify mb-4 leading-relaxed">
-                Le territoire national est divisé en sept (07) zones sismiques. Chaque zone est associée à un coefficient d'accélération moyen, servant de valeur de référence au niveau d'un sol de classe S<sub>1</sub>, pour une période de retour, <span class="italic">T<sub>r</sub></span> = 475 ans, appelé coefficient d'accélération de référence de zone, A (cf. Tableau (3.3)).
+                Le territoire national est divisé en sept (07) zones sismiques. Chaque zone est associée à un coefficient d'accélération moyen, servant de valeur de référence au niveau d'un sol de classe S<sub>1</sub>, pour une période de retour, <span class="italic">T<sub>r</sub></span> = 475 ans, appelé coefficient d'accélération de référence de zone, A (cf. <a href="#rpa-table-3.3" class="rpa-inline-link">Tableau (3.3)</a>).
             </p>
         </div>
     </div>

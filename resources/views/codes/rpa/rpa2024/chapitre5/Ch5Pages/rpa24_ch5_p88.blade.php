@@ -1,14 +1,11 @@
-{{-- ==================== PAGE 88 ==================== --}}
+{{-- Chapitre 5 — combinaisons (suite) ; repère imprimé env. p. 88 --}}
 <section id="rpa-p88" class="rpa-page rpa-scroll-spy-section" data-annotatable="true">
-    <div class="rpa-header">
+    <div class="rpa-header-meta flex justify-between text-sm text-gray-500 mb-6 border-b border-black pb-1">
         <span>88</span>
-        <span class="chapter">Chapter 5. JUSTIFICATION DE LA SECURITE</span>
+        <span class="italic chapter">Chapitre 5. Justification de la sécurité</span>
     </div>
 
-    <ul class="rpa-list-disc ml-8 mb-4">
-        <li>&psi; : Coefficient d'accompagnement, fonction de la nature et de la durée de la charge d'exploitation et donné par le Tableau (4.2).</li>
-    </ul>
-    <p class="italic mb-2">et:</p>
+    <p class="text-justify mb-4 leading-relaxed">Les effets <i>E<sub>1</sub></i> et <i>E<sub>2</sub></i> sont définis par :</p>
 
     <div class="rpa-equation-container" id="rpa-eqt-5.2">
         <div class="rpa-equation">
@@ -45,61 +42,59 @@
         <div class="rpa-eq-num">(5.2)</div>
     </div>
 
-    <div class="rpa-comment-box mt-6">
-        <p class="font-bold italic">Commentaire :</p>
-        <ul class="rpa-list-disc ml-6 text-sm space-y-2 italic">
-            <li>La réponse de la structure, à chaque composante horizontale, doit être évaluée séparément en utilisant les règles de combinaison des réponses modales indiquées au &sect; 4.3.4.</li>
-            <li>Les effets, dus à la combinaison des composantes horizontales de l'action sismique, doivent être calculés en utilisant les deux combinaisons, cf. Eqn. (5.2).</li>
-            <li>Dans les combinaisons, Eqns. (5.1) & (5.2), le signe adopté pour chaque composante doit être le plus défavorable pour l'effet particulier considéré.</li>
-            <li>Lorsqu'une analyse chronologique non linéaire est utilisée, avec un modèle spatial de la structure, des accélérogrammes, agissant simultanément, doivent être pris pour agir dans les deux directions.</li>
+    <aside class="rpa-comment-box mt-8 border-l-4 border-amber-200 bg-amber-50/40 dark:bg-amber-950/20 pl-4 py-3 pr-2 rounded-r-lg" aria-label="Commentaire réglementaire">
+        <p class="font-bold italic mb-2">Commentaire</p>
+        <ul class="list-disc ml-5 text-sm space-y-2 italic leading-relaxed">
+            <li>La réponse de la structure, à chaque composante horizontale, doit être évaluée séparément en utilisant les règles de combinaison des réponses modales indiquées au <a href="#rpa-art-4.3.4" class="rpa-inline-link">paragraphe 4.3.4</a>.</li>
+            <li>Les effets dus à la combinaison des composantes horizontales de l'action sismique doivent être calculés en utilisant les deux combinaisons de l'<a href="#rpa-eqt-5.2" class="rpa-inline-link">équation (5.2)</a>.</li>
+            <li>Dans les combinaisons <a href="#rpa-eqt-5.1" class="rpa-inline-link">(5.1)</a> et <a href="#rpa-eqt-5.2" class="rpa-inline-link">(5.2)</a>, le signe adopté pour chaque composante doit être le plus défavorable pour l'effet particulier considéré.</li>
+            <li>Lorsqu'une analyse chronologique non linéaire est utilisée, avec un modèle spatial de la structure, des accélérogrammes agissant simultanément doivent être pris pour agir dans les deux directions.</li>
             <li>Pour les bâtiments qui respectent les critères de régularité en plan et pour lesquels des voiles ou des systèmes triangulés indépendants, dans les deux directions principales, sont les seuls éléments de contreventement, il peut être supposé que l'action sismique agit indépendamment et sans avoir à considérer les combinaisons suivant les deux axes principaux horizontaux (orthogonaux) de la structure.</li>
         </ul>
-    </div>
+    </aside>
 
-    <div id="rpa-art-5.2.2" class="mt-8" style="scroll-margin-top: 100px;">
-        <h3 class="rpa-h3" style="color: #c05621;">5.2.2 Composante verticale de l'action sismique</h3>
-        <p class="text-justify mb-4">
-            Les effets de la composante verticale de l'action sismique, définie au &sect; 3.3.2, doivent être pris en compte, si la valeur du produit (A<sub>v</sub>.I.g) est supérieure à (0.25g), dans les cas suivants :
+    <section id="rpa-art-5.2.2" class="mt-10" style="scroll-margin-top: 100px;" aria-labelledby="rpa-ch5-h-5-2-2">
+        <h3 id="rpa-ch5-h-5-2-2" class="rpa-h3" style="color: #c05621;">5.2.2 Composante verticale de l'action sismique</h3>
+        <p class="text-justify mb-4 leading-relaxed">
+            Les effets de la composante verticale de l'action sismique, définie au <a href="#rpa-art-3.3.2" class="rpa-inline-link">paragraphe 3.3.2</a>, doivent être pris en compte si la valeur du produit (<i>A<sub>v</sub></i>.<i>I</i>.<i>g</i>) est supérieure à (0.25<i>g</i>), dans les cas suivants :
         </p>
-        <ul class="rpa-list-disc ml-8 mb-6">
-            <li>Eléments de structure horizontaux ou presque horizontaux de 15 m de portée ou plus ;</li>
-            <li>Eléments horizontaux ou presque horizontaux en console de plus de 2.00 m de long ;</li>
-            <li>Eléments précontraints horizontaux ou presque horizontaux ;</li>
+        <ul class="list-disc ml-8 mb-6 space-y-2">
+            <li>Éléments de structure horizontaux ou presque horizontaux de 15 m de portée ou plus ;</li>
+            <li>Éléments horizontaux ou presque horizontaux en console de plus de 2,00 m de long ;</li>
+            <li>Éléments précontraints horizontaux ou presque horizontaux ;</li>
             <li>Poutres supportant des poteaux ;</li>
             <li>Structures sur appuis parasismiques.</li>
         </ul>
 
-        <div class="rpa-table-container">
-            <table class="rpa-table">
+        <div class="rpa-table-container overflow-x-auto">
+            <table class="rpa-table min-w-[320px]" id="rpa-table-5.1">
+                <caption class="text-left text-sm font-semibold mb-3 px-1">
+                    Tableau 5.1 — Coefficients d'accélération verticale en fonction de la zone sismique et du groupe d'importance (sans effet topographique, <i>S<sub>T</sub></i> = 1). L'action sismique verticale <i>A<sub>v</sub></i> est obligatoire lorsque (<i>A<sub>v</sub></i>.<i>I</i>.<i>g</i>) dépasse 0,25 <i>g</i>.
+                </caption>
                 <thead>
                     <tr>
-                        <th rowspan="3">Zonage sismique</th>
-                        <th colspan="5">Coefficient d'accélération</th>
+                        <th rowspan="2" scope="col">Zonage sismique</th>
+                        <th rowspan="2" scope="col"><i>A</i>.<i>I</i> (horizontal)</th>
+                        <th colspan="4" scope="colgroup"><i>A<sub>v</sub></i>.<i>I</i> (vertical) — catégorie d'importance</th>
                     </tr>
                     <tr>
-                        <th rowspan="2">A.I (horizontal)</th>
-                        <th colspan="4">A<sub>v</sub>.I (vertical)<br>Catégorie d'Importance</th>
-                    </tr>
-                    <tr>
-                        <th>1A</th>
-                        <th>1B</th>
-                        <th>2</th>
-                        <th>3</th>
+                        <th scope="col">1A</th>
+                        <th scope="col">1B</th>
+                        <th scope="col">2</th>
+                        <th scope="col">3</th>
                     </tr>
                 </thead>
                 <tbody class="text-center">
-                    <tr><td>I</td><td>0.07 I</td><td>0.054</td><td>0.046</td><td>0.039</td><td>0.031</td></tr>
-                    <tr><td>II</td><td>0.10 I</td><td>0.077</td><td>0.066</td><td>0.055</td><td>0.044</td></tr>
-                    <tr><td>III</td><td>0.15 I</td><td>0.116</td><td>0.099</td><td>0.083</td><td>0.066</td></tr>
-                    <tr><td>IV</td><td>0.20 I</td><td>0.252</td><td>0.216</td><td>0.180</td><td>0.144</td></tr>
-                    <tr><td>V</td><td>0.25 I</td><td>0.315</td><td>0.270</td><td>0.225</td><td>0.180</td></tr>
-                    <tr><td>VI</td><td>0.30 I</td><td>0.378</td><td>0.324</td><td>0.270</td><td>0.216</td></tr>
+                    <tr><th scope="row">I</th><td>0,07 <i>I</i></td><td>0,054</td><td>0,046</td><td>0,039</td><td>0,031</td></tr>
+                    <tr><th scope="row">II</th><td>0,10 <i>I</i></td><td>0,077</td><td>0,066</td><td>0,055</td><td>0,044</td></tr>
+                    <tr><th scope="row">III</th><td>0,15 <i>I</i></td><td>0,116</td><td>0,099</td><td>0,083</td><td>0,066</td></tr>
+                    <tr><th scope="row">IV</th><td>0,20 <i>I</i></td><td>0,252</td><td>0,216</td><td>0,180</td><td>0,144</td></tr>
+                    <tr><th scope="row">V</th><td>0,25 <i>I</i></td><td>0,315</td><td>0,270</td><td>0,225</td><td>0,180</td></tr>
+                    <tr><th scope="row">VI</th><td>0,30 <i>I</i></td><td>0,378</td><td>0,324</td><td>0,270</td><td>0,216</td></tr>
                 </tbody>
             </table>
-            <p class="rpa-table-caption text-center mt-2">L'action sismique verticale, A<sub>v</sub>, est obligatoire lorsque (A<sub>v</sub>.I.g) dépasse 0.25 g</p>
         </div>
-        <p class="mt-4 text-sm font-bold italic">Table 5.1: Coefficients d'accélération verticale en fonction de la zone sismique et du groupe d'importance (en l'absence d'effet topographique i.e. lorsque S<sub>T</sub> = 1)</p>
-        
-        <p class="mt-6">Dans le cas de la composante verticale, les combinaisons d'actions suivantes doivent être utilisées :</p>
-    </div>
+
+        <p class="mt-8 text-justify leading-relaxed">Dans le cas de la composante verticale, les combinaisons d'actions suivantes doivent être utilisées (voir les <a href="#rpa-eqt-5.3" class="rpa-inline-link">équations (5.3)</a> et <a href="#rpa-eqt-5.4" class="rpa-inline-link">(5.4)</a>) :</p>
+    </section>
 </section>

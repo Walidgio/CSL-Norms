@@ -1,8 +1,10 @@
 {{-- ==================== PAGE 56 ==================== --}}
 <section id="rpa-p56" class="rpa-page rpa-scroll-spy-section" data-annotatable="true">
-    <div class="rpa-header">
-        <span>56</span>
-        <span class="chapter">Chapter 3. CRITÈRES DE CLASSIFICATION</span>
+    <div class="rpa-header-meta flex flex-wrap items-start justify-between gap-2 text-sm mb-6 border-b border-black/90 dark:border-slate-500 pb-2">
+        <span class="tabular-nums font-semibold text-slate-700 dark:text-slate-300">56</span>
+        <div class="text-right max-w-[min(100%,28rem)] space-y-0.5">
+        @include('norms::codes.rpa.rpa2024.chapitre3.partials.ch3-running-meta')
+    </div>
     </div>
 
     <div class="rpa-equation-container" id="rpa-eqt-3.14">
@@ -110,7 +112,7 @@
                 </tr>
             </tbody>
         </table>
-        <div class="rpa-figure-title text-center mt-2" id="rpa-table-3.8">Table 3.8: Valeurs des paramètres décrivant les spectres de réponse élastique vertical de Type 1</div>
+        <div class="rpa-figure-title text-center mt-2" id="rpa-table-3.8" style="scroll-margin-top: 100px;">Table 3.8: Valeurs des paramètres décrivant les spectres de réponse élastique vertical de Type 1</div>
     </div>
 
     <div class="overflow-x-auto my-6">
@@ -160,7 +162,7 @@
                 </tr>
             </tbody>
         </table>
-        <div class="rpa-figure-title text-center mt-2" id="rpa-table-3.9">Table 3.9: Valeurs des paramètres décrivant les spectres de réponse élastique vertical de Type 2</div>
+        <div class="rpa-figure-title text-center mt-2" id="rpa-table-3.9" style="scroll-margin-top: 100px;">Table 3.9: Valeurs des paramètres décrivant les spectres de réponse élastique vertical de Type 2</div>
     </div>
 
     <!-- Figure 3.6 -->
@@ -173,10 +175,10 @@
                 @include('norms::codes.rpa.rpa2024.chapitre3.Ch3Svg.rpa24_ch3_fig3_6_b')
             </div>
         </div>
-        <div class="rpa-figure-title text-center mt-4" id="rpa-fig-3.6">Figure 3.6: Spectre de réponse élastique vertical de Type 1 et de Type 2 pour les sols de classes <i>S<sub>1</sub></i> à <i>S<sub>4</sub></i> (pour <i>&xi;</i> = 5%).</div>
+        <div class="rpa-figure-title text-center mt-4" id="rpa-fig-3.6" style="scroll-margin-top: 100px;">Figure 3.6: Spectre de réponse élastique vertical de Type 1 et de Type 2 pour les sols de classes <i>S<sub>1</sub></i> à <i>S<sub>4</sub></i> (pour <i>&xi;</i> = 5%).</div>
     </div>
 
     <p class="mt-6" style="text-align: justify;">
-        Comme pour les spectres qui définissent les composantes horizontales de l'action sismique, si les séismes qui contribuent le plus, à l'aléa sismique défini pour le site dans le cadre de l'évaluation...
+        Comme pour les spectres qui définissent les composantes horizontales de l'action sismique, si les séismes qui contribuent le plus à l'aléa sismique défini pour le site dans le cadre de l'évaluation probabiliste de l'aléa, ont une magnitude moment (<i>M<sub>w</sub></i> ≤ 5.5), le type de spectre 2 est adopté. Si les séismes qui contribuent le plus à l'aléa sismique défini pour le site dans le cadre de l'évaluation probabiliste de l'aléa, ont une magnitude moment (<i>M<sub>w</sub></i> ≥ 5.5), le type de spectre 1 est adopté.
     </p>
 </section>

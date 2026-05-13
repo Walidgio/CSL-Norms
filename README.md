@@ -23,7 +23,7 @@ To work on this project independently:
     }
     ```
 3.  **Install**: Run `composer update`.
-4.  **Mock Layout**: Since this package uses `@extends('layouts.app')`, you need to create a file at `resources/views/layouts/app.blade.php` in your skeleton app. You can use a simple Tailwind layout.
+4.  **Mock Layout**: Since this package uses `@extends('layouts.app')`, you need to create a file at `resources/views/layouts/app.blade.php` in your skeleton app. You can use a simple Tailwind layout (see `resources/views/dev/mock-layout.blade.php` in this package). For dark/light UI, Tailwind must use **class-based** dark mode (`darkMode: 'class'` in `tailwind.config.js`, or `tailwind.config = { darkMode: 'class' }` with the Play CDN). Include `@include('norms::partials.ui-theme-init')` in `<head>` before your CSS so the saved preference applies before the first paint.
 5.  **Run**: `php artisan serve` and visit `/norms`.
 
 ## Structure

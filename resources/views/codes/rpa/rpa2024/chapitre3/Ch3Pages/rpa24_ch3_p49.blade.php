@@ -1,8 +1,11 @@
 {{-- ==================== PAGE 49 ==================== --}}
 <section id="rpa-p49" class="rpa-page rpa-scroll-spy-section" data-annotatable="true">
-    <div class="rpa-header">
-        <span>49</span>
-        <span class="chapter">3.2 Classification des sites</span>
+    <div class="rpa-header-meta flex flex-wrap items-start justify-between gap-2 text-sm mb-6 border-b border-black/90 dark:border-slate-500 pb-2">
+        <span class="tabular-nums font-semibold text-slate-700 dark:text-slate-300">49</span>
+        <div class="text-right max-w-[min(100%,28rem)] space-y-0.5">
+        <div class="text-xs font-semibold text-amber-900/90 dark:text-amber-200/90">3.2 Classification des sites</div>
+        @include('norms::codes.rpa.rpa2024.chapitre3.partials.ch3-running-meta')
+    </div>
     </div>
 
     <div class="rpa-table-container my-8 overflow-x-auto">
@@ -86,8 +89,8 @@
                     <td>&lt;180</td>
                 </tr>
                 <tr>
-                    <td>S<sub>s</sub></td>
-                    <td class="text-left font-bold">site nécessitant investigations approfondies et études spécifiques (cf. &sect; 3.3.3)</td>
+                    <td>S<sub>5</sub></td>
+                    <td class="text-left font-bold">site nécessitant investigations approfondies et études spécifiques (cf. &sect; 3.2.2 &amp; 3.2.3)</td>
                     <td>/</td>
                     <td>/</td>
                     <td>/</td>
@@ -98,7 +101,7 @@
                 </tr>
             </tbody>
         </table>
-        <p class="rpa-table-caption text-center mt-2">Table 3.2: Classification des sites</p>
+        <p id="rpa-table-3.2" class="rpa-table-caption text-center mt-2" style="scroll-margin-top: 100px;">Table 3.2: Classification des sites</p>
     </div>
 
     <div class="mt-6">

@@ -1,11 +1,13 @@
 {{-- ==================== PAGE 52 ==================== --}}
 <section id="rpa-p52" class="rpa-page rpa-scroll-spy-section" data-annotatable="true">
-    <div class="rpa-header">
-        <span>52</span>
-        <span class="chapter">Chapter 3. CRITÈRES DE CLASSIFICATION</span>
+    <div class="rpa-header-meta flex flex-wrap items-start justify-between gap-2 text-sm mb-6 border-b border-black/90 dark:border-slate-500 pb-2">
+        <span class="tabular-nums font-semibold text-slate-700 dark:text-slate-300">52</span>
+        <div class="text-right max-w-[min(100%,28rem)] space-y-0.5">
+        @include('norms::codes.rpa.rpa2024.chapitre3.partials.ch3-running-meta')
+    </div>
     </div>
 
-    <div class="flex flex-col items-center my-8">
+    <div id="rpa-fig-3.2" class="flex flex-col items-center my-8" style="scroll-margin-top: 100px;">
         @include('norms::codes.rpa.rpa2024.chapitre3.Ch3Svg.rpa24_ch3_fig3_2')
         <p class="text-sm font-bold mt-4">Figure 3.2: Spectre de réponse élastique Sae</p>
     </div>
@@ -57,7 +59,7 @@
     <ul class="rpa-list-disc ml-8 space-y-2">
         <li><math xmlns="http://www.w3.org/1998/Math/MathML" class="inline"><mfrac><mrow><msub><mi>S</mi><mrow><mi>a</mi><mi>e</mi></mrow></msub><mo>(</mo><mi>T</mi><mo>)</mo></mrow><mi>g</mi></mfrac></math> : spectre de réponse élastique normalisé par rapport à la valeur de l'accélération de la pesanteur, <span class="font-bold">g</span> ;</li>
         <li><span class="font-bold">T</span> : période de vibration d'un système linéaire à un seul degré de liberté ;</li>
-        <li><span class="font-bold">A</span> : coefficient d'accélération de calcul pour un sol de classe S<sub>1</sub> pour la période de retour de non effondrement T<sub>r</sub>=475 ans. (cf. Tableau (3.3)) ;</li>
+        <li><span class="font-bold">A</span> : coefficient d'accélération de calcul pour un sol de classe S<sub>1</sub> pour la période de retour de non effondrement T<sub>r</sub>=475 ans. (cf. <a href="#rpa-table-3.3" class="rpa-inline-link">Tableau (3.3)</a>) ;</li>
         <li><span class="font-bold">T<sub>1</sub></span> : limite inférieure des périodes correspondant au palier d'accélération spectrale constante ;</li>
         <li><span class="font-bold">T<sub>2</sub></span> : limite supérieure des périodes correspondant au palier d'accélération spectrale constante ;</li>
         <li><span class="font-bold">T<sub>3</sub></span> : valeur définissant le début de la branche à déplacement spectral constant ;</li>

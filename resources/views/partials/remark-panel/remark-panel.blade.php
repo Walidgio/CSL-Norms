@@ -93,7 +93,7 @@
                 <button id="rpa-edit-cancel" class="rpa-submit-btn" style="display:none; flex:0; padding:8px 14px; background:#64748b; font-size:10px;" onclick="RpaAnnotator.cancelEdit()">✕ ANNULER</button>
             </div>
         @else
-            <a href="{{ route('login') }}" class="rpa-submit-btn" style="text-align:center; display:block; text-decoration:none; margin-top:12px;">
+            <a href="{{ Route::has('login') ? route('login') : url('/login') }}" class="rpa-submit-btn" style="text-align:center; display:block; text-decoration:none; margin-top:12px;">
                 🔒 Se connecter pour commenter
             </a>
         @endauth

@@ -1,8 +1,10 @@
 {{-- ==================== PAGE 68 ==================== --}}
 <section id="rpa-p68" class="rpa-page rpa-scroll-spy-section" data-annotatable="true">
-    <div class="rpa-header">
-        <span>68</span>
-        <span class="chapter">Chapter 3. CRITÈRES DE CLASSIFICATION</span>
+    <div class="rpa-header-meta flex flex-wrap items-start justify-between gap-2 text-sm mb-6 border-b border-black/90 dark:border-slate-500 pb-2">
+        <span class="tabular-nums font-semibold text-slate-700 dark:text-slate-300">68</span>
+        <div class="text-right max-w-[min(100%,28rem)] space-y-0.5">
+        @include('norms::codes.rpa.rpa2024.chapitre3.partials.ch3-running-meta')
+    </div>
     </div>
 
     <p style="text-align: justify;" class="mt-4">
@@ -50,9 +52,9 @@
     </div>
 
     <div class="mt-10">
-        <h3 class="font-bold text-lg" id="rpa-3.6">3.6 Coefficient de comportement global de la structure</h3>
+        <h3 class="font-bold text-lg" id="rpa-art-3.6" style="scroll-margin-top: 100px;">3.6 Coefficient de comportement global de la structure</h3>
         <p style="text-align: justify;" class="mt-2">
-            Sa valeur unique est donnée par le Tableau (3.18) en fonction du système de contreventement.
+            Sa valeur unique est donnée par le <a href="#rpa-table-3.18" class="rpa-inline-link">Tableau (3.18)</a> en fonction du système de contreventement.
         </p>
         <p style="text-align: justify;" class="mt-2">
             Pour la conception du contreventement, une seule valeur du coefficient de comportement, R, doit être utilisée pour chaque direction principale.
@@ -61,7 +63,7 @@
             La valeur de R, pour les différents systèmes structuraux, tient compte de leur capacité de dissipation de l'énergie, vis-à-vis de l'action sismique, et est fixée en fonction de la nature des matériaux constitutifs, du type de construction, des possibilités de redistribution d'efforts dans la structure et des capacités de déformation des éléments dans le domaine post-élastique.
         </p>
         <p style="text-align: justify;" class="mt-2">
-            Ce coefficient de comportement, R, est corrigé par le facteur de qualité, <i>Q<sub>F</sub></i> (cf. Eqn. (3.26) et Tableau (3.19)), qui permet de tenir compte du degré de régularité et de redondance du système de contreventement dans la phase de calcul de dimensionnement, qui suppose par ailleurs que les règles de qualité et d'exécution, propres à chaque matériau, et système ainsi que les dispositions constructives, des Chapitres VII à IX ainsi que des annexes E et F, sont strictement respectées.
+            Ce coefficient de comportement, R, est corrigé par le facteur de qualité, <i>Q<sub>F</sub></i> (cf. <a href="#rpa-eqt-3.26" class="rpa-inline-link">Eqn. (3.26)</a> et <a href="#rpa-table-3.19" class="rpa-inline-link">Tableau (3.19)</a>), qui permet de tenir compte du degré de régularité et de redondance du système de contreventement dans la phase de calcul de dimensionnement, qui suppose par ailleurs que les règles de qualité et d'exécution, propres à chaque matériau, et système ainsi que les dispositions constructives, des Chapitres VII à IX ainsi que des annexes E et F, sont strictement respectées.
         </p>
     </div>
 </section>

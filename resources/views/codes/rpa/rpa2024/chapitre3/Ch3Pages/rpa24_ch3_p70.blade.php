@@ -1,8 +1,10 @@
 {{-- ==================== PAGE 70 ==================== --}}
 <section id="rpa-p70" class="rpa-page rpa-scroll-spy-section" data-annotatable="true">
-    <div class="rpa-header">
-        <span>70</span>
-        <span class="chapter">Chapter 3. CRITÈRES DE CLASSIFICATION</span>
+    <div class="rpa-header-meta flex flex-wrap items-start justify-between gap-2 text-sm mb-6 border-b border-black/90 dark:border-slate-500 pb-2">
+        <span class="tabular-nums font-semibold text-slate-700 dark:text-slate-300">70</span>
+        <div class="text-right max-w-[min(100%,28rem)] space-y-0.5">
+        @include('norms::codes.rpa.rpa2024.chapitre3.partials.ch3-running-meta')
+    </div>
     </div>
 
     <div class="mt-4">
@@ -62,13 +64,13 @@
                     <div class="rpa-indent space-y-1">
                         <div class="rpa-bullet">– <i>e<sub>0x</sub></i> est la distance entre le centre de rigidité et le centre de gravité, mesurée suivant la direction x perpendiculaire à la direction de calcul considérée ;</div>
                         <div class="rpa-bullet">– <i>e<sub>0y</sub></i> est la distance entre le centre de rigidité et le centre de gravité, mesurée suivant la direction y perpendiculaire à la direction de calcul considérée ;</div>
-                        <div class="rpa-bullet">– <i>r<sub>x</sub></i> et <i>r<sub>y</sub></i>: étant, respectivement, les rayons de torsion suivant x et y (cf. Eqn.(3.20)) ;</div>
-                        <div class="rpa-bullet">– <i>l<sub>s</sub></i> étant le rayon de giration massique du plancher en plan (cf. Eqn.(3.22)) .</div>
+                        <div class="rpa-bullet">– <i>r<sub>x</sub></i> et <i>r<sub>y</sub></i>: étant, respectivement, les rayons de torsion suivant x et y (cf. <a href="#rpa-eqt-3.20" class="rpa-inline-link">Eqn.(3.20)</a>) ;</div>
+                        <div class="rpa-bullet">– <i>l<sub>s</sub></i> étant le rayon de giration massique du plancher en plan (cf. <a href="#rpa-eqt-3.22" class="rpa-inline-link">Eqn.(3.22)</a>) .</div>
                     </div>
                 </div>
 
-                <div class="rpa-bullet">• <b>a3 :</b> La forme du bâtiment doit être compacte avec un rapport longueur/largeur du plancher inférieur ou égal à 4 (cf. Figure (3.8)).<br>
-                La somme des dimensions des parties rentrantes ou saillantes du bâtiment dans une direction donnée ne doit pas excéder 25% de la dimension totale du bâtiment dans cette direction (cf. Figure (3.8)).</div>
+                <div class="rpa-bullet">• <b>a3 :</b> La forme du bâtiment doit être compacte avec un rapport longueur/largeur du plancher inférieur ou égal à 4 (cf. <a href="#rpa-fig-3.8" class="rpa-inline-link">Figure (3.8)</a>).<br>
+                La somme des dimensions des parties rentrantes ou saillantes du bâtiment dans une direction donnée ne doit pas excéder 25% de la dimension totale du bâtiment dans cette direction (cf. <a href="#rpa-fig-3.8" class="rpa-inline-link">Figure (3.8)</a>).</div>
                 <div class="rpa-bullet">• <b>a4.</b> Les planchers doivent présenter une rigidité suffisante vis à vis de celle des contreventements verticaux pour être considérés comme indéformables dans leur plan. Dans ce cadre, la surface totale des ouvertures de plancher doit rester inférieure à 15% de celle de ce dernier.</div>
             </div>
         </div>

@@ -2,8 +2,9 @@
 
 namespace CivilSoftLab\Norms;
 
-use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\ServiceProvider;
 
 class NormsServiceProvider extends ServiceProvider
 {
@@ -23,14 +24,15 @@ class NormsServiceProvider extends ServiceProvider
         // Load Views
         $this->loadViewsFrom(__DIR__ . '/../resources/views', 'norms');
 
+        Blade::component('norms::components.icon', 'icon');
+
         // Load Routes
         $this->registerRoutes();
 
-        // Optional: Publish Assets
-        if ($this->app->runningInConsole()) {        // Publish assets
-        $this->publishes([
-            __DIR__ . '/../assets/norms' => public_path('assets/norms'),
-        ], 'norms-assets');
+        if ($this->app->runningInConsole()) {
+            $this->publishes([
+                __DIR__ . '/../assets/norms' => public_path('assets/norms'),
+            ], 'norms-assets');
         }
     }
 

@@ -37,7 +37,7 @@
                 </tr>
             </tbody>
         </table>
-        <p class="text-center font-bold mt-2">Table 4.2: Valeurs du coefficient d'accompagnement &psi;</p>
+        <p id="rpa-table-4.2" class="text-center font-bold mt-2" style="scroll-margin-top: 100px;">Table 4.2: Valeurs du coefficient d'accompagnement &psi;</p>
     </div>
 
     <div id="rpa-art-4.2.4" style="scroll-margin-top: 100px;">

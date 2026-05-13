@@ -1,13 +1,15 @@
 {{-- ==================== PAGE 64 ==================== --}}
 <section id="rpa-p64" class="rpa-page rpa-scroll-spy-section" data-annotatable="true">
-    <div class="rpa-header">
-        <span>64</span>
-        <span class="chapter">Chapter 3. CRITÈRES DE CLASSIFICATION</span>
+    <div class="rpa-header-meta flex flex-wrap items-start justify-between gap-2 text-sm mb-6 border-b border-black/90 dark:border-slate-500 pb-2">
+        <span class="tabular-nums font-semibold text-slate-700 dark:text-slate-300">64</span>
+        <div class="text-right max-w-[min(100%,28rem)] space-y-0.5">
+            @include('norms::codes.rpa.rpa2024.chapitre3.partials.ch3-running-meta')
+        </div>
     </div>
 
     <div class="mt-4">
         @include('norms::codes.rpa.rpa2024.chapitre3.Ch3Svg.rpa24_ch3_fig3_7')
-        <div class="rpa-figure-title text-center mt-2" id="rpa-fig-3.7">Figure 3.7: Définition des différents paramètres</div>
+        <div class="rpa-figure-title text-center mt-2" id="rpa-fig-3.7" style="scroll-margin-top: 100px;">Figure 3.7: Définition des différents paramètres</div>
     </div>
 
     <p class="mt-6" style="text-align: justify;">

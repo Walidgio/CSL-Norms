@@ -82,7 +82,7 @@
                                            class="view-toggle-badge text-[8px] px-1.5 py-0.5 rounded transition-all
                                                   {{ ($isVersionActive && ($viewMode ?? '') === 'pdf') 
                                                      ? 'bg-red-600 text-white shadow-sm scale-110' 
-                                                     : 'bg-red-100 text-red-600 hover:bg-red-200' }}"
+                                                     : 'bg-red-100 text-red-600 hover:bg-red-200 dark:bg-red-950/50 dark:text-red-300 dark:hover:bg-red-900/60' }}"
                                            title="Voir le PDF">PDF</a> 
                                     @endif
                                     @if($v['html']) 
@@ -90,7 +90,7 @@
                                            class="view-toggle-badge text-[8px] px-1.5 py-0.5 rounded transition-all
                                                   {{ ($isVersionActive && ($viewMode ?? '') === 'html') 
                                                      ? 'bg-blue-600 text-white shadow-sm scale-110' 
-                                                     : 'bg-blue-100 text-blue-600 hover:bg-blue-200' }}"
+                                                     : 'bg-blue-100 text-blue-600 hover:bg-blue-200 dark:bg-blue-950/40 dark:text-blue-300 dark:hover:bg-blue-900/55' }}"
                                            title="Voir la version HTML">HTML</a> 
                                     @endif
                                 </div>

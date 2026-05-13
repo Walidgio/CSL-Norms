@@ -1,57 +1,34 @@
-{{-- ==================== PAGE 43 (CHAPTER 3 COVER) ==================== --}}
-<section id="rpa-p44" class="rpa-page rpa-scroll-spy-section relative" style="min-height: 1000px; display: flex; flex-direction: column; justify-content: space-between; padding: 100px 60px 80px 60px; background-color: #fffaf0;">
-    <!-- Large Roman Numeral Title Area -->
-    <div class="flex items-start">
-        <div style="font-size: 180px; font-weight: bold; color: #f6ad55; opacity: 0.6; line-height: 0.8; letter-spacing: -5px; font-family: 'Times New Roman', serif;">III</div>
-        <div style="font-size: 38px; font-weight: bold; color: #dd6b20; opacity: 0.9; margin-top: 35px; margin-left: 25px; letter-spacing: 3px; font-family: 'Inter', sans-serif;">CRITÈRES DE CLASSIFICATION</div>
-    </div>
+{{-- Chapitre 3 — page de garde : Chapitre III + titre moderne --}}
+<section id="rpa-p44" class="rpa-page rpa-scroll-spy-section rpa-ch3-cover relative flex min-h-[min(1000px,92vh)] flex-col items-center justify-center overflow-hidden px-6 py-20 sm:px-10 bg-gradient-to-b from-[#fffaf5] via-[#fff4e8] to-[#ffe8d4] dark:from-slate-950 dark:via-slate-900 dark:to-slate-950">
+    <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_80%_50%_at_50%_-20%,rgba(251,146,60,0.22),transparent)] dark:bg-[radial-gradient(ellipse_70%_45%_at_50%_-10%,rgba(251,146,60,0.12),transparent)]" aria-hidden="true"></div>
+    <div class="pointer-events-none absolute -bottom-32 left-1/2 h-64 w-[min(100%,56rem)] -translate-x-1/2 rounded-full bg-gradient-to-t from-orange-400/15 to-transparent blur-3xl dark:from-orange-500/10" aria-hidden="true"></div>
 
-    <!-- Chapter Index at Bottom Right -->
-    <div style="align-self: flex-end; width: 85%; max-width: 600px;">
-        <!-- Chapter Header -->
-        <div class="flex justify-between items-end mb-4 font-bold" style="color: #c05621;">
-            <div class="flex gap-4 items-baseline">
-                <span style="font-size: 28px;">3</span>
-                <span style="font-size: 22px; text-transform: uppercase; letter-spacing: 1px;">CRITÈRES DE CLASSIFICATION</span>
-            </div>
-            <div class="flex-grow border-b-2 border-dotted mx-4 mb-2" style="border-color: #f6ad55;"></div>
-            <span style="font-size: 22px;">45</span>
+    <p class="sr-only">Chapitre trois, critères de classification</p>
+
+    <div class="relative z-[1] mx-auto max-w-4xl text-center" aria-labelledby="rpa-ch3-cover-title">
+        <p class="mb-4 text-[11px] font-bold uppercase tracking-[0.35em] text-orange-800/85 dark:text-amber-200/90">
+            Chapitre
+        </p>
+
+        <div class="select-none font-serif text-[clamp(5rem,22vw,12rem)] font-bold leading-[0.85] tracking-tight text-transparent bg-clip-text bg-gradient-to-br from-amber-300 via-orange-500 to-orange-800 drop-shadow-sm dark:from-amber-200 dark:via-orange-400 dark:to-amber-600" aria-hidden="true">
+            III
         </div>
-        
-        <!-- Index Items -->
-        <ul class="space-y-2 mt-6 ml-10">
-            <li class="flex group cursor-pointer transition-all hover:translate-x-1" onclick="scrollToSection('rpa-art-3.1')">
-                <span class="w-14 font-bold text-orange-700 group-hover:text-orange-500">3.1</span>
-                <span class="text-slate-700 group-hover:text-orange-600 font-medium border-b border-transparent group-hover:border-orange-200">Classification des zones sismiques</span>
-            </li>
-            <li class="flex group cursor-pointer transition-all hover:translate-x-1" onclick="scrollToSection('rpa-art-3.2')">
-                <span class="w-14 font-bold text-orange-700 group-hover:text-orange-500">3.2</span>
-                <span class="text-slate-700 group-hover:text-orange-600 font-medium border-b border-transparent group-hover:border-orange-200">Classification des sites</span>
-            </li>
-            <li class="flex group cursor-pointer transition-all hover:translate-x-1" onclick="scrollToSection('rpa-art-3.3')">
-                <span class="w-14 font-bold text-orange-700 group-hover:text-orange-500">3.3</span>
-                <span class="text-slate-700 group-hover:text-orange-600 font-medium border-b border-transparent group-hover:border-orange-200">Actions sismiques</span>
-            </li>
-            <li class="flex group cursor-pointer transition-all hover:translate-x-1" onclick="scrollToSection('rpa-art-3.4')">
-                <span class="w-14 font-bold text-orange-700 group-hover:text-orange-500">3.4</span>
-                <span class="text-slate-700 group-hover:text-orange-600 font-medium border-b border-transparent group-hover:border-orange-200">Classification des bâtiments selon leur importance</span>
-            </li>
-            <li class="flex group cursor-pointer transition-all hover:translate-x-1" onclick="scrollToSection('rpa-art-3.5')">
-                <span class="w-14 font-bold text-orange-700 group-hover:text-orange-500">3.5</span>
-                <span class="text-slate-700 group-hover:text-orange-600 font-medium border-b border-transparent group-hover:border-orange-200">Classification des systèmes de contreventement</span>
-            </li>
-            <li class="flex group cursor-pointer transition-all hover:translate-x-1" onclick="scrollToSection('rpa-art-3.6')">
-                <span class="w-14 font-bold text-orange-700 group-hover:text-orange-500">3.6</span>
-                <span class="text-slate-700 group-hover:text-orange-600 font-medium border-b border-transparent group-hover:border-orange-200">Coefficient de comportement global de la structure</span>
-            </li>
-            <li class="flex group cursor-pointer transition-all hover:translate-x-1" onclick="scrollToSection('rpa-art-3.7')">
-                <span class="w-14 font-bold text-orange-700 group-hover:text-orange-500">3.7</span>
-                <span class="text-slate-700 group-hover:text-orange-600 font-medium border-b border-transparent group-hover:border-orange-200">Classification des bâtiments selon leur configuration</span>
-            </li>
-            <li class="flex group cursor-pointer transition-all hover:translate-x-1" onclick="scrollToSection('rpa-art-3.8')">
-                <span class="w-14 font-bold text-orange-700 group-hover:text-orange-500">3.8</span>
-                <span class="text-slate-700 group-hover:text-orange-600 font-medium border-b border-transparent group-hover:border-orange-200">Facteur de qualité</span>
-            </li>
-        </ul>
+
+        <div class="mx-auto mt-10 max-w-2xl">
+            <h1 id="rpa-ch3-cover-title" class="font-sans text-[clamp(1.5rem,5vw,2.85rem)] font-extrabold leading-[1.15] tracking-tight text-slate-900 dark:text-white">
+                <span class="bg-gradient-to-r from-orange-700 via-amber-600 to-orange-600 bg-clip-text text-transparent dark:from-amber-200 dark:via-orange-200 dark:to-amber-300">
+                    Critères de classification
+                </span>
+            </h1>
+            <p class="mt-5 text-sm font-medium leading-relaxed text-slate-600/95 dark:text-slate-400 sm:text-base">
+                Zones, sites, actions sismiques et paramètres de conception
+            </p>
+        </div>
+
+        <div class="mx-auto mt-12 flex items-center justify-center gap-3" aria-hidden="true">
+            <span class="h-px w-12 rounded-full bg-gradient-to-r from-transparent to-orange-400/90 dark:to-amber-500/60 sm:w-16"></span>
+            <span class="h-2 w-2 rounded-full bg-orange-500 shadow-[0_0_12px_rgba(249,115,22,0.55)] dark:bg-amber-400"></span>
+            <span class="h-px w-12 rounded-full bg-gradient-to-l from-transparent to-orange-400/90 dark:to-amber-500/60 sm:w-16"></span>
+        </div>
     </div>
 </section>

@@ -1,8 +1,10 @@
 {{-- ==================== PAGE 58 ==================== --}}
 <section id="rpa-p58" class="rpa-page rpa-scroll-spy-section" data-annotatable="true">
-    <div class="rpa-header">
-        <span>58</span>
-        <span class="chapter">Chapter 3. CRITÈRES DE CLASSIFICATION</span>
+    <div class="rpa-header-meta flex flex-wrap items-start justify-between gap-2 text-sm mb-6 border-b border-black/90 dark:border-slate-500 pb-2">
+        <span class="tabular-nums font-semibold text-slate-700 dark:text-slate-300">58</span>
+        <div class="text-right max-w-[min(100%,28rem)] space-y-0.5">
+        @include('norms::codes.rpa.rpa2024.chapitre3.partials.ch3-running-meta')
+    </div>
     </div>
 
     <div id="rpa-art-3.3.4" class="mt-8">
@@ -19,7 +21,7 @@
             La série d'accélérogrammes artificiels doit être établie de manière à correspondre aux spectres de réponse élastique cibles donnés en § 3.3.1 pour <i>&xi;</i> = 5 %.
         </p>
         <p style="text-align: justify;" class="mt-2">
-            La durée des accélérogrammes doit être compatible avec la magnitude et la classe de site servant à la définition de A (cf. Tableau (3.10)).
+            La durée des accélérogrammes doit être compatible avec la magnitude et la classe de site servant à la définition de A (cf. <a href="#rpa-table-3.10" class="rpa-inline-link">Tableau (3.10)</a>).
         </p>
         <p class="mt-2">La suite d'accélérogrammes artificiels doit respecter les règles suivantes, i.e. :</p>
         <div class="rpa-indent mt-2 space-y-2">

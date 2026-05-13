@@ -1,66 +1,25 @@
-{{-- ==================== PAGE 86 (CHAPTER 5 COVER) ==================== --}}
-<section id="rpa-p86" class="rpa-page rpa-scroll-spy-section relative" style="min-height: 1000px; display: flex; flex-direction: column; justify-content: space-between; padding: 100px 60px 80px 60px; background-color: #fffaf0;">
-    <!-- Large Roman Numeral Title Area -->
-    <div class="flex items-start">
-        <div style="font-size: 180px; font-weight: bold; color: #f6ad55; opacity: 0.6; line-height: 0.8; letter-spacing: -5px; font-family: 'Times New Roman', serif;">V</div>
-        <div style="font-size: 38px; font-weight: bold; color: #dd6b20; opacity: 0.9; margin-top: 35px; margin-left: 25px; letter-spacing: 3px; font-family: 'Inter', sans-serif;">JUSTIFICATION DE LA SECURITE</div>
-    </div>
-
-    <!-- Chapter Index at Bottom Right -->
-    <div style="align-self: flex-end; width: 85%; max-width: 600px;">
-        <!-- Chapter Header -->
-        <div class="flex justify-between items-end mb-4 font-bold" style="color: #c05621;">
-            <div class="flex gap-4 items-baseline">
-                <span style="font-size: 28px;">5</span>
-                <span style="font-size: 22px; text-transform: uppercase; letter-spacing: 1px;">JUSTIFICATION DE LA SECURITE</span>
-            </div>
-            <div class="flex-grow border-b-2 border-dotted mx-4 mb-2" style="border-color: #f6ad55;"></div>
-            <span style="font-size: 22px;">87</span>
+{{-- Chapitre 5 — page de garde (style édition + navigation HTML) --}}
+<section id="rpa-p86" class="rpa-page rpa-scroll-spy-section rpa-ch5-cover relative flex flex-col justify-between min-h-[min(1000px,92vh)] px-8 py-16 sm:px-14 sm:py-20 bg-[#fffaf0] dark:bg-slate-900/40">
+    <header class="flex flex-wrap items-start gap-4 sm:gap-8" aria-labelledby="rpa-ch5-cover-title">
+        <p class="sr-only">Chapitre cinq</p>
+        <div class="select-none font-serif text-[clamp(5.5rem,20vw,11rem)] font-bold leading-[0.82] text-amber-400/65 dark:text-amber-400/35 tracking-tight" aria-hidden="true">V</div>
+        <div id="rpa-ch5-cover-title" class="max-w-xl pt-4 sm:pt-10 font-sans text-[clamp(1.05rem,3.8vw,1.85rem)] font-bold uppercase tracking-[0.1em] text-[#dd6b20] dark:text-amber-300/95 leading-tight">
+            Justification de la sécurité
         </div>
-        
-        <!-- Index Items -->
-        <ul class="space-y-1.5 mt-6 ml-10 text-sm">
-            <li class="flex group cursor-pointer transition-all hover:translate-x-1" onclick="scrollToSection('rpa-art-5.1')">
-                <span class="w-14 font-bold text-orange-700">5.1</span>
-                <span class="text-slate-700 group-hover:text-orange-600">Généralités</span>
-            </li>
-            <li class="flex group cursor-pointer transition-all hover:translate-x-1" onclick="scrollToSection('rpa-art-5.2')">
-                <span class="w-14 font-bold text-orange-700">5.2</span>
-                <span class="text-slate-700 group-hover:text-orange-600">Combinaisons d'actions</span>
-            </li>
-            <li class="flex group cursor-pointer transition-all hover:translate-x-1" onclick="scrollToSection('rpa-art-5.3')">
-                <span class="w-14 font-bold text-orange-700">5.3</span>
-                <span class="text-slate-700 group-hover:text-orange-600">Justification vis-à-vis de la résistance</span>
-            </li>
-            <li class="flex group cursor-pointer transition-all hover:translate-x-1" onclick="scrollToSection('rpa-art-5.4')">
-                <span class="w-14 font-bold text-orange-700">5.4</span>
-                <span class="text-slate-700 group-hover:text-orange-600">Justification vis-à-vis de la ductilité</span>
-            </li>
-            <li class="flex group cursor-pointer transition-all hover:translate-x-1" onclick="scrollToSection('rpa-art-5.5')">
-                <span class="w-14 font-bold text-orange-700">5.5</span>
-                <span class="text-slate-700 group-hover:text-orange-600">Justification vis-à-vis de l'équilibre d'ensemble</span>
-            </li>
-            <li class="flex group cursor-pointer transition-all hover:translate-x-1" onclick="scrollToSection('rpa-art-5.6')">
-                <span class="w-14 font-bold text-orange-700">5.6</span>
-                <span class="text-slate-700 group-hover:text-orange-600">Justification vis-à-vis de la résistance des planchers</span>
-            </li>
-            <li class="flex group cursor-pointer transition-all hover:translate-x-1" onclick="scrollToSection('rpa-art-5.7')">
-                <span class="w-14 font-bold text-orange-700">5.7</span>
-                <span class="text-slate-700 group-hover:text-orange-600">Justification de la stabilité des fondations</span>
-            </li>
-            <li class="flex group cursor-pointer transition-all hover:translate-x-1" onclick="scrollToSection('rpa-art-5.8')">
-                <span class="w-14 font-bold text-orange-700">5.8</span>
-                <span class="text-slate-700 group-hover:text-orange-600">Justification de la largeur des joints sismiques</span>
-            </li>
-            <li class="flex group cursor-pointer transition-all hover:translate-x-1" onclick="scrollToSection('rpa-art-5.9')">
-                <span class="w-14 font-bold text-orange-700">5.9</span>
-                <span class="text-slate-700 group-hover:text-orange-600">Justification vis-à-vis de l'effet P-&Delta;</span>
-            </li>
-            <li class="flex group cursor-pointer transition-all hover:translate-x-1" onclick="scrollToSection('rpa-art-5.10')">
-                <span class="w-14 font-bold text-orange-700">5.10</span>
-                <span class="text-slate-700 group-hover:text-orange-600">Justification vis-à-vis des déplacements inter-étages</span>
-            </li>
-        </ul>
-    </div>
-</section>
+    </header>
 
+    <nav class="self-stretch sm:self-end w-full max-w-xl border-t-2 border-dotted border-amber-300/90 dark:border-amber-700/50 pt-6" aria-label="Sommaire du chapitre 5">
+        <ol class="list-none space-y-1.5 ml-0 pl-0 text-sm sm:text-base">
+            <li><a href="#rpa-art-5.1" class="rpa-cover-nav-link group flex gap-4 rounded-xl px-3 py-2 text-left outline-none ring-amber-400/0 transition focus-visible:ring-2 focus-visible:ring-amber-500"><span class="w-12 shrink-0 font-bold text-orange-700 dark:text-amber-400">5.1</span><span class="text-slate-800 dark:text-slate-200 group-hover:text-orange-700 dark:group-hover:text-amber-300">Généralités</span></a></li>
+            <li><a href="#rpa-art-5.2" class="rpa-cover-nav-link group flex gap-4 rounded-xl px-3 py-2 text-left outline-none ring-amber-400/0 transition focus-visible:ring-2 focus-visible:ring-amber-500"><span class="w-12 shrink-0 font-bold text-orange-700 dark:text-amber-400">5.2</span><span class="text-slate-800 dark:text-slate-200 group-hover:text-orange-700 dark:group-hover:text-amber-300">Combinaisons d'actions</span></a></li>
+            <li><a href="#rpa-art-5.3" class="rpa-cover-nav-link group flex gap-4 rounded-xl px-3 py-2 text-left outline-none ring-amber-400/0 transition focus-visible:ring-2 focus-visible:ring-amber-500"><span class="w-12 shrink-0 font-bold text-orange-700 dark:text-amber-400">5.3</span><span class="text-slate-800 dark:text-slate-200 group-hover:text-orange-700 dark:group-hover:text-amber-300">Justification vis-à-vis de la résistance</span></a></li>
+            <li><a href="#rpa-art-5.4" class="rpa-cover-nav-link group flex gap-4 rounded-xl px-3 py-2 text-left outline-none ring-amber-400/0 transition focus-visible:ring-2 focus-visible:ring-amber-500"><span class="w-12 shrink-0 font-bold text-orange-700 dark:text-amber-400">5.4</span><span class="text-slate-800 dark:text-slate-200 group-hover:text-orange-700 dark:group-hover:text-amber-300">Justification vis-à-vis de la ductilité</span></a></li>
+            <li><a href="#rpa-art-5.5" class="rpa-cover-nav-link group flex gap-4 rounded-xl px-3 py-2 text-left outline-none ring-amber-400/0 transition focus-visible:ring-2 focus-visible:ring-amber-500"><span class="w-12 shrink-0 font-bold text-orange-700 dark:text-amber-400">5.5</span><span class="text-slate-800 dark:text-slate-200 group-hover:text-orange-700 dark:group-hover:text-amber-300">Justification vis-à-vis de l'équilibre d'ensemble</span></a></li>
+            <li><a href="#rpa-art-5.6" class="rpa-cover-nav-link group flex gap-4 rounded-xl px-3 py-2 text-left outline-none ring-amber-400/0 transition focus-visible:ring-2 focus-visible:ring-amber-500"><span class="w-12 shrink-0 font-bold text-orange-700 dark:text-amber-400">5.6</span><span class="text-slate-800 dark:text-slate-200 group-hover:text-orange-700 dark:group-hover:text-amber-300">Justification vis-à-vis de la résistance des planchers</span></a></li>
+            <li><a href="#rpa-art-5.7" class="rpa-cover-nav-link group flex gap-4 rounded-xl px-3 py-2 text-left outline-none ring-amber-400/0 transition focus-visible:ring-2 focus-visible:ring-amber-500"><span class="w-12 shrink-0 font-bold text-orange-700 dark:text-amber-400">5.7</span><span class="text-slate-800 dark:text-slate-200 group-hover:text-orange-700 dark:group-hover:text-amber-300">Justification de la stabilité des fondations</span></a></li>
+            <li><a href="#rpa-art-5.8" class="rpa-cover-nav-link group flex gap-4 rounded-xl px-3 py-2 text-left outline-none ring-amber-400/0 transition focus-visible:ring-2 focus-visible:ring-amber-500"><span class="w-12 shrink-0 font-bold text-orange-700 dark:text-amber-400">5.8</span><span class="text-slate-800 dark:text-slate-200 group-hover:text-orange-700 dark:group-hover:text-amber-300">Justification de la largeur des joints sismiques</span></a></li>
+            <li><a href="#rpa-art-5.9" class="rpa-cover-nav-link group flex gap-4 rounded-xl px-3 py-2 text-left outline-none ring-amber-400/0 transition focus-visible:ring-2 focus-visible:ring-amber-500"><span class="w-12 shrink-0 font-bold text-orange-700 dark:text-amber-400">5.9</span><span class="text-slate-800 dark:text-slate-200 group-hover:text-orange-700 dark:group-hover:text-amber-300">Justification vis-à-vis de l'effet P-Δ</span></a></li>
+            <li><a href="#rpa-art-5.10" class="rpa-cover-nav-link group flex gap-4 rounded-xl px-3 py-2 text-left outline-none ring-amber-400/0 transition focus-visible:ring-2 focus-visible:ring-amber-500"><span class="w-12 shrink-0 font-bold text-orange-700 dark:text-amber-400">5.10</span><span class="text-slate-800 dark:text-slate-200 group-hover:text-orange-700 dark:group-hover:text-amber-300">Justification vis-à-vis des déplacements inter-étages</span></a></li>
+        </ol>
+    </nav>
+</section>

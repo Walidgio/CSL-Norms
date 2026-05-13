@@ -65,8 +65,24 @@
         <div id="rpa-art-4.5.3" class="mt-8" style="scroll-margin-top: 100px;">
             <h3 class="rpa-h3">4.5.3 Justification du comportement non linéaire</h3>
             <p class="text-justify mb-4">
-                Dans le cas d'une analyse linéaire (statique équivalente ou modale spectrale), le comportement non linéaire de la structure est pris en compte globalement par le coefficient de comportement R (défini au &sect; 3.6). Les déplacements calculés sous l'action sismique de calcul doivent être multipliés par le coefficient R pour obtenir les déplacements réels prévisibles.
+                Dans le cas d'une analyse linéaire (statique équivalente ou modale spectrale), le comportement non linéaire de la structure est pris en compte globalement par le coefficient de comportement R (défini au <a href="#rpa-art-3.6" class="rpa-inline-link">&sect; 3.6</a>). Les déplacements calculés sous l'action sismique de calcul doivent être multipliés par le coefficient R pour obtenir les déplacements réels prévisibles.
             </p>
+            <p class="text-justify mb-4">Le déplacement relatif d'étage <i>Δ<sub>k</sub></i>, au niveau <i>k</i>, est donné par :</p>
+            <div class="rpa-equation-container" id="rpa-eqt-4.16">
+                <div class="rpa-equation">
+                    <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                        <mrow>
+                            <msub><mi>&Delta;</mi><mi>k</mi></msub>
+                            <mo>=</mo>
+                            <mi>R</mi>
+                            <mo>&sdot;</mo>
+                            <msub><mi>&delta;</mi><mi>k</mi></msub>
+                        </mrow>
+                    </math>
+                </div>
+                <div class="rpa-eq-num">(4.16)</div>
+            </div>
+            <p class="text-justify text-sm mb-0">où <i>δ<sub>k</sub></i> est le déplacement relatif d'étage issu de l'analyse linéaire élastique de calcul au niveau <i>k</i>.</p>
         </div>
 
         <div id="rpa-art-4.5.4" class="mt-8" style="scroll-margin-top: 100px;">

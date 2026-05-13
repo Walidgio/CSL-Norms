@@ -1,8 +1,11 @@
 {{-- ==================== PAGE 67 ==================== --}}
 <section id="rpa-p67" class="rpa-page rpa-scroll-spy-section" data-annotatable="true">
-    <div class="rpa-header">
-        <span>3.5 Classification des systèmes de contreventement</span>
-        <span>67</span>
+    <div class="rpa-header-meta flex flex-wrap items-start justify-between gap-2 text-sm mb-6 border-b border-black/90 dark:border-slate-500 pb-2">
+        <span class="tabular-nums font-semibold text-slate-700 dark:text-slate-300">67</span>
+        <div class="text-right max-w-[min(100%,28rem)] space-y-0.5">
+        <div class="text-xs font-semibold text-amber-900/90 dark:text-amber-200/90">3.5 Classification des systèmes de contreventement</div>
+        @include('norms::codes.rpa.rpa2024.chapitre3.partials.ch3-running-meta')
+    </div>
     </div>
 
     <div class="overflow-x-auto my-6">
@@ -33,11 +36,11 @@
                 </tr>
             </tbody>
         </table>
-        <div class="rpa-figure-title text-center mt-2" id="rpa-table-3.15">Table 3.15: Limitations en nombre de niveaux et en hauteur</div>
+        <div class="rpa-figure-title text-center mt-2" id="rpa-table-3.15" style="scroll-margin-top: 100px;">Table 3.15: Limitations en nombre de niveaux et en hauteur</div>
     </div>
 
     <p style="text-align: justify;" class="mt-4">
-        Le Tableau (3.16) précise le nombre maximal d'étages ainsi que la hauteur maximale, pour ce genre de système.
+        Le <a href="#rpa-table-3.16" class="rpa-inline-link">Tableau (3.16)</a> précise le nombre maximal d'étages ainsi que la hauteur maximale, pour ce genre de système.
     </p>
 
     <div class="overflow-x-auto my-6">
@@ -68,7 +71,7 @@
                 </tr>
             </tbody>
         </table>
-        <div class="rpa-figure-title text-center mt-2" id="rpa-table-3.16">Table 3.16: Limitations en nombre de niveaux et en hauteur</div>
+        <div class="rpa-figure-title text-center mt-2" id="rpa-table-3.16" style="scroll-margin-top: 100px;">Table 3.16: Limitations en nombre de niveaux et en hauteur</div>
     </div>
 
     <div class="mt-8">
@@ -83,7 +86,7 @@
                 Ce système concerne des structures porteuses réalisées en maçonnerie de moellons ou petits éléments manufacturés et comportant des chaînages en béton armé, mis en œuvre après exécution de la maçonnerie. Ces structures résistent, en même temps, aux charges verticales et horizontales.
             </p>
             <p style="text-align: justify;" class="mt-2">
-                Le Tableau (3.17) précise le nombre maximal d'étages ainsi que la hauteur maximale, pour ce genre de système.
+                Le <a href="#rpa-table-3.17" class="rpa-inline-link">Tableau (3.17)</a> précise le nombre maximal d'étages ainsi que la hauteur maximale, pour ce genre de système.
             </p>
 
             <div class="overflow-x-auto my-6">
@@ -114,7 +117,7 @@
                         </tr>
                     </tbody>
                 </table>
-                <div class="rpa-figure-title text-center mt-2" id="rpa-table-3.17">Table 3.17: Limitations en nombre de niveaux et en hauteur</div>
+                <div class="rpa-figure-title text-center mt-2" id="rpa-table-3.17" style="scroll-margin-top: 100px;">Table 3.17: Limitations en nombre de niveaux et en hauteur</div>
             </div>
         </div>
     </div>

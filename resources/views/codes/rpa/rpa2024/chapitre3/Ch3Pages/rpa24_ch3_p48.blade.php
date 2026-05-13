@@ -1,8 +1,10 @@
 {{-- ==================== PAGE 48 ==================== --}}
 <section id="rpa-p48" class="rpa-page rpa-scroll-spy-section" data-annotatable="true">
-    <div class="rpa-header">
-        <span>48</span>
-        <span class="chapter">Chapter 3. CRITÈRES DE CLASSIFICATION</span>
+    <div class="rpa-header-meta flex flex-wrap items-start justify-between gap-2 text-sm mb-6 border-b border-black/90 dark:border-slate-500 pb-2">
+        <span class="tabular-nums font-semibold text-slate-700 dark:text-slate-300">48</span>
+        <div class="text-right max-w-[min(100%,28rem)] space-y-0.5">
+        @include('norms::codes.rpa.rpa2024.chapitre3.partials.ch3-running-meta')
+    </div>
     </div>
 
     <div id="rpa-art-3.2" class="mt-8" style="scroll-margin-top: 100px;">
@@ -14,7 +16,7 @@
                 Des études géotechniques appropriées doivent être réalisées (cf. Annexe B) en vue de classer le site.
             </p>
             <p class="text-justify mb-4">
-                Les sites sont classés en cinq (05) catégories en fonction des propriétés mécaniques des sols qui les constituent, cf. Tableau (3.2).
+                Les sites sont classés en cinq (05) catégories en fonction des propriétés mécaniques des sols qui les constituent, cf. <a href="#rpa-table-3.2" class="rpa-inline-link">Tableau (3.2)</a>.
             </p>
             <p class="text-justify mb-4">
                 Les quatre (04) premières catégories, sont établies en se basant sur la moyenne des propriétés de sol sur une profondeur minimale de 30 mètres. L'autre catégorie, considérée comme exceptionnelle, concerne les sites nécessitant des investigations spécifiques (S<sub>5</sub>) (cf. &sect; 3.2.2 & 3.2.3).
@@ -58,7 +60,7 @@
                 Par ailleurs, il convient de classer le site selon la valeur moyenne de la vitesse des ondes de cisaillement sur les 30 mètres supérieurs (V<sub>s30</sub>). Ce paramètre est le plus fiable pour la classification du site.
             </p>
             <p class="text-justify mt-4 leading-relaxed">
-                En cas d'indisponibilité de V<sub>s</sub>, il convient d'utiliser les valeurs moyennes harmoniques d'autres résultats d'essais (pénétromètre statique, SPT, pressiomètre, etc), données dans le Tableau (3.2). Selon la disponibilité et la fiabilité des résultats de différents types d'essais, le site sera classé dans la catégorie la plus appropriée. En cas de doute, il convient de classer le site dans la catégorie voisine, immédiate, la plus défavorable.
+                En cas d'indisponibilité de V<sub>s</sub>, il convient d'utiliser les valeurs moyennes harmoniques d'autres résultats d'essais (pénétromètre statique, SPT, pressiomètre, etc), données dans le <a href="#rpa-table-3.2" class="rpa-inline-link">Tableau (3.2)</a>. Selon la disponibilité et la fiabilité des résultats de différents types d'essais, le site sera classé dans la catégorie la plus appropriée. En cas de doute, il convient de classer le site dans la catégorie voisine, immédiate, la plus défavorable.
             </p>
 
             <div class="mt-6 ml-8">

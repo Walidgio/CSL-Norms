@@ -1,8 +1,11 @@
 {{-- ==================== PAGE 65 ==================== --}}
 <section id="rpa-p65" class="rpa-page rpa-scroll-spy-section" data-annotatable="true">
-    <div class="rpa-header">
-        <span>3.5 Classification des systèmes de contreventement</span>
-        <span>65</span>
+    <div class="rpa-header-meta flex flex-wrap items-start justify-between gap-2 text-sm mb-6 border-b border-black/90 dark:border-slate-500 pb-2">
+        <span class="tabular-nums font-semibold text-slate-700 dark:text-slate-300">65</span>
+        <div class="text-right max-w-[min(100%,28rem)] space-y-0.5">
+        <div class="text-xs font-semibold text-amber-900/90 dark:text-amber-200/90">3.5 Classification des systèmes de contreventement</div>
+        @include('norms::codes.rpa.rpa2024.chapitre3.partials.ch3-running-meta')
+    </div>
     </div>
 
     <p class="italic" style="text-align: justify;">
@@ -12,7 +15,7 @@
     <div class="mt-6">
         <h4 class="font-bold underline">9. Système de voiles de grandes dimensions en béton peu armé</h4>
         <p style="text-align: justify;">
-            On entend par, voile de grandes dimensions transversales, les voiles qui répondent aux conditions de dimensionnement ci-dessous, grâce auxquelles, ils sont supposés développer une fissuration limitée et un comportement non élastique dans la situation sismique de calcul, cf. Eqn. (3.23) :
+            On entend par, voile de grandes dimensions transversales, les voiles qui répondent aux conditions de dimensionnement ci-dessous, grâce auxquelles, ils sont supposés développer une fissuration limitée et un comportement non élastique dans la situation sismique de calcul, cf. <a href="#rpa-eqt-3.23" class="rpa-inline-link">Eqn. (3.23)</a> :
         </p>
 
         <div class="rpa-equation-container" id="rpa-eqt-3.23">

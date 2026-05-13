@@ -1,8 +1,11 @@
 {{-- ==================== PAGE 51 ==================== --}}
 <section id="rpa-p51" class="rpa-page rpa-scroll-spy-section" data-annotatable="true">
-    <div class="rpa-header">
-        <span>51</span>
-        <span class="chapter">3.3 Actions sismiques</span>
+    <div class="rpa-header-meta flex flex-wrap items-start justify-between gap-2 text-sm mb-6 border-b border-black/90 dark:border-slate-500 pb-2">
+        <span class="tabular-nums font-semibold text-slate-700 dark:text-slate-300">51</span>
+        <div class="text-right max-w-[min(100%,28rem)] space-y-0.5">
+        <div class="text-xs font-semibold text-amber-900/90 dark:text-amber-200/90">3.3 Actions sismiques</div>
+        @include('norms::codes.rpa.rpa2024.chapitre3.partials.ch3-running-meta')
+    </div>
     </div>
 
     <div class="rpa-table-container my-8">
@@ -24,7 +27,7 @@
                 <tr><td>VI</td><td>Elevée</td><td>0.30</td></tr>
             </tbody>
         </table>
-        <p class="rpa-table-caption text-center mt-2 leading-tight">
+        <p id="rpa-table-3.3" class="rpa-table-caption text-center mt-2 leading-tight" style="scroll-margin-top: 100px;">
             Table 3.3: Définition des zones de sismicité et coefficient d'accélération de zone au rocher, A, pour T<sub>r</sub>=475ans.
         </p>
     </div>
@@ -59,7 +62,7 @@
     <div id="rpa-art-3.3.1" class="mt-10" style="scroll-margin-top: 100px;">
         <h3 class="rpa-h3">3.3.1 Spectre de réponse élastique horizontal</h3>
         <p class="text-justify mb-4 leading-relaxed">
-            Le spectre de réponse élastique normalisé par rapport à la valeur de l'accélération de la pesanteur (g), <math xmlns="http://www.w3.org/1998/Math/MathML" class="inline"><mfrac><mrow><msub><mi>S</mi><mrow><mi>a</mi><mi>e</mi></mrow></msub><mo>(</mo><mi>T</mi><mo>)</mo></mrow><mi>g</mi></mfrac></math>, pour les composantes horizontales de l'action sismique, est défini par Eqn. (3.8) (cf. Figure (3.2)).
+            Le spectre de réponse élastique normalisé par rapport à la valeur de l'accélération de la pesanteur (g), <math xmlns="http://www.w3.org/1998/Math/MathML" class="inline"><mfrac><mrow><msub><mi>S</mi><mrow><mi>a</mi><mi>e</mi></mrow></msub><mo>(</mo><mi>T</mi><mo>)</mo></mrow><mi>g</mi></mfrac></math>, pour les composantes horizontales de l'action sismique, est défini par <a href="#rpa-eqt-3.8" class="rpa-inline-link">Eqn. (3.8)</a> (cf. <a href="#rpa-fig-3.2" class="rpa-inline-link">Figure (3.2)</a>).
         </p>
     </div>
 </section>

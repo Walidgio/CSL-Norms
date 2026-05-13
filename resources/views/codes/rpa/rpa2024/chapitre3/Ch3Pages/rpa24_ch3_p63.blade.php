@@ -1,14 +1,17 @@
 {{-- ==================== PAGE 63 ==================== --}}
 <section id="rpa-p63" class="rpa-page rpa-scroll-spy-section" data-annotatable="true">
-    <div class="rpa-header">
-        <span>3.5 Classification des systèmes de contreventement</span>
-        <span>63</span>
+    <div class="rpa-header-meta flex flex-wrap items-start justify-between gap-2 text-sm mb-6 border-b border-black/90 dark:border-slate-500 pb-2">
+        <span class="tabular-nums font-semibold text-slate-700 dark:text-slate-300">63</span>
+        <div class="text-right max-w-[min(100%,28rem)] space-y-0.5">
+        <div class="text-xs font-semibold text-amber-900/90 dark:text-amber-200/90">3.5 Classification des systèmes de contreventement</div>
+        @include('norms::codes.rpa.rpa2024.chapitre3.partials.ch3-running-meta')
+    </div>
     </div>
 
     <div class="mt-4">
         <h4 class="font-bold underline">6. Système à ossature à noyau ou à effet noyau</h4>
         <p style="text-align: justify;">
-            Système à contreventement mixte ou système de voiles, dont la rigidité à la torsion n'atteint pas une valeur seuil minimale et dont les rayons de torsion, <i>r<sub>x</sub></i> et <i>r<sub>y</sub></i>, sont inférieurs au rayon de giration, <i>l<sub>s</sub></i>, du plancher, cf. Figure (3.7):
+            Système à contreventement mixte ou système de voiles, dont la rigidité à la torsion n'atteint pas une valeur seuil minimale et dont les rayons de torsion, <i>r<sub>x</sub></i> et <i>r<sub>y</sub></i>, sont inférieurs au rayon de giration, <i>l<sub>s</sub></i>, du plancher, cf. <a href="#rpa-fig-3.7" class="rpa-inline-link">Figure (3.7)</a>:
         </p>
 
         <div class="rpa-equation-container" id="rpa-eqt-3.17">
@@ -37,12 +40,12 @@
             où:
             <div class="rpa-indent space-y-1">
                 <div class="rpa-bullet">• <i>r<sub>x</sub></i> et <i>r<sub>y</sub></i> représentent, respectivement, les rayons de torsion suivant x et y.</div>
-                <div class="rpa-bullet">• <i>l<sub>s</sub></i> (cf. Eqn. (3.22)): Rayon de giration massique en plan, qui est la racine carrée du moment d'inertie polaire du plancher en plan, mesuré par rapport au centre de gravité de ce plancher, divisé par la masse de ce plancher.</div>
+                <div class="rpa-bullet">• <i>l<sub>s</sub></i> (cf. <a href="#rpa-eqt-3.22" class="rpa-inline-link">Eqn. (3.22)</a>): Rayon de giration massique en plan, qui est la racine carrée du moment d'inertie polaire du plancher en plan, mesuré par rapport au centre de gravité de ce plancher, divisé par la masse de ce plancher.</div>
             </div>
         </div>
 
         <p class="italic mt-6" style="text-align: justify;">
-            Commentaire (1): Les systèmes de contreventement (1) à (5), qui ne présentent pas une rigidité à la torsion minimale définie par Eqn. (3.17), dans les deux directions horizontales orthogonales, sont classés comme système à noyau ou à effet noyau.
+            Commentaire (1): Les systèmes de contreventement (1) à (5), qui ne présentent pas une rigidité à la torsion minimale définie par <a href="#rpa-eqt-3.17" class="rpa-inline-link">Eqn. (3.17)</a>, dans les deux directions horizontales orthogonales, sont classés comme système à noyau ou à effet noyau.
         </p>
         <p class="italic mt-4" style="text-align: justify;">
             Commentaire (2) : L'exemple d'un tel système est une structure composée d'ossatures flexibles combinées avec des voiles, concentrés en plan, à proximité du centre du bâtiment.

@@ -3,6 +3,10 @@
 @section('title', 'Normes & Réglementations - ' . config('app.name'))
 
 @section('content')
+    @include('norms::partials.ui-theme-init')
+    @if(isset($current))
+        @include('norms::partials.doc-lecture-theme')
+    @endif
     <div class="flex flex-col h-screen overflow-hidden bg-gray-50 dark:bg-gray-900 {{ isset($current) ? 'zen-mode-active' : '' }}">
         {{-- Header Bar --}}
     <div id="page-header-bar" class="flex items-center justify-between px-3 sm:px-6 py-0 bg-white/80 dark:bg-gray-800/80 backdrop-blur-md border-b border-gray-200 dark:border-gray-700 transition-all duration-300">
@@ -66,7 +70,7 @@
                 @if(isset($current))
                     <div class="flex items-center gap-1.5 sm:gap-2 px-1.5 sm:px-2 py-1 bg-gray-50/50 dark:bg-gray-700/50 rounded-lg border border-gray-200/50 dark:border-gray-600/50">
                         <span class="text-[8px] sm:text-[9px] font-black uppercase tracking-tighter text-gray-400 dark:text-gray-500">Lecture:</span>
-                        <button type="button" id="doc-theme-toggle" onclick="toggleDocTheme()" class="relative inline-flex h-4 w-7 sm:h-5 sm:w-9 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none bg-gray-200 dark:bg-gray-600" role="switch" aria-checked="false">
+                        <button type="button" id="doc-theme-toggle" onclick="toggleDocTheme()" class="relative inline-flex h-4 w-7 sm:h-5 sm:w-9 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none bg-gray-200 dark:bg-gray-600" role="switch" aria-checked="false" aria-label="Mode lecture document">
                             <span id="doc-theme-toggle-knob" class="pointer-events-none relative inline-block h-3 w-3 sm:h-4 sm:w-4 transform rounded-full bg-white shadow ring-0 transition duration-200 ease-in-out translate-x-0">
                                 <span class="absolute inset-0 flex h-full w-full items-center justify-center transition-opacity opacity-100 duration-200 ease-in" aria-hidden="true" id="doc-theme-icon-light">
                                     <svg class="h-2 w-2 sm:h-2.5 sm:w-2.5 text-gray-400" fill="currentColor" viewBox="0 0 20 20"><path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4.22 2.366a1 1 0 011.415 0l.707.707a1 1 0 01-1.414 1.415l-.707-.707a1 1 0 010-1.415zM18 10a1 1 0 01-1 1h-1a1 1 0 110-2h1a1 1 0 011 1zM14.929 15.636a1 1 0 01-1.414 0l-.707-.707a1 1 0 011.414-1.414l.707.707a1 1 0 010 1.414zM10 16a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zm-4.22-2.364a1 1 0 01-1.414 0l-.707-.707a1 1 0 011.414-1.414l.707.707a1 1 0 010 1.414zM3 10a1 1 0 01-1 1H1a1 1 0 110-2h1a1 1 0 011 1zM5.07 5.778a1 1 0 010-1.414l.707-.707a1 1 0 011.414 1.414l-.707.707a1 1 0 01-1.414 0zM10 5a5 5 0 100 10 5 5 0 000-10z" clip-rule="evenodd" fill-rule="evenodd"></path></svg>
@@ -79,6 +83,15 @@
                         <span id="doc-theme-label" class="hidden sm:block text-[9px] font-bold text-gray-500 dark:text-gray-400 w-[55px]">Fixe (Blanc)</span>
                     </div>
                 @endif
+
+                <button type="button" id="norms-ui-theme-toggle" onclick="toggleNormsUiTheme()" class="p-2 rounded-lg border border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-600 dark:text-amber-300 hover:bg-gray-50 dark:hover:bg-gray-600 transition-colors" title="Thème clair ou sombre" aria-label="Basculer entre thème clair et sombre">
+                    <span class="dark:hidden" aria-hidden="true">
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
+                    </span>
+                    <span class="hidden dark:inline" aria-hidden="true">
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4.22 2.366a1 1 0 011.415 0l.707.707a1 1 0 01-1.414 1.415l-.707-.707a1 1 0 010-1.415zM18 10a1 1 0 01-1 1h-1a1 1 0 110-2h1a1 1 0 011 1zM14.929 15.636a1 1 0 01-1.414 0l-.707-.707a1 1 0 011.414-1.414l.707.707a1 1 0 010 1.414zM10 16a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zm-4.22-2.364a1 1 0 01-1.414 0l-.707-.707a1 1 0 011.414-1.414l.707.707a1 1 0 010 1.414zM3 10a1 1 0 01-1 1H1a1 1 0 110-2h1a1 1 0 011 1zM5.07 5.778a1 1 0 010-1.414l.707-.707a1 1 0 011.414 1.414l-.707.707a1 1 0 01-1.414 0zM10 5a5 5 0 100 10 5 5 0 000-10z" clip-rule="evenodd"></path></svg>
+                    </span>
+                </button>
 
                 <a href="{{ route('norms') }}" class="text-[11px] font-bold text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-colors">
                     Retour
@@ -128,6 +141,12 @@
         }
         .custom-scrollbar::-webkit-scrollbar-thumb:hover {
             background: rgba(156, 163, 175, 0.5);
+        }
+        .dark .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: rgba(71, 85, 105, 0.45);
+        }
+        .dark .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+            background: rgba(100, 116, 139, 0.6);
         }
 
         /* Tree Animations */
@@ -267,6 +286,21 @@
             });
         }
 
+        const NORMS_UI_THEME_KEY = 'norms-ui-theme';
+
+        window.toggleNormsUiTheme = function () {
+            const root = document.documentElement;
+            const nextIsDark = !root.classList.contains('dark');
+            if (nextIsDark) {
+                root.classList.add('dark');
+            } else {
+                root.classList.remove('dark');
+            }
+            try {
+                localStorage.setItem(NORMS_UI_THEME_KEY, nextIsDark ? 'dark' : 'light');
+            } catch (e) {}
+        };
+
         // Global Scroll Function
     function scrollToSection(id) {
         const target = document.getElementById(id);
@@ -307,26 +341,40 @@
             docContainer.classList.remove('doc-theme-responsive');
             btn.classList.remove('bg-indigo-500');
             btn.classList.add('bg-gray-200', 'dark:bg-gray-600');
-            knob.classList.remove('translate-x-5');
-            knob.classList.add('translate-x-0');
-            iconLight.classList.remove('opacity-0');
-            iconLight.classList.add('opacity-100');
-            iconDark.classList.remove('opacity-100');
-            iconDark.classList.add('opacity-0');
-            label.textContent = "Fixe (Blanc)";
+            btn.setAttribute('aria-checked', 'false');
+            if (knob) {
+                knob.classList.remove('translate-x-4', 'sm:translate-x-5', 'translate-x-5');
+                knob.classList.add('translate-x-0');
+            }
+            if (iconLight) {
+                iconLight.classList.remove('opacity-0');
+                iconLight.classList.add('opacity-100');
+            }
+            if (iconDark) {
+                iconDark.classList.remove('opacity-100');
+                iconDark.classList.add('opacity-0');
+            }
+            if (label) label.textContent = "Fixe (Blanc)";
             if(!isInit) localStorage.setItem('doc-theme-responsive', 'false');
         } else {
             // Switch to Responsive (Follows Theme)
             docContainer.classList.add('doc-theme-responsive');
             btn.classList.remove('bg-gray-200', 'dark:bg-gray-600');
             btn.classList.add('bg-indigo-500');
-            knob.classList.remove('translate-x-0');
-            knob.classList.add('translate-x-5');
-            iconLight.classList.remove('opacity-100');
-            iconLight.classList.add('opacity-0');
-            iconDark.classList.remove('opacity-0');
-            iconDark.classList.add('opacity-100');
-            label.textContent = "Responsive";
+            btn.setAttribute('aria-checked', 'true');
+            if (knob) {
+                knob.classList.remove('translate-x-0', 'translate-x-5');
+                knob.classList.add('translate-x-4', 'sm:translate-x-5');
+            }
+            if (iconLight) {
+                iconLight.classList.remove('opacity-100');
+                iconLight.classList.add('opacity-0');
+            }
+            if (iconDark) {
+                iconDark.classList.remove('opacity-0');
+                iconDark.classList.add('opacity-100');
+            }
+            if (label) label.textContent = "Responsive";
             if(!isInit) localStorage.setItem('doc-theme-responsive', 'true');
         }
     }

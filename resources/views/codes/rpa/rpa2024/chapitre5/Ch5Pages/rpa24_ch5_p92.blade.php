@@ -1,22 +1,17 @@
-{{-- ==================== PAGE 92 ==================== --}}
+{{-- Chapitre 5 — déplacements inter-étages ; repère imprimé env. p. 92 --}}
 <section id="rpa-p92" class="rpa-page rpa-scroll-spy-section" data-annotatable="true">
-    <div class="rpa-header">
+    <div class="rpa-header-meta flex justify-between text-sm text-gray-500 mb-6 border-b border-black pb-1">
         <span>92</span>
-        <span class="chapter">Chapter 5. JUSTIFICATION DE LA SECURITE</span>
+        <span class="italic chapter">Chapitre 5. Justification de la sécurité</span>
     </div>
 
-    <div class="flex flex-col items-center my-8">
-        <p class="text-sm font-bold mb-4">Figure 5.2: Effet P-&Delta;</p>
-        @include('norms::codes.rpa.rpa2024.chapitre5.Ch5Svg.rpa24_ch5_fig5_2')
-    </div>
+    <section id="rpa-art-5.10" class="mt-2" style="scroll-margin-top: 100px;" aria-labelledby="rpa-ch5-h-5-10">
+        <h3 id="rpa-ch5-h-5-10" class="rpa-h2" style="color: #c05621;">5.10 Justification vis-à-vis des déplacements inter-étages</h3>
 
-    <div id="rpa-art-5.10" class="mt-8" style="scroll-margin-top: 100px;">
-        <h2 class="rpa-h2" style="color: #c05621;">5.10 Justification vis-à-vis des déplacements inter-étages</h2>
-        
-        <div id="rpa-art-5.10.1" style="scroll-margin-top: 100px;">
-            <h3 class="rpa-h3">5.10.1 Justification de non-effondrement</h3>
-            <p class="text-justify mb-4">
-                Les déplacements relatifs latéraux, d'un étage par rapport à l'étage du dessous, tels que calculés selon &sect; 4.5.2, ne doivent pas dépasser les limites, <math><mover><mi>&Delta;</mi><mo>&OverBar;</mo></mover></math><sub>k</sub>, données dans le Tableau (5.2) et Eqn. (5.11), i.e. :
+        <section id="rpa-art-5.10.1" class="mt-6" style="scroll-margin-top: 100px;" aria-labelledby="rpa-ch5-h-5-10-1">
+            <h4 id="rpa-ch5-h-5-10-1" class="rpa-h3">5.10.1 Justification de non-effondrement</h4>
+            <p class="text-justify mb-4 leading-relaxed">
+                Les déplacements relatifs latéraux d'un étage par rapport à l'étage du dessous, tels que calculés selon le <a href="#rpa-art-4.5.2" class="rpa-inline-link">paragraphe 4.5.2</a>, ne doivent pas dépasser les limites <math xmlns="http://www.w3.org/1998/Math/MathML" class="inline"><mover><mi>&Delta;</mi><mo>&OverBar;</mo></mover></math><sub>k</sub> données dans le <a href="#rpa-table-5.2" class="rpa-inline-link">tableau 5.2</a> et l'<a href="#rpa-eqt-5.11" class="rpa-inline-link">équation (5.11)</a>, soit :
             </p>
 
             <div class="rpa-equation-container" id="rpa-eqt-5.11">
@@ -32,35 +27,34 @@
                 <div class="rpa-eq-num">(5.11)</div>
             </div>
 
-            <div class="rpa-table-container mt-6">
-                <table class="rpa-table">
+            <div class="rpa-table-container overflow-x-auto mt-6">
+                <table class="rpa-table min-w-[280px]" id="rpa-table-5.2">
+                    <caption class="text-left text-sm font-semibold mb-3 px-1">Tableau 5.2 — Valeurs limites des déplacements inter-étages (<i>h<sub>k</sub></i> : hauteur du niveau « k »)</caption>
                     <thead>
                         <tr>
-                            <th>Type de Structure</th>
-                            <th>Déplacement limite: <math><mover><mi>&Delta;</mi><mo>&OverBar;</mo></mover></math><sub>k</sub></th>
+                            <th scope="col">Type de structure</th>
+                            <th scope="col">Déplacement limite <math xmlns="http://www.w3.org/1998/Math/MathML" class="inline"><mover><mi>&Delta;</mi><mo>&OverBar;</mo></mover></math><sub>k</sub></th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr><td>Bâtiments en Acier</td><td>0.0200 h<sub>k</sub></td></tr>
-                        <tr><td>Bâtiments en Béton Armé</td><td>0.0150 h<sub>k</sub></td></tr>
-                        <tr><td>Bâtiment en PAF</td><td>0.0100 h<sub>k</sub></td></tr>
-                        <tr><td>Bâtiments en Bois</td><td>0.0150 h<sub>k</sub></td></tr>
-                        <tr><td>Bâtiments en Maçonnerie Chainée</td><td>0.0100 h<sub>k</sub></td></tr>
+                        <tr><th scope="row">Bâtiments en acier</th><td>0,0200 <i>h<sub>k</sub></i></td></tr>
+                        <tr><th scope="row">Bâtiments en béton armé</th><td>0,0150 <i>h<sub>k</sub></i></td></tr>
+                        <tr><th scope="row">Bâtiment en PAF</th><td>0,0100 <i>h<sub>k</sub></i></td></tr>
+                        <tr><th scope="row">Bâtiments en bois</th><td>0,0150 <i>h<sub>k</sub></i></td></tr>
+                        <tr><th scope="row">Bâtiments en maçonnerie chaînée</th><td>0,0100 <i>h<sub>k</sub></i></td></tr>
                     </tbody>
                 </table>
-                <p class="text-xs italic mt-2">Légende: h<sub>k</sub> est la hauteur du niveau &laquo; k &raquo;</p>
             </div>
-            <p class="text-center font-bold text-sm mt-2">Table 5.2: Valeurs limites des déplacements inter-étages</p>
-        </div>
+        </section>
 
-        <div id="rpa-art-5.10.2" class="mt-12" style="scroll-margin-top: 100px;">
-            <h3 class="rpa-h3">5.10.2 Justification de limitation des dommages</h3>
-            <p class="text-justify mb-4">
-                Les déplacements relatifs latéraux, d'un étage par rapport à l'étage du dessous, tels que calculés selon &sect; 4.5.2, ne doivent pas dépasser les limites suivantes :
+        <section id="rpa-art-5.10.2" class="mt-12" style="scroll-margin-top: 100px;" aria-labelledby="rpa-ch5-h-5-10-2">
+            <h4 id="rpa-ch5-h-5-10-2" class="rpa-h3">5.10.2 Justification de limitation des dommages</h4>
+            <p class="text-justify mb-4 leading-relaxed">
+                Les déplacements relatifs latéraux d'un étage par rapport à l'étage du dessous, tels que calculés selon le <a href="#rpa-art-4.5.2" class="rpa-inline-link">paragraphe 4.5.2</a>, ne doivent pas dépasser les limites suivantes :
             </p>
-            <ol class="list-decimal ml-10 space-y-4">
+            <ol class="list-decimal ml-8 space-y-6">
                 <li>
-                    <p class="mb-2">pour les bâtiments ayant des éléments non structuraux composés de matériaux fragiles fixés à la structure :</p>
+                    <p class="mb-2 text-justify leading-relaxed">Pour les bâtiments ayant des éléments non structuraux composés de matériaux fragiles fixés à la structure :</p>
                     <div class="rpa-equation-container" id="rpa-eqt-5.12">
                         <div class="rpa-equation">
                             <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
@@ -78,7 +72,7 @@
                     </div>
                 </li>
                 <li>
-                    <p class="mb-2">pour les bâtiments ayant des éléments non structuraux ductiles :</p>
+                    <p class="mb-2 text-justify leading-relaxed">Pour les bâtiments ayant des éléments non structuraux ductiles :</p>
                     <div class="rpa-equation-container" id="rpa-eqt-5.13">
                         <div class="rpa-equation">
                             <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
@@ -96,7 +90,7 @@
                     </div>
                 </li>
             </ol>
-            <p class="mt-4 italic">Le coefficient réducteur &nu;<sub>A</sub> est défini en &sect; 1.2. Il est pris égal à 0.5.</p>
-        </div>
-    </div>
+            <p class="mt-4 text-justify italic leading-relaxed">Le coefficient réducteur <i>ν<sub>A</sub></i> est défini au paragraphe 1.2. Il est pris égal à 0,5.</p>
+        </section>
+    </section>
 </section>

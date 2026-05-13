@@ -5,7 +5,7 @@
             <button class="toc-toggle-btn" aria-label="Toggle Chapter">
                 <x-icon name="chevron-right" class="w-3.5 h-3.5 text-orange-500 transition-transform duration-300" />
             </button>
-            <a href="#rpa-p44" class="toc-link font-black text-[11px] text-gray-700 dark:text-gray-200">CHAPITRE 3</a>
+            <a href="#rpa-p44" class="toc-link font-black text-[11px] text-gray-700 dark:text-gray-200">CHAPITRE&nbsp;III</a>
             <button class="fav-btn ml-auto opacity-0 group-hover:opacity-100 transition-opacity" onclick="toggleFav('rpa-p44', event)">
                 <x-icon name="star" class="w-3 h-3 text-gray-300 hover:text-amber-400" />
             </button>
