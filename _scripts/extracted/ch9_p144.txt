@@ -1,0 +1,152 @@
+9 . 4 Concep t ion 
+145 
+MP a. 
+Armatures 
+L es a rm at u res so nt ce ll es pr ev u es p o u r l e b eto n a nn e et so n t defi ni es p ar l es n or m es y affere nt es; l a 
+va l e ur d e l a r es i s t a n ce carac t e ri s tiqu e a utili ser d a n s l es calc ul s es t l a limit e d 'e l as ti c it e f e · 
+Beton 
+P o u r l es e l eme n ts e n b e t o n arme faisa nt p art i e d u sys t e m e s t ruct u ra l , l a r es i stance caracte ri st i que 
+minim a l e a l a co mpr es s i o n ex i gee es t d e 1 5 M P a. 
+9.4 Conception 
+L a co n cep ti o n a r c h i t ec tu ra l e d es b a tim e nt s e n m ac;:o nn e ri e c h at n e e doit p re nd re e n co m p t e l es 
+ex i ge n ces s ui va nt es: 
+• L a for m e e n p l an d o it etre reg uli e r e (cf. c h a pi t r e 3) 
+• L e rap p or t l o n g u e u r s u r l arge ur n e d o i t p as d e p asse r 3. 5 
+• L es m ur s do i ve n t etre d isposes d e m a ni ere a u ss i symetrique qu e p ossib l e 
+• L es mu rs doive n t etre co n ti nu s s ur t o ut e l a ha ut e ur d u bat im e nt. 
+• L es o u ve rtur es (po rt es e t fe n e tr es) do i ven t et r e p l acees sur l a m e m e vert i cale 
+• D es c h a1' n ages h o ri zo nt a u x d o i ve nt e tr e pl aces a c h aq u e e t age a d es di s t a n ces ver ti ca l es n e 
+depassa nt p as 4111 
+• L es d i s t a n ces e n tre c h a tn ages ve rt ica u x n e do i ve nt p as d epasse r S m . 
+• U n e d e n s it e min i m a l e d e mur s (cf. T a bl ea u (9.3)) es t n ecess aire p o u r ass u re r , d a n s c h a qu e 
+dir ect i o n , un e b o nn e p e rform a n ce v i s - a - v i s des so lli c it a ti o n s s i s miqu es 
+9.4.1 Dimensions en plan, hauteur du botiment et nombre de niveaux 
+a) Dim e n s i o n s e n p l a n 
+L es dim e n s i o n s e n p l a n d evro nt respecte r J es p r esc ri p t ions y affere nt es d o nn ees p ar l es reg l es 
+de co n cep ti o n et de ca lcul d es o u vrages e n mac;:o nn e r ie et beto n arme. P a r ai ll e ur s , l e rap p ort 
+(lo n g u e ur / l arge u r ) sera limit e a 3.5. 
+b ) H a ut e ur e t n o m bre d e n ivea u x 
+L a h a u teu r du b a tim e n t (e n m e t res) ai n s i qu e l e n o mbr e d e ni vea u x sero nt Ii m i t es co mpt e 
+t e nu d e l a zo n e s i s miqu e (c f. T a bl ea u (9. 1 )): 
+Zone sism iqu e 
+H au t e ur m axi m a l e ( m ) 
+No mbr e m ax im a l d e ni vea u x 
+I e t II 
+17 
+5 
+III I V et V 
+1 4 II 
+4 3 
+V I 
+8 
+2 
+T ab l e 9. 1 : L im it ations e n h a ut e ur e t n o mb re d e ni vea u x d es b a tim e nt s e n m ai;o nn erie c h at n ee 
+9.4.2 Repartition et densite des murs 
+L es mur s p o rt e ur s d o i ve nt e tr e s olidem e nt li es ( p a r l 'i nt er m e di a i re d es c h a 1'n ages) a u x pl a nch ers 
+r i g id es; ces d e rni e r s vo nt di s tribuer a u x mu rs J es forces d ' in er ti e a u pro ra t a d e l e ur ri g idit e . 
+On d i s t i n g u e : 
+• L es m u rs str u c t ura u x d e co ntr eve n te m e nt ca p ab l es d e r e pr e ndre J es c h arges ve rti ca l es e t J es 
+c h arges l a t era l e du es a u se i s m e. Il s a u ro nt un e e p a i sse ur minim ale d e 2 0 c m p o u r ! es mur s 
+c h ai n es. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+9 . 4 C o n c e p t i o n 
+1 4 5 
+M P a . 
+A r m a t u r e s 
+L e s a r m a t u r e s s o n t c e l l e s p r ~ v u e s p o u r l e b ~ t o n a r m ~ e t s o n t d ~ fi n i e s 
+p ar 
+l e s n o r m e s 
+y 
+a ff ~ r e n t e s ; l a 
+v a l e u r d e l a r ~ s i s t a n c e c a r a c t ~ r i s t i q u e ~ u t i l i s e r d a n s l e s c a l c u l s e s t l a l i m i t e d ~ l a s t i c i t ~ f . 
+B ~ t o n 
+P o u r l e s ~ l ~ m e n t s e n b ~ t o n a rm ~ fa i s a n t p a rt i e d u s y s t ~ m e s t r u c t u r a l , l a r ~ s i s t a n c e 
+c a r a c t ~ r i s t i q u e 
+m i n i m a l e ~ l a c o m p r e s s i o n e x i g ~ e e s t d e 1 5 M P a . 
+9 . 4 C o n c e p t i o n 
+L a c o n c e p t i o n a r c h i t e c t u r a l e d e s b ~ t i m e n t s e n m a ~ o n n e r i e c h a ~ n ~ e d o i t 
+p r e n d r e 
+e n 
+c o m p t e 
+l e s 
+e x i g e n c e s s u i v a n t e s : 
+• L a f o r m e e n p l a n d o i t ~ tr e r ~ g u l i ~ r e ( c f. c h a p i t r e 3 ) 
+• L e r a p p o r t l o n g u e u r s u r l ar g e u r n e d o i t 
+p a s 
+d ~ p a s s e r 3 . 5 
+• L e s m u r s d o i v e n t ~ t r e d i s p o s ~ s d e m a n i ~ r e a u s s i s y m ~ t r i q u e q u e p o s s i b l e 
+• L e s m u r s d o i v e n t ~ tr e c o n t i n u s s u r t o u t e l a h a u t e u r d u b ~ t i m e n t . 
+• L e s o u v e r t u r e s ( p o rt e s e t fe n ~ t r e s ) d o i v e n t ~ t r e p l a c ~ e s s u r l a m ~ m e v e rt i c a l e 
+• D e s c h a ~ n a g e s h o r i z o n t a u x d o i v e n t ~ t r e p l a c ~ s ~ c h a q u e ~ t a g e ~ d e s d i s t a n c e s v e rt i c a l e s n e 
+d ~ p a s s a n t 
+p a s 
+4 m 
+• L e s d i s t a n c e s e n t r e c h a ~ n a g e s v e r t i c a u x n e d o i v e n t 
+p a s 
+d ~ p a s s e r 5 m . 
+• U n e d e n s i t ~ m i n i m a l e d e m u r s ( c f. T a b l e a u ( 9 . 3 ) ) e s t n ~ c e s s a i r e 
+p o u r 
+a s s u r e r , d a n s 
+c h a q u e 
+d i r e c t i o n , u n e b o n n e 
+p e r f o r m a n c e 
+v i s - ~ - v i s d e s s o l l i c i t a t i o n s 
+s i s m i q u e s 
+9 . 4 . 1 D i m e n s i o n s e n p l a n , h a u t e u r d u b t i m e n t e t n o m b r e d e n i v e a u x 
+a ) D i m e n s i o n s e n 
+p l a n 
+L e s d i m e n s i o n s e n p l a n d e v r o n t r e s p e c t e r l e s p r e s c r i p t i o n s y a ff ~ r e n t e s d o n n ~ e s p a r l e s 
+r ~ g l e s 
+d e c o n c e p t i o n e t d e c a l c u l d e s o u v r a g e s e n m a ~ o n n e r i e e t b ~ t o n a rm ~ . P a r a i l l e u r s . l e r a p p o rt 
+( l o n g u e u r / l a r g e u r ) s e r a l i m i t ~ ~ 3 . 5 . 
+b ) H a u t e u r e t n o m b r e d e n i v e a u x 
+L a h a u t e u r d u b ~ t i m e n t ( e n m ~ t r e s ) a i n s i q u e l e n o m b r e d e n i v e a u x s e r o n t l i m i t ~ s 
+c o m p t e 
+t e n u d e l a zo n e 
+s i s m i q u e 
+( cf . Ta b l e a u ( 9 . 1 ) ) : 
+Z o n e s i s m i q u e 
+H a u t e u r m a x i m a l e ( m ) 
+N o m b r e m a x i m a l d e n i v e a u x 
+I e t II III 
+1 7 1 4 
+5 4 
+I V e t V 
+1 1 
+3 
+V I 
+8 
+2 
+Ta b l e 9 . 1 : L i m i t a t i o n s e n h a u t e u r e t n o m b r e d e n i v e a u x d e s b ~ t i m e n t s e n m a ~ o n n e ri e c h a i n ~ e 
+9 . 4 . 2 R ~ p a r t i t i o n e t d e n s i t ~ d e s m u r s 
+L e s m u r s 
+p o rt e u r s 
+d o i v e n t ~ t r e s o l i d e m e n t l i ~ s 
+( p a r 
+l i n t e rm ~ d i a i r e d e s c h a ~ n a g e s ) a u x p l a n c h e r s 
+r i g i d e s ; 
+c e s d e rn i e r s v o n t d i s t ri b u e r a u x m u r s l e s fo r c e s d ' i n e r t i e a u p ro ra t a d e l e u r 
+r i g i d i t ~ . 
+O n 
+d i s t i n g u e 
+: 
+• L e s m u r s s t ru c t u ra u x d e c o n tr e v e n t e m e n t 
+c a p a b l e s 
+d e 
+r e p r e n d r e 
+J e s c h a r g e s v e rt ic a l e s e t J e s 
+c h ar g e s l a t ~ r a l e s d u e s a u s ~ i s m e . I l s a u r o n t u n e ~ p a i s s e u r m i n i m a l e d e 2 0 c m p o u r l e s m u r s 
+c h a ~ n ~ s . 

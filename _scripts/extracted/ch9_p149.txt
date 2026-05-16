@@ -1,0 +1,103 @@
+150 Chapter 9 . STRUCTURES EN MA<;ONNERIE CHAINEE 
+Afin d ' a m e lior e r le co mport e ment des b iit im e nt s en ma<;onnerie , ii e s t fa it J es recommandations 
+s uivante s : 
+• la l ongueur t ota l e des baie s e t d es ouvert u res d ans un mur ne d evra p as d epasse r l a moiti e de 
+la longu eur de ce mur. 
+• J es niveaux uperi e ur s d es b a ie s et ouvertures d evro nt e tr e s itu es a l a m e me cote. 
+• J es baie s et ouvertures dans J es mur s devront e tr e pr ev ues a utant que po ss ible de fa<;on 
+sy m etr ique e u ega rd a l a co n figuration en plan du b iit iment pour ass ur er une di str ibution de 
+rigidite et de r es i s t a n ce uniforme dan s J es deux directions du biitiment. 
+• J es b a ie s et o u ve rture s so nt p l acees dan s un meme alignement ver ti cal 
+• J es baies et ouvertures so nt p l acees e n dehor s de s zones d ' influence de s c har ges l oca li sees 
+rame n ees par J es poutres o u a utres e l ements porteur s. 
+Les baies et ouvert ur es so nt c l assees en deux categories, e n fonction de leur s urfac e par rapport 
+a ce ll e du panneau du mur : 
+• rapport ::; I 0 % : p e tit es ouvert u res 
+• rapport > I 0 %: grandes ouvertures 
+Petites ouvertures 
+Le s petite s ouvertures so nt negligee s dan s l e calc ul de la sec tion du mur s i e lle s so nt s itu ees e n 
+dehors des di ago nales par ou tran s itent J es efforts d e compression et de tra c tion (cf. § 9.4.2 et 
+Figure (9.3)). 
+Grandes ouvertures 
+Deux cas peuvent etre consideres (cf. Figure (9.8)) : 
+• Ces ouvertures n e so nt pa s encadrees par d es chatnages et dans ce cas l e mur est ne g l ige et 
+n'e st pas pris en compte dans l e calcu l d e l a den s it e demurs (cf. Fig ur e (9.8a)). 
+• Le s ouvertures sont e ncadre es par de s chatnages horizontaux et verticaux , et dans ce cas, Jes 
+panneaux, de part et d 'a ut re de l'ouverture , so nt pris en compte da n s l e calcu l de l a dens i t e 
+demur s (cf. Figw·e (9.8b)). 
+Aop 
+r 
+h 
+~ --- - L -- ~ 
+A o p > 0 . 1 L x h 
+Non considere dans le calcul 
+AT= 0 
+a) 
+Aop 
+A o p > 0 . 1 L x h 
+AT , 1 = L1 X f 
+AT .2 = L2 X f 
+b) 
+Figure 9.8: Mur en ma9onneri e avec gra nde ouverture: a) pann ea u no n confine - doit etre ne glige 
+dan s le calcu l de l a den s ite demur s ; b) chat n age s ur l e conto ur de l'ouv er ture et J es deux panne a ux 
+pe u vent etre consideres dan s le calcu l de la den site d e mur s 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+1 50 C h a p t e r 9 . ST R U C TU R E S E N M A C O N N E R I E C H A I N E E 
+A fi n d ' a m ~ l i o r e r l e c o m po rt e m e n t de s b ~ t i m e n t s e n m a ~o n n e ri e , i l e s t fa i t l es re c o m ma n da t i o n s 
+s u i v an t e s : 
+• l a l o n g u e u r t o t a l e d es bai es e t de s o u v e rture s d an s u n m u r n e dev r a p a s d ~ p a s s er l a m o i t i ~ de 
+l a l o n g u e u r d e c e m u r . 
+• l e s n i v e a ux s u p~ ri e u r s d es b a i e s e t o u ve rt ure s d e v r o n t ~ tre s i t u ~ s ~ l a m ~ m e co te . 
+• l es b a i e s e t o u v e rtu r e s d a n s l e s m u r s d e v ro n t ~ tr e p r~ v u e s a u t a n t q u e po ss i b l e d e f a ~o n 
+s y m~ tri q u e e u ~ g ard ~ l a c o n fi g u ra t i o n e n p l a n d u b ~ ti m e n t po u r a s s ure r u n e d i s tri b u t i o n d e 
+ri g i d i t ~ e t d e r ~ s i s t an ce u n i f o rm e d a n s l e s d e u x d i rec t i o n s d u b ~ t i me n t . 
+• l es b a i e s e t o u v e rt u re s s o n t p l a c ~es d a n s u n m~ m e a l i g n e me n t v e rt i c a l 
+• l e s b a i e s e t o u v e rt u re s s o n t p l a c~e s e n d e h o r s d e s z o n e s d ' i n fl u e nc e d e s c h arg e s l oc al i s ~e s 
+r a m e n ~es p ar l es po u tr es o u a u tr e s ~ l ~ m e n t s po rt e u rs . 
+L e s b ai e s e t o u v e rtu r es s o n t c l a s s ~e s e n de u x c a te g o ri es , e n f o n c t i o n d e l e u r s u rfa c e p ar ra p po rt 
+~ c e l l e d u p an n e a u d u m u r : 
+r a p po rt < 1 0 % : pe ti t es o u v e rt u re s 
+• r a p po rt > 1 0 % : g r and e s o u v e rtu r e s 
+P e ti t e s o uv e rt u r e s 
+L e s pe t i t e s o u v e rt u r e s s on t n ~ g l i g ~e s da n s l e c a l c u l d e l a se c t i o n d u m u r s i e l l e s s o n t s i t u ~ es e n 
+d eh o rs d e s d i a g o n al e s p ar 
+o ~ tr a n s i t e n t l e s e ff o rt s d e c o m p re s s i o n e t d e t ra c t i o n ( c f. § 9 .4 . 2 e t 
+F i g ur e ( 9 . 3 ) ) . 
+G r a n d e s o u v e rtu r e s 
+D e u x c a s pe u v e n t ~ tre co n s i d ~ r~ s ( c f. F i g u re ( 9 . 8 ) ) : 
+C e s o u v e rt u r e s n e s o n t p a s e n c a dr ~e s p ar d e s c h a ~n ag e s e t da n s ce c a s l e m u r e s t n ~ g l i g ~ e t 
+n ' e s t 
+p a s pri s e n c o m p t e d a n s l e ca lc u l d e l a de n s i t ~ d e m u r s ( c f. F i g u re ( 9 . 8 a )) . 
+Le s o u v e rt u res s o n t e n c a dr~ e s p a r de s c hai n a g e s ho riz o n t a u x e t v ert i c a u x , e t d a n s ce c a s , l e s 
+p an n e a u x , d e p art e t d ' a u tre d e l ' o u v e rtu r e , s o n t p r i s e n co m p t e da n s l e c a l c u l de l a d e n s i t ~ 
+d e m ur s ( c f . Fi g u re ( 9 . 8 b ) ) . 
+b ) 
+L± 2> h / 1 . 5 
+> ; 
+A > 0 . 1 L x h 
+A r i = L x t 
+A r = L x t 
+l 1 2 h / 1 . 5 
+n 
+t 
+r Ao > 0 . 1 L x h 
+N o n c o n si d e r~ d a n s le ca lc u l 
+A r = 0 
+a ) 
+L 
+F i g u r e 9 . 8 : M ur e n m a ~o n n e ri e a v ec g r an d e o u ve rt u re : a ) pa n n e a u no n c o n fi n ~ -- d o i t ~ tr e n ~ g l i g ~ 
+dan s l e c a l c u l d e l a de n s i t~ d e mu r s ; b ) c h a ~ n a g e s u r l e co n to u r d e l ' o u v erture e t l e s d e u x p a n n e au x 
+pe u v e n t ~ tr e c o n s i d ~ re s d a n s l e c a l c u l d e l a de n s i t ~ d e m u rs 

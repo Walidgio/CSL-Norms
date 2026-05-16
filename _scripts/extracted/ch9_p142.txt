@@ -1,0 +1,76 @@
+( 9. STRUCTURES EN MA<;:ONNERIE CHAINEE 
+9.1 Objet 
+Le pre se nt chapitre traite de s constructions en mai;:onn e rie porteuse c hainee a r ea li se r en zone 
+s i s mique. II s'a ppliqu e concomitamrnent avec Je s autres DTR , a savo ir DTR C 2. 45 « R egles de 
+co n cep ti on e t d e calcul d es 111.a (:onneries » , DTR E 2.4 « Travaux de nw (:onne ri e de petits elemen t s 
+» et autres documents a pplicables. 
+La mai;:onnerie porteuse a rmee n 'es t p as traitee d a n s Jes pre se nte s regle s. 
+En cas d ' utilisation exceptionnelle , celle-ci de vrai t se fa ir e s ur la base d'un avis technique . 
+La mai;:onn e rie po r teu se ordinaire ( non chainee, non ar mee ) n 'es t a utorisee en a ucune zone 
+sismique; elle n 'es t p as autorisee meme en zone s i s mique 0 . 
+Le s constructions e n mai;:onnerie chainee concemees par ce chapitre appartiennent au groupe 
+d ' u sage 2. 
+9.2 Principes 
+La construction en ma i;: onnerie porteu se chainee s e compose demur s d e mai;:onnerie et d ' e l ements 
+de confinement, ou chainages , en beton ar me realise s dan s J es sens horizontal et vertical sur Je s 
+quatre cotes d ' un panneau du mur en m ai;:o nnerie (cf. Figure (9. 1) ). 
+• Les chai'nages horizont a ux doivent e t:re reali ses: 
+au niveau de s fondations 
+- a u ni vea u de c haqu e plancher 
+- a u niveau des toiture s 
+• Les cha1nages verticaux doivent etre realise s: 
+- a tou s le s a ngle s sa illants ou r e ntrant s de l a construction 
+- aux jonctions de mur s 
+- autour de s grandes ouvertures. 
+Aucun element de mur ne doit presenter de bord libre en mai;:onnerie . 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+F t p f ( F A 
+] 
+t t I 
+) 
+F t 
+I l l ] J + 
+A, € J t t 
+] 
+ex 
+( 
+p 
+( 9 . 
+S T R U C T U R E S E N M A C O N N E RI E C H A I N E E 
+9 . 1 O b j e t 
+L e p r ~ s e n t c h a p i t r e t r a i t e d e s c o n s t ru c t i o n s e n m a ~ o n n e r i e p o rt e u s e c h a ~ n ~ e ~ r ~ a l i s e r e n z o n e 
+s i s m i q u e . I I s ' a p p l i q u e c o n c o m i t a mm e n t a v e c l e s a u t r e s D T R , ~ s a v o i r D T R C 2 . 4 5 « R ~ g l e s d e 
+c o n c e p t i o n e t d e c a l c u l d e s m a c o n n e r i e s » , D T R E 2 . 4 « T r a v a ux d e m a ~ o n n e r i e d e p e t i t s ~ l ~ m e n t s 
+» e t a u tr e s d o c u m e n t s a p p li c a b J e s . 
+L a m a ~ o n n e ri e p o r t e u s e a r m ~ e n ' e s t p a s t r a i t ~ e d a n s l e s p r ~ s e n t e s r ~ g l e s . 
+E n c a s d ' u t i l i s a t i o n e x c e p t i o n n e l l e , c e l l e - c i d e v r a i t s e fa i r e s u r l a b a s e d ' u n a v i s t e c h n i q u e . 
+L a m a ~ o n n e r i e p o rt e u s e o r d i n a i r e ( n o n c h a i n ~ e , n o n a r m ~ e ) n ' e s t a u t o r i s ~ e e n a u c u n e z o n e 
+s i s m i q u e ; e l l e n ' e s t p a s a u t o r i s ~ e m ~ m e e n z o n e s i s m i q u e 0 . 
+L e s c o n s t ru c t i o n s e n m a ~ o n n e ri e c h a i n ~ e c o n c e rn ~ e s p ar c e c h a p i t r e a p p a rt i e n n e n t a u g r o u p e 
+d ' u s a g e 2 . 
+9 . 2 P ri n c i p e s 
+L a c o n s t ru c t i o n e n m a ~ o n n e r i e po rt e u s e c h a ~ n ~ e s e c o m po s e d e m u r s d e m a ~ o n n e r i e e t d ' ~ l ~ m e n t s 
+d e c o n fi n e m e n t , o u c h a ~ n a g e s , e n b ~ t o n a r m ~ r ~ a l i s ~ s d a n s l e s s e n s h o r i z o n t a l e t v e rt i c a l s u r l e s 
+q u a tr e c o t ~ s d u n p an n e a u d u m u r e n m a ~ o n n e ri e ( c f. F i g u r e ( 9 . 1 ) ) . 
+• L e s c h a ~ n a g e s h o r i z o n t a u x d o i v e n t ~ t r e r ~ a l i s ~ s : 
+- a u n i v e a u d e s fo n d a t i o n s 
+- a u n i v e a u d e c h a q u e p l a n c h e r 
+- a u n i v e a u d e s t o i t u r e s 
+• L e s c h a ~ n a g e s v e rt i c a u x d o i v e n t ~ t r e r ~ a l i s ~ s : 
+- a t o u s !e s a n g l e s s a ill a n t s o u r e n t ra n t s d e l a c o n s t ru c t i o n 
+- a u x j o n c t i o n s d e m u r s 
+a u t o u r d e s g ra n d e s o u v e rt u r e s . 
+A u c u n ~ l ~ m e n t d e m u r n e d o i t p r ~ s e n t e r d e b o r d l i b r e e n m a ~ o n n e r i e . 

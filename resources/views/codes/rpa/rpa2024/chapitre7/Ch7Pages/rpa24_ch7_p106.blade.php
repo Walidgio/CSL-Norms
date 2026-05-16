@@ -1,8 +1,5 @@
 <section id="rpa-p106" class="rpa-page rpa-scroll-spy-section">
-    <div class="rpa-header">
-        <span>106</span>
-        <span class="chapter">Chapter 7. STRUCTURES EN BETON ARME</span>
-    </div>
+    @include('norms::codes.rpa.rpa2024.partials.rpa-page-header', ['page' => 106, 'meta' => 'norms::codes.rpa.rpa2024.partials.ch7-running-meta'])
 
     <p style="text-indent: 20px; text-align: justify;">
         Les éléments structuraux, n'apportant pas de contribution significative à la résistance aux actions sismiques d'ensemble ou à leur distribution, peuvent être considérés comme éléments secondaires, à condition que leur résistance à ces actions soit effectivement négligée et qu'ils ne soient soumis, du fait des déformations imposées, qu'à des sollicitations négligeables vis-à-vis des sollicitations d'autre origine.
@@ -40,5 +37,22 @@
         <div class="rpa-bullet">• <i>N<sub>d</sub></i>: effort normal de compression de calcul s'exerçant sur une section de béton ;</div>
         <div class="rpa-bullet">• <i>B<sub>c</sub></i>: aire (section brute) de cette dernière</div>
         <div class="rpa-bullet">• <i>f<sub>cj</sub></i>: résistance caractéristique du béton à j jours.</div>
+    </div>
+
+    <p class="rpa-h2-black mt-6">Pièces comprimées, pièces fléchies</p>
+    <p class="text-justify">
+        On entend par pièce fléchie, un élément linéaire ou à deux dimensions, soumis à la flexion simple ou déviée, pour lequel on satisfait aux conditions suivantes&nbsp;:
+    </p>
+    <div class="rpa-indent my-3 text-center font-medium">
+        <i>&nu;</i><sub>max</sub> &le; 0,1 &nbsp; et &nbsp; <i>h</i> &le; <i>l</i>/4
+    </div>
+    <p class="mb-2">avec&nbsp;:</p>
+    <div class="rpa-indent">
+        <div class="rpa-bullet">&#8226; <i>h</i> : hauteur de la section droite de l'élément</div>
+        <div class="rpa-bullet">&#8226; <i>l</i> : portée entre nus de l'élément</div>
+    </div>
+    <p class="mt-4 mb-2">La pièce est dite&nbsp;:</p>
+    <div class="rpa-indent">
+        <div class="rpa-bullet">&#8226; &laquo;&nbsp;courte&nbsp;&raquo; lorsque <i>h</i> &gt; <i>l</i>/4</div>
     </div>
 </section>

@@ -1,10 +1,7 @@
 <section id="rpa-p116" class="rpa-page rpa-scroll-spy-section">
-    <div class="rpa-header">
-        <span class="chapter">Chapter 7. STRUCTURES EN BETON ARME</span>
-        <span>116</span>
-    </div>
+    @include('norms::codes.rpa.rpa2024.partials.rpa-page-header', ['page' => 116, 'meta' => 'norms::codes.rpa.rpa2024.partials.ch7-running-meta'])
 
-    <div class="rpa-h3" id="rpa-art-7.6.2" style="color: #d97706;">7.6.2 Dimensionnement du nœud vis-à-vis des moments fléchissants</div>
+    <div class="rpa-h3" id="rpa-art-7.6.2">7.6.2 Dimensionnement du nœud vis-à-vis des moments fléchissants</div>
 
     <p style="text-align: justify;">
         Dans les bâtiments à plusieurs étages, la formation d'un mécanisme plastique sur un seul niveau doit être évitée, dans la mesure où un tel mécanisme pourrait induire des demandes de ductilité locale excessives, dans les poteaux du niveau concerné.

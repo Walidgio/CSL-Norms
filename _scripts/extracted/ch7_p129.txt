@@ -1,0 +1,125 @@
+130 Chapter 7. STRUCTURES EN BETON ARM E 
+7.8 Jonction d ' armatures 
+II n e doit p as y avo ir de j o n c tion p ar reco u v r e m e nt p ar so udure a l ' int e ri e ur de s zo ne s critiqu es de s 
+e l e ment s d e st ru c tur e : 
+• l o : lon g ueur minim a l e d e recouvrement 
+• a : di s t a nce entre barres 
+• <J> : di a rn e tr e de l a barr e tendu e 
+II p e ut y avo ir de s j o n c tion s p a r co upleur s me ca nique s d a n s J es p o t ea u x e t J es voiles, s i le 
+fonctionnement d e ces di s po s itif s es t va lid e par de s essa i s appropries e n co nformit e aux n o rm es 
+d 'essa i s port a nt s ur l es di s po si ti fs d e raboutage m eca nique d es barr es. 
+~ 0 .3 1, 
+F s 
+--- ~ ~ ~~ ~ ~ ~~ ~~~~~ ~ 
+_ .J 
+I 
+l o 
+.. , 
+:, 50mm 
+' !', 4<), 
+<), 
+F , 
+-
+! 
+J 
+?: 2<), 
+> 20mm 
+F, 
+-
+F . 
+-
+Fi g ur e 7 . 1 9 : R eco uvr e m e nt s voisins 
+L es recouvrements de s b a rre s doi ve nt re s p ec t e r J es di s po s itions de l a fi g ur e (7 . 1 8) , et ne doi ve nt 
+pa s e tr e di s po sees d a n s de s zone s fortement sol l i c it ees (ro tule s pl as tique s, p a r exe mp l e). 
+7 . 9 Dispositions propres aux dalles et aux diaphragmes 
+II doit exister un chainage periph e riqu e co ntinu (cf. Fi g ure (7 . 17 )), d 'a u main s 3cm
+2 
+de sec ti o n 
+d 'a c i e r et un c h a 111 age, a u c roi se m e nt de chaque e l e ment d e contreve nt ement ave c l e plan c her , de 
+section mini m a l e, ega l e I .5 c m
+2
+, et re s pe c tant l a r eg l e d e: 
+• ( 0. 28 L ) d a n s l e cas d e contreventement p ar vo ile 
+• ( O . SOL ) d a n s l e cas d e contreventement p ar p o rtique s 
+avec: 
+L ( unit e: m ) : lar ge ur c hainee . 
+Daile 
+Figure 7.20: Chainage s d es dalle s et de s diap h ra g mes 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+1 3 0 C h a p t e r 7 . S T R U C T U R E S E N B E T O N A R M E 
+7 . 8 J o n c t i o n d ' a r m a t u r e s 
+I l n e d o i t p a s y a v o i r d e j o n c ti o n p ar re c o u v r e m e n t 
+p ar 
+s o u d u re ~ l ' i n t ~ ri e ur d e s z o n e s cri ti q u e s d e s 
+~ l ~ m e n t s d e s tr u c t ur e : 
+• l o : l o n g u e ur mi n i m a l e d e r e c o u v r e m e n t 
+• a : d i s ta n c e e n tr e b arr e s 
+• : d i am ~ tr e d e l a b arr e t e n d u e 
+11 
+pe u t y a v o i r d e s j o n c t i o n s p ar c o u p l e u r s m ~ c an i q u e s d a n s J e s p o t e a u x e t J e s v o il e s , s i l e 
+fo n c t i o n n e m e n t d e c e s 
+di s p o s i t i f s 
+e s t v a l i d ~ 
+p ar 
+d e s e s s ai s 
+a p p r o p ri ~ s 
+e n c o n f o rmi t ~ a u x n o rm e s 
+d ' e s s ai s p o rt a n t s ur l e s 
+d i s p o s i ti f s 
+d e r a b o u ta g e 
+m ~ c a ni q u e 
+d e s b arr e s . 
+2 0 . 3 % 
+l 
+-" 
+I I 
+< 60 m m 
+4 < 4¢ 
+¢ F , 
+u 
+i 
+I 
+a -+ 
+I 
+­ 
+2> 2 ¢ 
+> 2 0 m m 
+F , 
+• 
+] 
+F. 
+- 
+F i g u r e 
+7 . 1 9 : R e c o u v r e m e n t s v o i s i n s 
+Les r ec o u v r e m e n t s d e s b arr e s d o i v e n t r e s p e c t e r J e s d i s p o s i t i o n s d e l a fi g ur e ( 7 . 1 8 ) , et n e d o i v e n t 
+p a s ~ tr e d i s p o s ~ e s d a n s d e s z o n e s f o rt e m e n t s o l l i c i t ~ e s ( r o tu l e s 
+p l a s ti q u e s , 
+p ar e x e m p l e ) . 
+7 . 9 D i s p o s i t i o n s p r o p r e s a u x d a ll e s e t a u x d l a p h r a g m e s 
+Il d o i t e x i s t e r u n c h a ~ n a g e p ~ ri p h ~ ri q u e c o n t i n u ( c f. F i g ur e ( 7 . 1 7 ) ) , d ' a u m o i n s 3 c m d e s e c ti o n 
+d ' a c i e r e t u n c h a~ n a g e . a u c r o i se m e n t d e c h a q u e ~ l ~ m e n t d e c o n tr e v e n t e m e n t a v e c l e p l a n c h e r , d e 
+sec t i o n m i ni m a l e , ~ g a l e 1 . 5 c m ' , e t r e s p ec t an t l a r ~ g l e d e : 
+• ( 0 . 2 8 L ) d a n s l e c a s d e c o n tr e v e n t e m e n t 
+p ar 
+v o il e 
+• ( 0 .5 0 L ) d a n s l e c a s d e c o n tr e v e n t e m e n t 
+p ar po rt i q u e s 
+a v e c : 
+L ( uni t ~ : m ) : l ar g e ur c h a~ n ~ e . 
+D a il e 
+F i g u r e 
+7 . 20 : C h ai n a g e s d e s d a ll e s e t d e s 
+d i a p hr a g m e s 

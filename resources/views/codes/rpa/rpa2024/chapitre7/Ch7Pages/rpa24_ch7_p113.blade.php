@@ -1,8 +1,5 @@
 <section id="rpa-p113" class="rpa-page rpa-scroll-spy-section">
-    <div class="rpa-header">
-        <span>113</span>
-        <span class="chapter">7.5 Spécifications pour les poutres</span>
-    </div>
+    @include('norms::codes.rpa.rpa2024.partials.rpa-page-header', ['page' => 113, 'meta' => 'norms::codes.rpa.rpa2024.partials.ch7-running-meta'])
 
     <div id="rpa-art-7.5" style="scroll-margin-top: 100px;">
         <h2 class="rpa-h2" style="margin-top: 20px;">7.5 Spécifications pour les poutres</h2>

@@ -1,0 +1,582 @@
+=== printed 111 pdf idx 60 ===
+7.4 Specifications pour les poteaux 
+111 
+• V11 : effort tranchant de calcul 
+• he : hauteur totale de la section brute dans la direction consideree 
+• fe : contrainte Ii mite elastique de l'acier d'armature transversale 
+• Pa : coefficient correcteur qui tient compte du mode fragile de la rupture, par effort tranchant; 
+ii est pris egal a 2.50, si l'elancement geometrique Ag dans la direction consideree est 
+SUperieur OU ega] a 5, et ega] a 3.75, dans le CaS COntraire. 
+• t : espacement des armatures transversales (cf. Figure (7.5)) dont la valeur est determinee par 
+Eqn. (7 .3). Par ailleurs, la valeur maxi male de cet espacement est fixee com me suit: 
+- dans la zone nodale (zone critique): 
+{ 
+t :S Min.( 10</)1 ; 12.5 cm): en zones I, II et III 
+t :S Min(bo / 3 ; 10 cm ; 6</)1): en zones IV, Y et YI 
+avec bo: dimension minimale du noyau beton (a l' interieur des armatures de confine-
+ment) 
+- dans la zone courante : 
+{ 
+t' :S 15 </)1 : en zones I, II et Ill 
+t' :S Min(be/2; he/2; I0</)1 ) : en zones IV, Y et YI 
+ou: </)1 est le diametre minimal des armatures longitudinales du poteau. 
+• La quantile d'armatures transversales minimale (t.t) en % est donnee comme suit: 
+{ 
+0.3% si : Ag 2 5 
+0.8% si : Ag :S 3 
+interpoler entre Jes 2 valeurs limites precedentes si : 3 < Ag < 5 
+ou: Ag est l'elancement geometrique du poteau: 
+OU: 
+(7.4) 
+he, be: dimensions de la section droite du poteau, dans la direction de deformation consideree; 
+l r longueur de flambement du poteau. 
+Les cadres et Jes etriers doivent etre fermes par des crochets a 135°, ayant une longueur droite 
+de ( IO </),) minimum. 
+Les cadres et Jes etriers doivent menager des cheminees verticales en nombre et diametre 
+suffisants ( </) cheminees > 12cm) pour permettre une vibration correcte du beton sur toute la hauteur 
+des poteaux. 
+Par ailleurs, en cas d' utilisation de poteaux circulaires, ii y a lieu d' utiliser des cerces droites 
+individuelles (Jes cerces helico'idales continues sont interdites). 
+7 .4.3 
+verification specifiques 
+Sollicitations normales 
+Outre Jes verifications prescrites par le C.B.A et dans le but d'eviter ou limiter le risque de rupture 
+fragile sous sollicitations d'ensemble dues au seisme, l'effort normal de compression de calcul des 
+poteaux est limite par la condition suivante: 
+(v = ~) < 0.35 
+B c.fc28 
+-
+(7.5) 
+ 
+ 
+74 Sp~cf.cations pour les poteoux 
+1 
+V, effort trans hant de calcl 
+h.hauteur totale de la section brute dans la direction consider#e 
+contrainte limite ~latique de lacier d'armature transversale 
+.coefficient correcteur qui tient compte du mode fragile de la rupture, par effort tranchant; 
+il est pris ~gal ~ 250, si l'~lanement gcom~true A, dans la direction consider~e est 
+sup~riear ou ~gal A5, et ~gal23.75, ans le cs contraire 
+t.cpacement des armatures traversales(ct. Figure(1.5) dont la valcur est determine par 
+Eqn (7.  Par aillcurs, la valeur acimnale de et espacement est fix~e comme suit 
+deans la zone nodale {zone critique 
+ft<Mi(o:12.5cm) en zones I, I et II 
+leMuutb6/3 
+10cm;68:en zones IV, V et VI 
+ave be: dimension mirimale du noyau be~ton (litmietr des armatures de confine 
+ment 
+darns la zone courande 
+['<I¢ enones1, I et t 
+le_Mi,b,/2;±/210) en voes IV, V et VI 
+our. 
+est le diametre minimal des armatures longitudioalies d potea 
+La quantit~ d'armatures transversalcs minimale ('ten le est don~e comme suit 
+( 031,.,.1.,2:s 
+0.89%i A3 
+interpolcr entre les 2 valeurs limites pr~o~dentessi 
+«A <S 
+our A, est/'~lancement g~omtrue du potea 
+4a! 
+h, 
+b 
+oil 
+hb. dimensions de la section droite du poteau, das la direction de deformation co«id~de 
+le longueur de flambement de pot.au 
+Les cadres et les ~triers doivent ere ferm~s par des crochets2 13$,ayant une longueur droite 
+de (I0 9) minim 
+Les cadres et les tiers doivent mdtager des chenines vertic ales en nombre et diametre 
+suffisants ( cherun~es » I2cm) pour peette ue vibration corteete du be~ton sur tote la hauteur 
+des poteaus 
+Par ailleurs en ca d'utilisation de poteaux cireulaires il y a lieu d'utiliser des erces droites 
+itdividuelles (les cerces hdlicoidales continues sont interdites) 
+74.3 
+V~ification sp~cifiues 
+Solicitations normales 
+Outre les verifications prescrites par le CB.A et dans le but d'~viter ou limiter le risque de nptune 
+fragile sous solicitations d'ensemble dues au s~isme,l'effort normal de compression de calculi des 
+poteax est limit¢ par la condition suivate 
+Ne 
+(va-r)@03s 
+(5 
+B..fas 
+(7.4) 
+
+
+=== printed 126 pdf idx 75 ===
+126 
+Chapter 7. STRUCTURES EN BETON ARME 
+(lf 2: h,/5) et si !'element de rive confine doit etre prolonge au-dela de la membrure dans l'ame sur 
+une longueur supplementaire all ant jusqu'a (3bw), al ors I' epaisseur de I' element de rive confine, be, 
+reste egale a bw. 
+bc=b., 
+<3bc . 
+11> he! 5 
+b/?. h,I 15 
+<3b,. 
+,__ 
+Figure 7.18: Epaisseur minimale des elements de rive confines, dans Jes voiles avec de larges ailes 
+Le pourcentage des armatures longitudinales, dans Jes elements de rive, doit rester au moins 
+egal a 0.5% de la surface de la zone confinee. 
+Les armatures verticales, des elements de rive, devraient etre confinees avec des cadres et/ou 
+des etriers horizontaux dont l'espacement vertical doit satisfaire la condition suivante: 
+St::; min(bo/ 3; 12.5 cm ; 6.1/>1) 
+(7 .25) 
+ou : cp1 represente le diametre minimal des armatures longitudinales, dans Jes elements de rive; 
+en outre 1/>1 2: I 2mm. 
+La distance horizontale entre deux barres verticales ligaturees ne doit pas depasser 20cm. 
+La section des armatures de confinement dans Jes elements de rive, (A1 ), mesuree dans le sens 
+parallele a l'epaisseur du voile, doit etre presente sur la hauteur (he,) et doit satisfaire Jes conditions 
+A, 2: 0.09s,.b0 . f,t 
+(7.26) 
+(Ag 
+) fc2s 
+A, 2: 0.3s,.bo. -
+- I .-
+Ac 
+fe 
+(7.27) 
+ 
+ 
+126 
+Chapter 7. STRUCTURES EN BETON ARME 
+(ly> h,/5) et si l'~l~ment de rive confin~ doit ~tre prolong~ au-del~ de la membrure dans l'~me sur 
+une longueur suppl~mentaire allant jusqu'~ (b), alors l'~paisseur de l'~l~ment de rive confin~, be, 
+reste ~gale~b. 
+b, 
+b, 
+<.3b, 
+,, 
+b 
+l> h,/S 
+by2h,/15 
+Figure 7.18: Epaisseur minimale des ~l~ments de rive confin~s, dans les voiles avec de larges ailes 
+Le pourcentage des armatures longitudinales, dans les ~l~ments de rive, doit rester au moins 
+~gal ~ 0.5% de la surface de la zone confin~e. 
+Les armatures verticales, des ~l~ments de rive, devraient ~tre confin~es avec des cadres et/ou 
+des ~triers horizontaux dont I'espacement vertical doit satisfaire la condition suivante : 
+s < min(bo/3; 12.5 em ;6.¢) 
+07.25) 
+o~: repr~sente le diam~tre minimal des armatures longitudinales, dans les ~l~ments de rive; 
+en outre p 
+12mm. 
+La distance horizontale entre deux barres verticales ligatur~es ne doit pas d~passer 20cm. 
+La section des armatures de confinement dans les ~l~ments de rive, (A·), mesur~e dans le sens 
+parall~le ~ l'~paisseur du voile, doit ~tre pr~sente sur la hauteur (h,,) et doit satisfaire les conditions 
+4,2>0.3s»% -n./gs 
+A, 
+fe 
+(7.26) 
+(7.27) 
+
+
+=== printed 127 pdf idx 76 ===
+7.7 Voiles de contreventement 
+127 
+OU: 
+• bo repre ente la largeur du noyau confinee de !'element de rive 
+• (Ag / Ac) represente le rapport de la surface totale de !'element de rive sur sa surface confinee 
+Au-dessus de la zone critique, et en respectant la disposition de contreventement en voiles dans 
+deux directions orthogonales, le calcul des voiles et des trumeaux se fera exclusivement dans la 
+direction de leur plan moyen, en appliquant Jes regles de beton arme en vigueur. 
+II convient, en outre, de prevoir des elements de rive sur un niveau supplementaire, avec au 
+mains la moitie des armatures de confinement requises dans la zone critique. 
+Ferraillage de l'ame 
+• Aciers verticaux 
+Les armatures d'iime doivent se composer de deux treillis de barres ayant Jes memes carac-
+teristiques d'adherence, relies par des etriers espaces d'environ 500 mm. 
+Le diametre maximal, </>max, des armatures d'ame doivent respecter la condition : 
+Smm :S: </>max :S: bw/ 8 
+(7.28) 
+L'espacement des armatures d' iime ne doit pas etre superieur a 250 mm ou 25 fois le diametre 
+des barres, en prenant la plus petite valeur. 
+Les barres verticales du dernier niveau doivent etre munies de crochets a la partie superieure. 
+Toutes Jes autres barres n'ont pas de crochets Uonction par recouvrement). 
+• Aciers horizontaux 
+Les barres horizontales doivent etre munies de crochets. Dans le cas ou ii existe des extremites 
+confinees, !es barres horizontales peuvent etre ancrees sans crochets si !es dimensions des 
+talons permettent la realisation d'un ancrage droit. 
+Le ferraillage horizontal, necessaire pour la resistance a !'effort tranchant, doit satisfaire Eqn. 
+(7.29): 
+avec: 
+A1, 
+V 
+- >-
+s - z.J. 
+- V: effort tranchant de calcul, V = l .4V,, 
+(7.29) 
+-
+z: distance entre !es centres de gravite des armatures des deux extremites confinees. 
+7.7.5 Conditions de ductilite locale 
+Dans !es voiles de section rectangulaire, le rapport mecanique en volume des armatures de confine-
+ment requises, W..vd, dans !es elements de rive, doit respecter la condition ci-dessous : 
+(7.30) 
+volume des armatures de confinement f )'d 
+Wwd = -
+- ---
+-
+- ------ --
+volume du noyau en beton 
+fed 
+(7.3 1) 
+avec: 
+f 1•d 
+f e 'Yb 
+f ed 
+fc28 . 'Ys 
+(7.32) 
+ 
+ 
+7. 7 Voiles de contreventement 
+127 
+o~: 
+• bo repr~sente la largeur du noyau confin~e de l'~l~ment de rive 
+• (A/A) repr~sente le rapport de la surface totale de T'~l~ment de rive sur sa surface confin~e 
+Au-dessus de la zone critique, et en respectant la disposition de contreventement en voiles dans 
+deux directions orthogonales, le calcul des voiles et des trumeaux se fera exclusivement dans la 
+direction de leur plan moyen, en appliquant les r~gles de b~ton arm~ en vigueur. 
+I] convient, en outre, de pr~voir des ~l~ments de rive sur un niveau suppl~mentaire, avec au 
+moins la moiti~ des armatures de confinement requises dans la zone critique. 
+Ferraillage de l'~me 
+• Aciers verticaux 
+Les armatures d'~me doivent se composer de deux treillis de barres ayant les m~mes carac- 
+t~ristiques dadh~rence, reli~s par des ~triers espac~s d'environ 500 mm. 
+Le diam~tre maximal, 0,, des armatures d'~me doivent respecter la condition : 
+8mm < @% 
+<b,/8 
+(7.28) 
+Lespacement des armatures d'~me ne doit pas ~tre sup~rieur ~ 250 mm ou 25 fois le diam~tre 
+des barres, en prenant la plus petite valeur. 
+Les barres verticales du dernier niveau doivent ~tre munies de crochets ~ la partie sup~rieure. 
+Toutes les autres barres n'ont pas de crochets (jonction par recouvrement). 
+• Aciers horizontaux 
+Les barres horizontales doivent ~tre munies de crochets. Dans le cas ou il existe des extr~mit~s 
+confin~es, les barres horizontales peuvent ~tre ancr~es sans crochets si les dimensions des 
+talons permettent la r~alisation d'un ancrage droit. 
+Le ferraillage horizontal, n~cessaire pour la r~sistance ~ l'effort tranchant, doit satisfaire Eqn. 
+(7.29): 
+An 
+V 
+- 
+s 
+zf. 
+(7.29) 
+avec: 
+- V: effort tranchant de calcul, V =- 1.4V 
+- z: distance entre les centres de gravit~ des armatures des deux extr~mit~s confin~es. 
+7.7.5 Conditions de ductilit~ locale 
+Dans Jes voiles de section rectangulaire. le rapport m~canique en volume des armatures de confine- 
+ment requises, (a, dans les ~l~ments de rive, doit respecter la condition ci-dessous : 
+avec: 
+) 
+be 
+00,=30..(+0).€sd, 0.035 
+• 
+'0 
+volume des armatures de confinement f 
+W.,·d = --------------- 
+volume du noyau en b~ton 
+fa 
+fa 
+fe 
+1% 
+fa 
+fesY 
+(7.30) 
+(7.31) 
+(7.32) 
+
+
+=== printed 128 pdf idx 77 ===
+128 
+Chapter 7. STRUCTURES EN SETON ARME 
+OU: 
+• µ¢ : Valeur requise du coefficient de ductilite en courbure ; 
+• esy : Valeur de la deformation a la limite elastique de l'acier, donnee comme suit: 
+f e 
+fsy = -Es 
+• Es : module d'elasticite de l'acier 
+• vd: effort normal reduit, cas d' une section rectangulaire 
+• Wv : pourcentage normalise des annatures verticales d'ames 
+A sv 
+/ yd 
+C.Ov == 
+.-
+(/w - 2/c) .bw f ed 
+• A sv : section de ferraillage correspondant a la section de !' a.me du voile 
+• / yd : valeur de calcul de la limite d'elasticite de l'acier 
+• fed : valeur de calcul de la resistance du beton a la compression 
+• a: coefficient d'efficacite du confinement, egal a (a,,. as), avec: 
+{ 
+b2 
+a,,= I - [ ,,(~) 
+as= (1 -
+2~J( l -
+2;10 ) 
+(7 .33) 
+(7.34) 
+(7.35) 
+- n : nombre total de barres longitudinales lateralement maintenues par des armatures de 
+confinement ou des epingles ; 
+- b;: distance entre des barres maintenues consecutives (cf. Figure (7.2a) 
+- bo, ho, t : grandeurs geometriques (cf. Figure (7.2a). 
+II convient de prevoir une valeur minimale de w.,,d egale a 0.12 dans la zone critique a la base 
+du voile. 
+Le coefficient de ductilite en courbure (µ ip) peut etre determine selon Eqn. (7.36), en fonction de 
+la periode fondamentale (To), de la valeur (T2) du spectre de calcul, du coefficient de comportement 
+(R/ QF) et du rapport (Mw / Mno). 
+{ 
+2. ( JF·~) - I 
+µ ip = 
+) +2. [( QR .¥..mM ) -
+l].-r,r, 
+F 
+RD 
+O 
+(7.36) 
+, si To < T2 
+MEo est le moment flechissant issu de !'analyse (enveloppe de calcul decalee de he,.) a la base 
+du mur (cf Figure (7. I 3)); MnD est la resistance a la flexion de calcul. 
+La position de !'axe neutre, xu, correspondant a la courbure ultime apres eclatement du beton 
+situe hors du noyau confine des elements de rive peut etre estimee corrm1e suit : 
+( 
+) lw.bc 
+Xu = 
+vd+ Wv .--
+ho 
+(7.37) 
+Les parametres de l'Eqn. 7.37 sont definis dans les sections precedentes (cf. Eqns. (7 .11 ) & 
+(7.34), Figures (7. 16)). 
+ 
+ 
+128 
+Chapter 7. STRUCTURES EN BETON ARME 
+o~: 
+· a : Valeur requise du coefficient de ductilit~ en courbure; 
+• &,: Valeur de la d~formation ~ la limite ~lastique de lacier, donn~e comme suit: 
+f 
+&,=- 
+· 
+E 
+• E,: module d'~lasticit~ de lacier 
+• v: effort normal r~duit, cas dune section rectangulaire 
+• 0 : pourcentage normalis~ des armatures verticales d'~mes 
+A, 
+f 
+ft L- 
+(4, -21).b, fa 
+• A,» : section de ferraillage correspondant ~ la section de l~me du voile 
+• f: valeur de calcul de la limite d'~lasticit~ de lacier 
+• f: valeur de calcul de la r~sistance du b~ton ~ la compression 
+• a: coefficient d'efficacit~ du confinement, ~gal ~ (0,,.a,). avec: 
+{ 
+b2 
+,=I-2L»(it 
+a,=( {)(- 5) 
+(7.33) 
+(7.34) 
+(7.35) 
+- n: nombre total de barres longitudinales lat~ralement maintenues par des armatures de 
+confinement ou des ~pingles ; 
+- b; : distance entre des barres maintenues cons~cutives (cf. Figure (7.2a) 
+- bo. ho. t: grandeurs g~om~triques (cf. Figure (7.2a). 
+Il convient de pr~voir une valeur minimale de a ~gale ~ 0.12 dans la zone critique ~ la base 
+du voile. 
+Le coefficient de ductilit~ en courbure (ta) peut ~tre d~termin~ selon Eqn. (7.36), en fonction de 
+la p~riode fondamentale (To), de la valeur (T) du spectre de calcul, du coefficient de comportement 
+(R/Qr) et du rapport (Meo/Mao). 
+{ 2.(gF.ၑ)-] 
+Ho = 
+1+2/(3, {-1h; 
+F 
+RD 
+0 
+.siTo > T 
+. si To < T 
+(7.36) 
+Mpp est le moment fl~chissant issu de T analyse (enveloppe de calcul d~cal~e de h,,) ~ la base 
+du mur (cf Figure (7.13)); Mp est la r~sistance ~ la flexion de calcul. 
+La position de Faxe neutre, x. correspondant ~ la courbure ultime apr~s ~clatement du b~ton 
+situ~ hors du noyau confin~ des ~l~ments de rive peut ~tre estim~e comme suit: 
+(7.37) 
+Les param~tres de I'Eqn. 7.37 sont d~finis dans les sections pr~c~dentes (cf. Eqns. (7.11) & 
+(7.34), Figures (7.16)). 
+
+
+=== printed 129 pdf idx 78 ===
+7. 7 Voiles de contreventement 
+129 
+Pour calculer la longueur comprimee des parties de rive, le.ca/cul, ii est necessaire de calculer le 
+raccourcissement Ii mite a la rupture, Ecu,c, du beton comprime: 
+Ecu,c = 0.0035 + 0.] aWwd 
+soit done : 
+Cc,.1 
+lc,ca/cul =Xu. ( 1 - --) 
+f cu,c 
+avec: Ec11 = 0.0035 
+Cette longueur lc.catcut doit etre superieure a 1nax(O. I Sl.., ; I .Sb..,). 
+Ferraillage de la zone superieure 
+(7 .38) 
+(7.39) 
+La zone superieure des voiles elances peut etre consideree comme une zone elastique devant resister 
+aux sollicitations ; son dimensionnement peut etre conduit selon Jes regles classiques de beton 
+arme. Pour eviter toute plastification de cette zone, !es sollicitations de calcul sont constituees par 
+l'enveloppe des moments et/ou de !'effort tranchant amplifie. Les dispositions ci-dessous doivent 
+etre respectees : 
+• !es barres verticales principales d'extremite doivent etre stabilisees contre le phenomene de 
+flambement ; 
+• Les barres horizontales doivent etre munies de crochets a leurs extremites. 
+Voiles courts 
+Il s'agit du calcul classique de beton arme defini par la reglementation technique en vigueur. Pour 
+ce type d'elements, la rupture predominante est due a !'effort tranchant; en effet, leurs ruptures, par 
+)'effort tranchant, ne sont pas ductiles. 
+Regles communes 
+Les longueurs de recouvrement doivent etre egales a : 
+• 60<P1 pour les barres situees dans les zones IV, V et VI ; 
+• socp, pour les barres situees dans les zones I, II et Ill. 
+Le long des joints de reprise de coulage, !'effort tranchant doit etre pris par les aciers de couture 
+dont la section doit etre calculee avec la formu le : 
+(7.40) 
+avec: V = l.4V,, 
+Seu! est rajoute l'ecart entre la section obtenue par Eqn. (7.40) et celle des barres existantes. 
+Elle doit etre constituee d'armatures de diametre minimum de I Omm avec une longueur minimum 
+d'ancrage de (SO<P1) . 
+ 
+ 
+7. 7 Voiles de contreventement 
+129 
+Pour calculer la longueur comprim~e des parties de rive, lecalet, il est n~cessaire de calculer le 
+raccourcissement limite ~ la rupture, &ae, du b~ton comprim~: 
+€a = 0.0035 +0.100, 
+soit done: 
+& 
+le.catet =x.(I-) 
+Fe.e 
+avec: €a = 0.0035 
+(7.38) 
+(7.39) 
+Cette longueur le.ate doit ~tre sup~rieure ~ max(0.151 ; 1.5b,). 
+Ferraillage de la zone sup~rieure 
+La zone sup~rieure des voiles ~lanc~s peut ~tre consid~r~e comme une zone ~lastique devant r~sister 
+aux sollicitations ; son dimensionnement peut ~tre conduit selon les r~gles classiques de b~ton 
+arm~. Pour ~viter toute plastification de cette zone, les sollicitations de calcul sont constitu~es par 
+l'enveloppe des moments et/ou de l'effort tranchant amplifi~. Les dispositions ci-dessous doivent 
+~tre respect~es : 
+• les barres verticales principales d'extr~mit~ doivent ~tre stabilis~es contre le ph~nom~ne de 
+flambement ; 
+• Les barres horizontales doivent ~tre munies de crochets ~ leurs extr~mit~s. 
+Voiles courts 
+II s'agit du calcul classique de b~ton arm~ d~fini par la r~glementation technique en vigueur. Pour 
+ce type d'~l~ments, la rupture pr~dominante est due ~ l'effort tranchant; en effet, leurs ruptures, par 
+I' effort tranchant, ne sont pas ductiles. 
+R~gles communes 
+Les longueurs de recouvrement doivent ~tre ~gales ~: 
+• 60¢y pour les barres situ~es dans les zones IV, Vet VI; 
+• 50¢y pour les barres situ~es dans les zones I, II et III 
+Le long des joints de reprise de coulage, I' effort tranchant doit ~tre pris par !es aciers de couture 
+dont la section doit ~tre calcul~e avec la formule : 
+V 
+A,, = 1.I(-) 
+fe 
+(7.40) 
+avee: V = 1.4V, 
+Seul est rajout~ l'~cart entre la section obtenue par Eqn. (7.40) et celle des barres existantes. 
+Elle doit ~tre constitu~e d'armatures de diam~tre minimum de IOmm avec une longueur minimum 
+dancrage de (500p). 
+
+
+=== printed 130 pdf idx 79 ===
+130 
+Chapter 7. STRUCTURES EN BETON ARME 
+7.8 
+Jonction d'armatures 
+II ne doit pas y avoir de jonction par recouvrement par soudure a l'interieur des zones critiques des 
+elements de structure : 
+• lo : longueur minimale de recouvrement 
+• a : distance entre barres 
+• 
+<J> : diarnetre de la barre tendue 
+II peut y avoir des jonctions par coupleurs mecaniques dans Jes poteaux et Jes voiles, si le 
+fonctionnement de ces dispositifs est valide par des essais appropries en conformite aux normes 
+d'essais portant sur les dispositifs de raboutage mecanique des barres. 
+~ 0.31, 
+Fs 
+--- ~~~
+~~~
+~~~
+~ 
+_.J 
+I 
+lo 
+.. , :, 50mm 
+' !', 4<), 
+<), 
+F, -
+! J 
+?: 2<), 
+> 20mm 
+F, -
+F. -
+Figure 7 .19: Recouvrements voisins 
+Les recouvrements des barres doivent respecter Jes dispositions de la figure (7 .18), et ne doivent 
+pas etre disposees dans des zones fortement sollicitees (rotules plastiques, par exemple). 
+7.9 Dispositions propres aux dalles et aux diaphragmes 
+II doit exister un chainage peripherique continu (cf. Figure (7 .17)), d'au mains 3cm2 de section 
+d'acier et un cha111age, au croisement de chaque element de contreventement avec le plancher, de 
+section mini male, egale I .5cm2, et respectant la regle de: 
+• (0.28L) dans le cas de contreventement par voile 
+• (O.SOL) dans le cas de contreventement par portiques 
+avec: 
+L (unite: m) : largeur chainee. 
+Daile 
+Figure 7.20: Chainages des dalles et des diaphragmes 
+ 
+ 
+130 
+Chapter 7. STRUCTURES EN BETON ARME 
+7.8 
+Jonction d'armatures 
+Il ne doit pas y avoir de jonction par recouvrement par soudure ~ l'int~rieur des zones critiques des 
+~l~ments de structure: 
+• lo : longueur minimale de recouvrement 
+• a : distance entre barres 
+• : diam~tre de la barre tendue 
+11 peut y avoir des jonctions par coupleurs m~caniques dans Jes poteaux et Jes voiles, si le 
+fonctionnement de ces dispositifs est valid~ par des essais appropri~s en conformit~ aux normes 
+d'essais portant sur les dispositifs de raboutage m~canique des barres. 
+20.3% 
+l 
+-" 
+I 
+I 
+< 60mm 
+4<4¢ 
+¢ 
+F, 
+u 
+i 
+I 
+a-+ 
+I 
+- 
+2> 2¢ 
+> 20mm 
+F, 
+• 
+] 
+F. - 
+Figure 7.19: Recouvrements voisins 
+Les recouvrements des barres doivent respecter Jes dispositions de la figure (7.18), et ne doivent 
+pas ~tre dispos~es dans des zones fortement sollicit~es (rotules plastiques, par exemple). 
+7.9 
+Dispositions propres aux dalles et aux dlaphragmes 
+Il doit exister un cha~nage p~riph~rique continu (cf. Figure (7.17)), d'au moins 3cm de section 
+d'acier et un cha~nage. au croisement de chaque ~l~ment de contreventement avec le plancher, de 
+section minimale, ~gale 1.5cm', et respectant la r~gle de: 
+• (0.28L) dans le cas de contreventement par voile 
+• (0.50L) dans le cas de contreventement par portiques 
+avec: 
+L (unit~: m) : largeur cha~n~e. 
+Daile 
+Figure 7.20: Chainages des dalles et des diaphragmes 
+
+

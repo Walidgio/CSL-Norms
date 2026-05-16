@@ -1,9 +1,6 @@
 {{-- Chapitre 5 — combinaisons (suite) ; repère imprimé env. p. 88 --}}
 <section id="rpa-p88" class="rpa-page rpa-scroll-spy-section" data-annotatable="true">
-    <div class="rpa-header-meta flex justify-between text-sm text-gray-500 mb-6 border-b border-black pb-1">
-        <span>88</span>
-        <span class="italic chapter">Chapitre 5. Justification de la sécurité</span>
-    </div>
+    @include('norms::codes.rpa.rpa2024.partials.rpa-page-header', ['page' => 88, 'meta' => 'norms::codes.rpa.rpa2024.partials.ch5-running-meta'])
 
     <p class="text-justify mb-4 leading-relaxed">Les effets <i>E<sub>1</sub></i> et <i>E<sub>2</sub></i> sont définis par :</p>
 
@@ -54,7 +51,7 @@
     </aside>
 
     <section id="rpa-art-5.2.2" class="mt-10" style="scroll-margin-top: 100px;" aria-labelledby="rpa-ch5-h-5-2-2">
-        <h3 id="rpa-ch5-h-5-2-2" class="rpa-h3" style="color: #c05621;">5.2.2 Composante verticale de l'action sismique</h3>
+        <h3 id="rpa-ch5-h-5-2-2" class="rpa-h3">5.2.2 Composante verticale de l'action sismique</h3>
         <p class="text-justify mb-4 leading-relaxed">
             Les effets de la composante verticale de l'action sismique, définie au <a href="#rpa-art-3.3.2" class="rpa-inline-link">paragraphe 3.3.2</a>, doivent être pris en compte si la valeur du produit (<i>A<sub>v</sub></i>.<i>I</i>.<i>g</i>) est supérieure à (0.25<i>g</i>), dans les cas suivants :
         </p>
@@ -66,11 +63,10 @@
             <li>Structures sur appuis parasismiques.</li>
         </ul>
 
-        <div class="rpa-table-container overflow-x-auto">
-            <table class="rpa-table min-w-[320px]" id="rpa-table-5.1">
-                <caption class="text-left text-sm font-semibold mb-3 px-1">
-                    Tableau 5.1 — Coefficients d'accélération verticale en fonction de la zone sismique et du groupe d'importance (sans effet topographique, <i>S<sub>T</sub></i> = 1). L'action sismique verticale <i>A<sub>v</sub></i> est obligatoire lorsque (<i>A<sub>v</sub></i>.<i>I</i>.<i>g</i>) dépasse 0,25 <i>g</i>.
-                </caption>
+        <div class="rpa-table-showcase my-6" id="rpa-table-5.1" style="scroll-margin-top: 100px;">
+            <p class="rpa-table-showcase__kicker">Composante verticale — <i>S<sub>T</sub></i> = 1</p>
+            <div class="rpa-table-showcase__surface overflow-x-auto">
+            <table class="rpa-table min-w-[320px]">
                 <thead>
                     <tr>
                         <th rowspan="2" scope="col">Zonage sismique</th>
@@ -93,6 +89,8 @@
                     <tr><th scope="row">VI</th><td>0,30 <i>I</i></td><td>0,378</td><td>0,324</td><td>0,270</td><td>0,216</td></tr>
                 </tbody>
             </table>
+            </div>
+            <p class="rpa-table-showcase__caption">Tableau 5.1 — Coefficients d'accélération verticale (sans effet topographique). L'action verticale <i>A<sub>v</sub></i> est obligatoire lorsque (<i>A<sub>v</sub></i>.<i>I</i>.<i>g</i>) dépasse 0,25 <i>g</i>.</p>
         </div>
 
         <p class="mt-8 text-justify leading-relaxed">Dans le cas de la composante verticale, les combinaisons d'actions suivantes doivent être utilisées (voir les <a href="#rpa-eqt-5.3" class="rpa-inline-link">équations (5.3)</a> et <a href="#rpa-eqt-5.4" class="rpa-inline-link">(5.4)</a>) :</p>

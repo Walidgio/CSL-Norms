@@ -13,22 +13,16 @@
         </div>
     </div>
 
-    <div class="rpa-header">
-        <span class="chapter">4. RÈGLES DE CALCUL</span>
-        <span>77</span>
-    </div>
+    @include('norms::codes.rpa.rpa2024.partials.rpa-page-header', ['page' => 77, 'meta' => 'norms::codes.rpa.rpa2024.partials.ch4-running-meta'])
 
-    <div id="rpa-art-4" style="scroll-margin-top: 100px;">
-        {{-- Stylized Title Border --}}
-        <div class="relative mb-12 mt-8">
-            <div class="absolute inset-0 border-2 border-orange-500 rounded-full -m-2 opacity-20"></div>
-            <div class="relative border-4 border-orange-500 rounded-full px-12 py-3 bg-white inline-block">
-                <h1 class="text-2xl font-black text-gray-900 tracking-wider uppercase mb-0">4. RÈGLES DE CALCUL</h1>
-            </div>
-        </div>
+    @include('norms::codes.rpa.rpa2024.partials.rpa-chapter-opening', [
+        'id' => 'rpa-art-4',
+        'numeral' => 'IV',
+        'title' => 'R&egrave;gles de calcul',
+    ])
 
         <div id="rpa-art-4.1" style="scroll-margin-top: 100px;">
-            <h2 class="rpa-h2" style="color: #c05621;">4.1 Choix de la méthode de calcul</h2>
+            <h2 class="rpa-h2">4.1 Choix de la méthode de calcul</h2>
 
             <div id="rpa-art-4.1.1" style="scroll-margin-top: 100px;">
                 <h3 class="rpa-h3">4.1.1 Méthodes utilisables</h3>

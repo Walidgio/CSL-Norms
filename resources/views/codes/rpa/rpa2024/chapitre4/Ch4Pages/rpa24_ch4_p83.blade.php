@@ -1,9 +1,6 @@
 {{-- ==================== PAGE 83 ==================== --}}
 <section id="rpa-p83" class="rpa-page rpa-scroll-spy-section" data-annotatable="true">
-    <div class="rpa-header">
-        <span>83</span>
-        <span class="chapter">4.3 Méthode d'analyse modale spectrale</span>
-    </div>
+    @include('norms::codes.rpa.rpa2024.partials.rpa-page-header', ['page' => 83, 'meta' => 'norms::codes.rpa.rpa2024.partials.ch4-running-meta'])
 
     <div id="rpa-art-4.3.4" style="scroll-margin-top: 100px;">
         <h3 class="rpa-h3">4.3.4 Combinaison des réponses modales</h3>
@@ -65,7 +62,7 @@
     </div>
 
     <div id="rpa-art-4.4" class="mt-12" style="scroll-margin-top: 100px;">
-        <h2 class="rpa-h2" style="color: #c05621;">4.4 Méthode d'analyse dynamique par accélérogrammes</h2>
+        <h2 class="rpa-h2">4.4 Méthode d'analyse dynamique par accélérogrammes</h2>
         
         <div id="rpa-art-4.4.1" style="scroll-margin-top: 100px;">
             <h3 class="rpa-h3">4.4.1 Principe</h3>

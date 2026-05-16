@@ -1,13 +1,10 @@
 <section id="rpa-p118" class="rpa-page rpa-scroll-spy-section">
-    <div class="rpa-header">
-        <span>118</span>
-        <span class="chapter">Chapter 7. STRUCTURES EN BETON ARME</span>
-    </div>
+    @include('norms::codes.rpa.rpa2024.partials.rpa-page-header', ['page' => 118, 'meta' => 'norms::codes.rpa.rpa2024.partials.ch7-running-meta'])
 
     <!-- Figure 7.8 SVG -->
     <div class="rpa-figure-container my-8" id="rpa-fig-7.8-container">
         @include('norms::codes.rpa.rpa2024.chapitre7.Ch7Svg.rpa24_ch7_fig7_8')
-        <div class="rpa-figure-title" id="rpa-fig-7.8">Figure 7.8: Epaisseur minimum en fonction des différentes configurations</div>
+        <div class="rpa-figure-title" id="rpa-fig-7.8">Figure 7.8: &Eacute;paisseur minimum en fonction des différentes configurations</div>
     </div>
 
     <!-- Figure 7.9 SVG -->

@@ -1,0 +1,106 @@
+7.7 Voiles de contreventement 123 
+• la premiere etape c onsiste a. avoir l' e nveloppe lin e aire qui joint le moment maximal it la ba se 
+a. ce lu.i au. so mm et . 
+• La d e uxieme e tap e co n s i s t e it d eca l e r ce tt e e n ve l oppe lin e aire ve rti ca l erne nt par l a hauteur 
+c ritiqu e. 
+L e di a.gramme du. m o mentfle c hissant, pour L es s ys t e m . es a. con tr eve nt eme nt mixte , p e ut eve ntu e ll e ­
+m e nt e tr e neg atif dan s L es e ta ges su.perieurs ( cf Fi gu r e (7 . J 3b )). 
+3- &weloppe de ca lcu!.._____., 
+d~alee d e /r e, 
+I· Dia.gr a mme de moment _ _,__,__., , 
+fl~hi ss ant i ss u de ranalysc 
+M 
+(a) 
+th 
+' 
+" 
+, , 
+,' ' 
+' ' 
+" · 
+' "' 
+M 
+(b) 
+~" 
+, , 
+'' 
+'' 
+' ' 
+Figur e 7 . 1 3: Enveloppe de calc ul pour !e s moment s flechi ssa nt 
+La hauteur , h e r , de la zone critique a u - d ess u s de la b ase du voile e s t es tim ee comme s uit (c f. 
+Figure ( 7.13)): 
+( h w) 
+h e r = max l w ; 
+6 
+(7.22) 
+et: 
+2 . lw 
+h e: pour n :::; 6 niveaux (7.23) 
+2.h e : p o ur n > 6 ni v eaux 
+ou : 
+• h e est l a h a uteur libre , de chaque niveau , la b ase etant le niveau de s fondations ou de 
+l 'e nca s trement d a n s l e s oubassement , e n pre se n ce de diaphra g me s e t de vo ile s periph e rique s 
+a d e quat s; 
+• h w est la hauteur total e du voi l e (cf. Figure (7.14)). 
+Pour !e s sys t e m es a contreventement mixte , conten a nt de s voiles e l ances , l' e nvelopp e de calcul 
+modifi ee, pou r ! es effo rt s tranchants , est don n ee par l a figure (7 . 15 ). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+7 . 7 V o il e s d e c o n t r e v e n t e m e n t 1 2 3 
+• l a p r e m i e r e ~ t a p e c o n s i s t e ~ a v o i r ! ' e n v e l o p p e l i n ~ a i r e q u i j o i n t l e m o m e n t m a x i m a l ~ l a b a s e 
+~ c e l u i a u s o m m e t . 
+• La d e u x i ~ m e ~ t a p e c o n s i s t e ~ d ~ c a l e r c e t t e e n v e l o p p e l i n ~ a i r e v e r t i c a l e m e n t p a r l a h a u t e u r 
+c r i t i q u e . 
+L e d i a g r a m m e d u m o m e n t fl ~ c h i s s a n t , p o u r l e s s y s t ~ m e s ~ c o n t r e v e n t e m e n t m i x t e , p e u t ~ v e n t u e l l e ­ 
+m e n t ~ t r e n ~ g a t i f d a n s l e s ~ t a g e s s u p ~ r i e u r s ( c f. Fi g u r e ( 7. 1 3 b ) ) . 
+3 - En v e l oppe d e 
+c al c ul _ 
+d~c a l ~ e de h e 
+2 - En v e l o ppe l i n ~ a i r e sf 
+I · Di a g r amm e d e m o m en t 
+# A h 
+fl ~c h i s san t i s s u de l ' ana l y s e 
+h e » 
+. M 
+( a ) 
++ 4 
+I 
+" 
+, 
+' 
+' I 
+h 
+l 
+' I 
+, 
+I 
+f . 
+(b ) 
+F i g u r e 7 . 1 3 : E n v e l o p p e d e c a l c u l p o u r l e s m o m e n t s fl ~ c h i s s a n t 
+L a h a u t e u r , h , , , d e l a z o n e c r i t i q u e a u - d e s s u s d e l a b a s e d u v o i l e e s t e s t i m ~ e c o m m e s u i t ( c f . 
+F i g u r e ( 7 . 1 3 ) ) : 
+( 7 . 2 2 ) 
+e t: 
+( 7 . 2 3 ) 
+2. 4 , 
+h e : p o u r n < 6 n i v e a u x 
+2 . h : p o u r n > 6 n i v e a u x 
+o ~ : 
+• h , e s t l a h a u t e ur Ii b r e , d e c h a q u e n i v e a u , l a b a s e ~ t a n t l e n i v e a u d e s fo n d a t i o n s o u d e 
+l ' e n c a s tr e m e n t d a n s l e s o u b a s s e m e n t , e n p r ~ s e n c e d e d i a p h r a g m e s e t d e v o i l e s p ~ r i p h ~ r i q u e s 
+a d ~ q u a t s ; 
+• h , e s t l a h a u t e u r t o t a l e d u v o i l e ( c f. F i g u r e ( 7. 1 4 ) ) . 
+P o u r l e s s y s t ~ m e s ~ c o n t r e v e n t e m e n t m i x t e , c o n t e n a n t d e s v o i l e s ~ l a n c ~ s , l ' e n v e l o p pe d e c a l c u l 
+m o d i fi ~ e . p o u r l e s e f fo rt s t r a n c h a n t s , e s t d o n n ~ e p ar l a fi g u r e ( 7 . 1 5 ) . 

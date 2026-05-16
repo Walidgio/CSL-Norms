@@ -1,0 +1,99 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+7 . 7 V o il e s d e c o n t r ev e n t e m e n t 
+1 2 5 
+F e r r a i l l a g e 
+d e s ~ l ~ re n ts d e r iv e 
+Le b~ t o n s i t u~ a u x ex t r ~ m i t ~ s de s v o i l e s ( ~ l ~ me n t s d e ri v e ) es t co n fi n ~ s u r u n e 
+l o n g u e u r, 
+l , m e s u r ~e 
+~ 
+p art i r 
+d u bo rd d u v o i l e 
+j u s q u' a u po i n t c o rre s po n d a n t 
+~ u n e d ~ f o r m a t i o n 
+c r i t i q u e 
+d u b~ t o n 
+p ri se 
+~ g a l e 
+~ ea = 0 , 3 5 % ( c f. 
+Fi g u re 
+( 7 . 1 6 ) ) . 
+Fi g u re 
+7 . 1 6 : E l ~ m e n ts d e ri v es 
+pou r 
+l e s v o i l e s 
+La 
+l o n g u eu r, 
+I , d e I ~ l ~ m e n t de ri v e d o i t 
+res pe c t e r 
+l a c o n d i t i o n : 
+l > m a ( 0 . 1 5 4 , . 1 . 5 b , ) 
+( 7 . 2 4 ) 
+a v e c ; 
+l 
+: l o n g u e u r 
+d u v o i l e 
+• 
+b , : l a r g e u r 
+de l ' ~ m e d u v oi l e 
+L' ~ pa i s se u r , 
+b , d e s 
+p a rt i es 
+c o n fi n ~ e s d e l a sec t i o n d u v o i l e ( ~ l ~ me n t s de r i v e ) ne d o i t 
+p a s 
+~ t re 
+i n f ~ ri e u r e ~ 2 00 m m . De 
+p l us , 
+s i l a 
+l o n g u e u r 
+d e l a 
+pa rt i e 
+c on fi n~ e n e 
+d~ p a s se 
+pas 
+l a v a l e u r m a x i m al e 
+m a x 2b , ; 0 . 2 L , ) , i l c o n v i e n t 
+q u e 
+b , ne so i t pas i n f ~ ri e u r e ~ h e / 1 5 , h , ~ t a n t l a h a u t e u r d ' ~ t a g e . S i 
+l a 
+l o n g u e u r 
+de l a 
+p art i e 
+c on fi n ~e e x c~ d e l a v a l e u r m a x i m a l e max ( 2b ; 0 . 2 l ) , i l c o n v i e n t a l o r s 
+q u e 
+b , n e s oi t 
+pa s 
+i n f ~ ri e u re ~ 
+h , / 1 
+( c f 
+F i g u r e 
+( 7 . 1 7 ) ) . 
+- � '· � ·- - - -:_ _ ' _ · _ � I : > h , l 1 0 
+, > 2 6 , , 0. 2 1 , 
+l s 2 6 , 0 . 2 1 , 
+Fi g u re 
+7 . I 7 : 
+E p a i s s e u r 
+m i n i m a l e de s ~ l ~ m e n ts d e ri v e c o n fi n e s 
+L' ~ l ~ m e n t d e ri v e 
+pe u t c o m p re n d re 
+de s m e m b ru res 
+o rt h o g o n a l e s 
+a u x vo i l e s . D a n s c e c a s , 
+s i l e v o i l e e s t r e l i ~ ~ u n e m e m b ru re ra i d i s se u se d ' u n e 
+~ p a i s se u r 
+( b y 
+2 h / 1 5 ) e t d u n e l o n g u e u r 

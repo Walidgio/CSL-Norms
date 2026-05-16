@@ -1,8 +1,5 @@
 <section id="rpa-p119" class="rpa-page rpa-scroll-spy-section">
-    <div class="rpa-header">
-        <span>119</span>
-        <span class="chapter">Chapter 7. STRUCTURES EN BETON ARME</span>
-    </div>
+    @include('norms::codes.rpa.rpa2024.partials.rpa-page-header', ['page' => 119, 'meta' => 'norms::codes.rpa.rpa2024.partials.ch7-running-meta'])
 
     <div class="rpa-comment my-6">
         <p><i>Commentaire : La limitation, exprimée par <a href="#rpa-eqt-7.11" class="rpa-link">Eqn. (7.11)</a>, a pour objectif, à défaut d'empêcher la rupture d'une section critique d'un voile (généralement soumis à une flexion composée), de la retarder ou, au cas où elle se produit, de faire en sorte qu'elle se manifeste, le plus souvent sous forme de rupture ductile, c'est-à-dire par rupture des aciers tendus (suite à leur allongement dans le palier plastique), préalablement à l'atteinte de la résistance ultime du béton comprimé. La disposition d'armatures transversales rapprochées, dans la zone critique concernée qu'elles confinent, contribue également à l'atteinte de cet objectif.</i></p>

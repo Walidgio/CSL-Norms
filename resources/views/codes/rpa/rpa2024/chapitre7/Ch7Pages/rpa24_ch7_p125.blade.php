@@ -1,9 +1,6 @@
 {{-- ==================== PAGE 125 ==================== --}}
 <section id="rpa-p125" class="rpa-page rpa-scroll-spy-section">
-    <div class="rpa-header">
-        <span>125</span>
-        <span class="chapter">Chapter 7. STRUCTURES EN BETON ARME</span>
-    </div>
+    @include('norms::codes.rpa.rpa2024.partials.rpa-page-header', ['page' => 125, 'meta' => 'norms::codes.rpa.rpa2024.partials.ch7-running-meta'])
 
     <h2 class="rpa-h2" id="rpa-art-7.7.4-rive" style="margin-top: 25px;">Ferraillage des éléments de rive</h2>
     <p style="text-align: justify;">
@@ -51,7 +48,7 @@
     <!-- Figure 7.17 -->
     <div class="rpa-figure-container mt-6" id="rpa-fig-7.17-container">
         @include('norms::codes.rpa.rpa2024.chapitre7.Ch7Svg.rpa24_ch7_fig7_17')
-        <div class="rpa-figure-title" id="rpa-fig-7.17">Figure 7.17: Epaisseur minimale des éléments de rive confinés</div>
+        <div class="rpa-figure-title" id="rpa-fig-7.17">Figure 7.17: &Eacute;paisseur minimale des éléments de rive confinés</div>
     </div>
 
     <p class="mt-6" style="text-align: justify;">

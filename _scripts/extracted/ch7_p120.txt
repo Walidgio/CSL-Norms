@@ -1,0 +1,82 @@
+7 . 7 Voiles de contreventement 
+v 
+Ao= - ----
+2.f e. sin(a ) 
+avec: 
+tg ( a) = " - ,2d': (cf . F i g ur e( 7 . 12 )) 
+V = V ca l c 11! (sa n s majoration ). 
+~ !:.._==_= _-===-,== -=- =-=-==r=-==--=== _ == _ ==r= - -=== _ == _='/i d · 
+I I I I f 
+Al) : I : I 
+___ L __ _ ..J _ __ l_ _ _ 
+I I I 
+I I I 
+I I 
+I 
+e 
+M 
+h 
+Figure 7 .11 : Efforts d a n s !e s bielles du linteau 
+e 
+Coupe A-A( a) 
+I 
+2: hA + 50U 
+J 
+Figure 7 . 1 2: Armatures de linte a ux 
+121 
+(7. 18 ) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+7. 7 V o i l e s d e c o n t r e v e n t e m e n t 1 2 1 
+V 
+Al p = 
+2 . f. . s i n ( o ) 
+( 7 . 1 8 ) 
+a v e c : 
+t g ( a ) = 
+! } : 
+( e f. 
+Fi g u r e 
+( 7 . 1 2 ) ) 
+V = V a e a t ( s a n s m a j o r a t i o n ) . 
+€ 
+v / 2 
+V / 
+- 
+e 
+M 
+h 
+I 
+;a-aa aaaa == -- --- = .aa.a aaaa aa.. =iiio ... 
+-;
+1 
+�
+ 
+d ' 
+F . 
+F i g u r e 
+7 . 1 1 : E f f o r t s d a n s l e s b i e ll e s d u li n t e a u 
+C o u p e 
+A - A ( a ) 
+r ' 
+J 
+' 
+[ 
+« 
+- =bbl[Lid}4 h ] t l 
+-+hebe4 
+j-''_,i 
+F i g u r e 
+7 . 1 2 : A r m a t ur e s d e li n t e a u x 

@@ -1,0 +1,145 @@
+1 46 
+Chapter 9 . STRUCTURES EN MA<;ONNERIE CHAI N EE 
+• Le s mur s non- s tructuraux qui ont un e fonction exclu s ive d e c loi s onnement. Leur s p o id s 
+propre s so nt tran s mi s aux mur s port e ur s par l ' intermediaire de s pl a nch e r s. 
+L es di s t a n ces m ax im a l es (e n m et re s) e ntr e l es mur s porteur s s ont fix ees e n fonction de l a zo n e 
+s i s mique (c f . Tableau (9.2)) . 
+La densite de mur s, pour c haque direction , doit etre s uffi sa nte pour ass ur e r une bonne res i s t a n ce 
+aux s ollicitation s s i s mique s. La densite demur s est qu a ntifiee a traver s l'indi ce, d , egal a (cf. Fi g ure 
+(9.2) , Tab l eau (9 . 3)) : 
+ou: 
+• A w = se ct i on horizont a l e totale de ! 'e n se mbl e de s mur s port e ur s d a n s une direction 
+• AP = s urface du plan c her 
+Zone s i s miqu e I e t II III IV 
+Y e t YI 
+Di s tance ( m ) 10 
+8 6 6 
+T a ble 9 . 2: Di s t a n ce m ax imale entre mur s 
+• 
+I 
+-
+~ 
+• 
+- - -
+• 
+- -
+- -
+n 
+' 
+~ 
+-
+i 
+-
+t Forrr sis miq,i, 
+Figur e 9.2: lndice d e den s ite demur s 
+Dan s le calcul de s s ections de s murs , i i y a l ieu de tenir compte au s si de s petites ouvertur es, 
+meme si leur surface ne depasse pa s I 0 % d e ce lle du mur , telle s que repre se ntees s ur la Figure 
+(9.3), avec : 
+• AT : Section effec t i ve demur a pr e ndre e n co n s ideration pour l a r es i s t a nce aux so llicit a ti o n s 
+s i s mique s. 
+9.4.3 Chainages 
+Chainages horizontaux 
+Le s c h ainages horizontaux (cf. Figure (9.4)) doi ve nt re g ner s ur toute l' e pai sse ur du mur (e pai sse ur 
+tot a l e d u mur s' il s ' agit d ' un mur a double paroi ) . Toutefoi s pour p er m e ttre la r ea li s ation de fa<;:ades 
+d a n s l esquelles l e s elements de beton arme n e re s t e nt pa s apparent s, i i est admis q u e la dimen s i o n 
+minimale de s chai'nages s oit ramenee a (2/3) de l'epai ss eur. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+1 4 6 C h a p t e r 9 . S T R U C T U R E S E N M A C O N N E RI E C H AI N E E 
+• L e s m u r s n o n - s t r u c t u r a u x 
+q u i 
+o n t u n e fo n c t i o n e x c l u s i v e d e c l o i s o n n e m e n t. L e ur s p o i d s 
+p r o p r e s 
+s o n t t r a n s m i s a u x m u r s 
+p o rt e u r s 
+p ar l ' i n t e r m ~ d i a i r e d e s p l a n c h e r s . 
+L e s d i s t a n c e s m a x i m a l e s ( e n m ~ t r e s ) e n t r e l e s m u r s 
+p o rt e u r s 
+s o n t fi x ~ e s e n f o n c t i o n d e l a z o n e 
+s i s m i q u e 
+( c f . T a b l e a u ( 9 . 2 ) ) . 
+L a d e n s i t ~ d e m u r s , 
+p o u r 
+c h a q u e 
+d i r e c t i o n , d o i t ~ t r e s u f fi s a n t e 
+p o u r 
+a s s u r e r u n e bo n n e r ~ s i s t a n c e 
+a u x s o l l i c i t a t i o n s 
+s i s m i q u e s . 
+L a d e n s i t ~ d e m u r s e s t q u a n t i fi ~ e ~ t r a v e r s l i n d i c e . d , ~ g a l ~ ( c f . F i g u r e 
+( 9. 2 ) , T a b l e a u ( 9 . 3 ) ) : 
+o ~ : 
+• A , = s e c t i o n h o r i z o n t a l e t o t a l e d e F ' e n s e m b l e d e s m u r s p o r t e u r s d a n s u n e d i r e c t i o n 
+• 
+A , = 
+s u r fa c e d u p l a n c h e r 
+Z o n e s i s m i q u e 
+D i s t a n c e ( m ) 
+I e t II 
+IO 
+III I V 
+8 6 
+V e t V I 
+6 
+T a b l e 9 . 2 : D i s t a n c e m a x i m a l e e n t r e m u r s 
+- 
+• 
+- 
+s 
+± 
+• 
+- - 
+• 
+- 
+• 
+- 
+- 
+n 
+Ii 
+Tl 
+- 
+- 
+t 
+F o r u s / .,,. q u, 
+F i g u r e 9 . 2 : I n d i c e d e d e n s i t ~ d e m u r s 
+D a n s l e c a lc u l d e s s e c t i o n s d e s m u r s , i i 
+y 
+a li e u d e t e n i r c o m p t e a u s s i d e s 
+p e t i t e s 
+o u v e r t u r e s , 
+m ~ m e s i l e u r s u rfa c e n e d ~ p a s s e p a s 1 0 % d e c e l l e d u m u r , t e l l e s q u e 
+r e p r ~ s e n t ~ e s 
+s u r l a F i g u r e 
+( 9 . 3 ) , a v e c : 
+• A r : S e c t i o n e ff e c t i v e d e m u r ~ p r e n d r e e n c o n s i d ~ r a t i o n p o u r l a r ~ s i s t a n c e a u x s o l l i c i t a t i o n s 
+s i s mi q u e s . 
+9 . 4 . 3 C h a ~n a g e s 
+C h a ~ n a g e s h o r i z o n t a u x 
+L e s c h a ~ n a g e s h o r i z o n t a u x ( c f. F i g u r e ( 9 . 4 ) ) d o i v e n t 
+r ~ g n e r 
+s u r t o u t e 
+I ' ~ p a i s s e u r 
+d u m u r 
+( ~ p a i s s e u r 
+t o t a l e d u m u r s ' i l s ' a g i t d u n m u r ~ d o u b l e p a r o i ) . To u t e f o i s p o u r 
+p e r m e t t r e 
+l a r ~ a l i s a t i o n d e 
+fa c a d e s 
+d a n s l e s q u e l l e s l e s ~ l ~ m e n t s d e b ~ t o n a rm ~ n e r e s t e n t 
+p a s a p p ar e n t s , 
+i l e s t a d m i s 
+q u e 
+l a d i m e n s i o n 
+m i n i m a l e d e s c h a ~ n a g e s s o i t r a m e n ~ e ~ ( 2 / 3 ) d e l ' ~ p a i s s e u r . 

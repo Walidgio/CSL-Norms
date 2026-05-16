@@ -50,7 +50,7 @@
             </div>
 
             {{-- Dynamic Content Area --}}
-            <div class="bg-white dark:bg-gray-800 sm:rounded-3xl shadow-xl shadow-gray-200/50 dark:shadow-none border-y sm:border border-gray-100 dark:border-gray-700 overflow-hidden relative" 
+            <div id="norms-reader-stage" class="bg-white dark:bg-gray-800 sm:rounded-3xl shadow-xl shadow-gray-200/50 dark:shadow-none border-y sm:border border-gray-100 dark:border-gray-700 overflow-hidden relative" 
                  style="{{ ($viewMode ?? 'html') === 'pdf' ? 'height: calc(100vh - 250px); min-height: 600px;' : '' }}"
                  data-annotatable="{{ ($viewMode ?? 'html') === 'html' ? 'true' : 'false' }}">
                 
@@ -64,8 +64,9 @@
 
                 @if($showPdf && $current['pdf'] && isset($current['pdf_file']))
                     {{-- Embedded PDF Viewer --}}
-                    <div class="w-full h-full bg-gray-100 dark:bg-gray-900 overflow-hidden">
-                        <iframe src="{{ asset('assets/norms/' . $current['pdf_file']) }}#toolbar=1&navpanes=0&scrollbar=1" 
+                    <div id="norms-pdf-wrap" class="w-full h-full bg-gray-100 dark:bg-gray-900 overflow-hidden">
+                        <iframe id="norms-pdf-frame"
+                                src="{{ asset('assets/norms/' . $current['pdf_file']) }}#toolbar=1&navpanes=0&scrollbar=1" 
                                 class="w-full h-full border-none shadow-inner"
                                 style="width: 100%; height: 100%; min-height: calc(100vh - 250px);"
                                 title="{{ $current['name'] }}">

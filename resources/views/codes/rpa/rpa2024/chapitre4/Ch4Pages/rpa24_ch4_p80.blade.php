@@ -1,43 +1,43 @@
 {{-- ==================== PAGE 80 ==================== --}}
 <section id="rpa-p80" class="rpa-page rpa-scroll-spy-section" data-annotatable="true">
-    <div class="rpa-header">
-        <span>80</span>
-        <span class="chapter">4.2 Méthode statique équivalente</span>
-    </div>
+    @include('norms::codes.rpa.rpa2024.partials.rpa-page-header', ['page' => 80, 'meta' => 'norms::codes.rpa.rpa2024.partials.ch4-running-meta'])
 
-    <div class="my-8 overflow-x-auto">
-        <table class="w-full border-collapse border border-gray-400 text-sm">
-            <thead>
-                <tr class="bg-gray-50 text-center">
-                    <th class="border border-gray-400 p-2 w-1/12">Cas</th>
-                    <th class="border border-gray-400 p-2">Nature de la charge d'exploitation</th>
-                    <th class="border border-gray-400 p-2 w-1/12">&psi;</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="border border-gray-400 p-2 text-center">1</td>
-                    <td class="border border-gray-400 p-2">B&acirc;timents d'habitation, bureaux ou assimil&eacute;s</td>
-                    <td class="border border-gray-400 p-2 text-center font-bold">0.20</td>
-                </tr>
-                <tr>
-                    <td class="border border-gray-400 p-2 text-center">2</td>
-                    <td class="border border-gray-400 p-2">B&acirc;timents accueillant du public de mani&egrave;re temporaire (Salles d'exposition, de f&ecirc;tes, lieux de culte, tribunes, stades, etc)</td>
-                    <td class="border border-gray-400 p-2 text-center font-bold">0.50</td>
-                </tr>
-                <tr>
-                    <td class="border border-gray-400 p-2 text-center">3</td>
-                    <td class="border border-gray-400 p-2">Entrep&ocirc;ts, b&acirc;timents de stockage, parkings, biblioth&egrave;ques et archives</td>
-                    <td class="border border-gray-400 p-2 text-center font-bold">1.00</td>
-                </tr>
-                <tr>
-                    <td class="border border-gray-400 p-2 text-center">4</td>
-                    <td class="border border-gray-400 p-2">Autres b&acirc;timents (cas &agrave; justifier par le projeteur en fonction de la dur&eacute;e de la charge d'exploitation)</td>
-                    <td class="border border-gray-400 p-2 text-center font-bold">...</td>
-                </tr>
-            </tbody>
-        </table>
-        <p id="rpa-table-4.2" class="text-center font-bold mt-2" style="scroll-margin-top: 100px;">Table 4.2: Valeurs du coefficient d'accompagnement &psi;</p>
+    <div class="rpa-table-showcase my-8" id="rpa-table-4.2" style="scroll-margin-top: 100px;">
+        <p class="rpa-table-showcase__kicker">Coefficient d'accompagnement</p>
+        <div class="rpa-table-showcase__surface overflow-x-auto">
+            <table class="rpa-table min-w-[480px]">
+                <thead>
+                    <tr>
+                        <th scope="col">Cas</th>
+                        <th scope="col">Nature de la charge d'exploitation</th>
+                        <th scope="col">&psi;</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="text-center">1</td>
+                        <td>B&acirc;timents d'habitation, bureaux ou assimil&eacute;s</td>
+                        <td class="text-center font-semibold">0,20</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">2</td>
+                        <td>B&acirc;timents accueillant du public de mani&egrave;re temporaire (salles d'exposition, de f&ecirc;tes, lieux de culte, tribunes, stades, etc.)</td>
+                        <td class="text-center font-semibold">0,50</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">3</td>
+                        <td>Entrep&ocirc;ts, b&acirc;timents de stockage, parkings, biblioth&egrave;ques et archives</td>
+                        <td class="text-center font-semibold">1,00</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">4</td>
+                        <td>Autres b&acirc;timents (cas &agrave; justifier par le projeteur en fonction de la dur&eacute;e de la charge d'exploitation)</td>
+                        <td class="text-center font-semibold">&hellip;</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p class="rpa-table-showcase__caption">Tableau 4.2 — Valeurs du coefficient d'accompagnement &psi;</p>
     </div>
 
     <div id="rpa-art-4.2.4" style="scroll-margin-top: 100px;">
@@ -76,39 +76,42 @@
             <p><i>C<sub>t</sub></i> : coefficient, fonction du système de contreventement, du type de remplissage et donné par le Tableau 4.3.</p>
         </div>
 
-        <div class="my-8 overflow-x-auto">
-            <table class="w-full border-collapse border border-gray-400 text-sm">
-                <thead>
-                    <tr class="bg-gray-50 text-center">
-                        <th class="border border-gray-400 p-2 w-1/12">Cas n&deg;</th>
-                        <th class="border border-gray-400 p-2">Syst&egrave;me de contreventement</th>
-                        <th class="border border-gray-400 p-2 w-1/12"><i>C<sub>t</sub></i></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td class="border border-gray-400 p-2 text-center">1</td>
-                        <td class="border border-gray-400 p-2">Portiques autostables en b&eacute;ton arm&eacute; sans remplissage en ma&ccedil;onnerie</td>
-                        <td class="border border-gray-400 p-2 text-center font-bold">0.075</td>
-                    </tr>
-                    <tr>
-                        <td class="border border-gray-400 p-2 text-center">2</td>
-                        <td class="border border-gray-400 p-2">Portiques autostables en acier sans remplissage en ma&ccedil;onnerie</td>
-                        <td class="border border-gray-400 p-2 text-center font-bold">0.085</td>
-                    </tr>
-                    <tr>
-                        <td class="border border-gray-400 p-2 text-center">3</td>
-                        <td class="border border-gray-400 p-2">Portiques autostables en acier ou en b&eacute;ton arm&eacute; avec remplissage en ma&ccedil;onnerie</td>
-                        <td class="border border-gray-400 p-2 text-center font-bold">0.050</td>
-                    </tr>
-                    <tr>
-                        <td class="border border-gray-400 p-2 text-center">4</td>
-                        <td class="border border-gray-400 p-2">Autres syst&egrave;mes (voiles, contreventement en K ou X, etc)</td>
-                        <td class="border border-gray-400 p-2 text-center font-bold">0.050</td>
-                    </tr>
-                </tbody>
-            </table>
-            <p class="text-center font-bold mt-2">Table 4.3: Valeurs du coefficient <i>C<sub>t</sub></i></p>
+        <div class="rpa-table-showcase my-8" id="rpa-table-4.3" style="scroll-margin-top: 100px;">
+            <p class="rpa-table-showcase__kicker">P&eacute;riode fondamentale — coefficient <i>C<sub>t</sub></i></p>
+            <div class="rpa-table-showcase__surface overflow-x-auto">
+                <table class="rpa-table min-w-[480px]">
+                    <thead>
+                        <tr>
+                            <th scope="col">Cas n&deg;</th>
+                            <th scope="col">Syst&egrave;me de contreventement</th>
+                            <th scope="col"><i>C<sub>t</sub></i></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="text-center">1</td>
+                            <td>Portiques autostables en b&eacute;ton arm&eacute; sans remplissage en ma&ccedil;onnerie</td>
+                            <td class="text-center font-semibold">0,075</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">2</td>
+                            <td>Portiques autostables en acier sans remplissage en ma&ccedil;onnerie</td>
+                            <td class="text-center font-semibold">0,085</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">3</td>
+                            <td>Portiques autostables en acier ou en b&eacute;ton arm&eacute; avec remplissage en ma&ccedil;onnerie</td>
+                            <td class="text-center font-semibold">0,050</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">4</td>
+                            <td>Autres syst&egrave;mes (voiles, contreventement en K ou X, etc.)</td>
+                            <td class="text-center font-semibold">0,050</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="rpa-table-showcase__caption">Tableau 4.3 — Valeurs du coefficient <i>C<sub>t</sub></i></p>
         </div>
 
         <p class="mb-4">Dans les cas n&deg; 3 et 4, on peut &eacute;galement utiliser la formule :</p>

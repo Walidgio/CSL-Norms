@@ -1,8 +1,5 @@
 <section id="rpa-p114" class="rpa-page rpa-scroll-spy-section">
-    <div class="rpa-header">
-        <span class="chapter">Chapter 7. STRUCTURES EN BETON ARME</span>
-        <span>114</span>
-    </div>
+    @include('norms::codes.rpa.rpa2024.partials.rpa-page-header', ['page' => 114, 'meta' => 'norms::codes.rpa.rpa2024.partials.ch7-running-meta'])
 
     <div class="rpa-indent">
         <div class="rpa-bullet">• Au moins deux barres d'aciers longitudinaux, à haute adhérence de diamètre 12 mm (dans les zones IV, V et VI), doivent être placées sur les faces supérieure et inférieure, sur la longueur totale de la poutre ;</div>

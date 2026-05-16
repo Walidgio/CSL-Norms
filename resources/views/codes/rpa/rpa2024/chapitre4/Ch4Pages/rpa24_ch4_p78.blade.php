@@ -1,64 +1,50 @@
 {{-- ==================== PAGE 78 ==================== --}}
 <section id="rpa-p78" class="rpa-page rpa-scroll-spy-section" data-annotatable="true">
-    <div class="rpa-header">
-        <span>78</span>
-        <span class="chapter">Chapter 4. RÈGLES DE CALCUL</span>
-    </div>
+    @include('norms::codes.rpa.rpa2024.partials.rpa-page-header', ['page' => 78, 'meta' => 'norms::codes.rpa.rpa2024.partials.ch4-running-meta'])
 
-    <div class="my-8 overflow-x-auto">
-        <table class="w-full border-collapse border border-gray-400 text-sm">
-            <thead>
-                <tr class="bg-gray-50 text-center">
-                    <th class="border border-gray-400 p-2" rowspan="2">Zone sismique</th>
-                    <th class="border border-gray-400 p-2" colspan="4">Groupe d'importance</th>
-                </tr>
-                <tr class="bg-gray-50 text-center">
-                    <th class="border border-gray-400 p-2 w-1/5">1A</th>
-                    <th class="border border-gray-400 p-2 w-1/5">1B</th>
-                    <th class="border border-gray-400 p-2 w-1/5">2</th>
-                    <th class="border border-gray-400 p-2 w-1/5">3</th>
-                </tr>
-            </thead>
-            <tbody class="text-center">
-                <tr>
-                    <td class="border border-gray-400 p-4 font-bold text-left">I et II</td>
-                    <td class="border border-gray-400 p-4">(*)</td>
-                    <td class="border border-gray-400 p-4">(*)</td>
-                    <td class="border border-gray-400 p-4">(*)</td>
-                    <td class="border border-gray-400 p-4">(*)</td>
-                </tr>
-                <tr>
-                    <td class="border border-gray-400 p-4 font-bold text-left">III et IV</td>
-                    <td class="border border-gray-400 p-4">
-                        &le; 3 niveaux<br>et<br>&le; 11 m
-                    </td>
-                    <td class="border border-gray-400 p-4">
-                        &le; 5 niveaux<br>et<br>&le; 17 m
-                    </td>
-                    <td class="border border-gray-400 p-4">
-                        &le; 7 niveaux<br>et<br>&le; 23 m
-                    </td>
-                    <td class="border border-gray-400 p-4">(*)</td>
-                </tr>
-                <tr>
-                    <td class="border border-gray-400 p-4 font-bold text-left">V et VI</td>
-                    <td class="border border-gray-400 p-4">
-                        &le; 2 niveaux<br>et<br>&le; 8 m
-                    </td>
-                    <td class="border border-gray-400 p-4">
-                        &le; 3 niveaux<br>et<br>&le; 11 m
-                    </td>
-                    <td class="border border-gray-400 p-4">
-                        &le; 5 niveaux<br>et<br>&le; 17 m
-                    </td>
-                    <td class="border border-gray-400 p-4">
-                        &le; 5 niveaux<br>et<br>&le; 17 m
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <p class="mt-4 text-sm"><b>Nota:</b> (*) signifie qu'il n'y a aucune limitation de nombre de niveaux ou de hauteur</p>
-        <p class="text-center font-bold mt-2">Table 4.1: Conditions d'application de la méthode statique équivalente</p>
+    <div class="rpa-table-showcase my-8" id="rpa-table-4.1" style="scroll-margin-top: 100px;">
+        <p class="rpa-table-showcase__kicker">M&eacute;thode statique &eacute;quivalente</p>
+        <div class="rpa-table-showcase__surface overflow-x-auto">
+            <table class="rpa-table min-w-[520px]">
+                <thead>
+                    <tr>
+                        <th rowspan="2" scope="col">Zone sismique</th>
+                        <th colspan="4" scope="colgroup">Groupe d'importance</th>
+                    </tr>
+                    <tr>
+                        <th scope="col">1A</th>
+                        <th scope="col">1B</th>
+                        <th scope="col">2</th>
+                        <th scope="col">3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">I et II</th>
+                        <td class="text-center">(*)</td>
+                        <td class="text-center">(*)</td>
+                        <td class="text-center">(*)</td>
+                        <td class="text-center">(*)</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">III et IV</th>
+                        <td class="text-center">&le; 3 niveaux<br>&le; 11 m</td>
+                        <td class="text-center">&le; 5 niveaux<br>&le; 17 m</td>
+                        <td class="text-center">&le; 7 niveaux<br>&le; 23 m</td>
+                        <td class="text-center">(*)</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">V et VI</th>
+                        <td class="text-center">&le; 2 niveaux<br>&le; 8 m</td>
+                        <td class="text-center">&le; 3 niveaux<br>&le; 11 m</td>
+                        <td class="text-center">&le; 5 niveaux<br>&le; 17 m</td>
+                        <td class="text-center">&le; 5 niveaux<br>&le; 17 m</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p class="rpa-table-showcase__caption">Tableau 4.1 — Conditions d'application de la m&eacute;thode statique &eacute;quivalente</p>
+        <p class="rpa-table-showcase__footnote"><b>Nota :</b> (*) aucune limitation de nombre de niveaux ou de hauteur.</p>
     </div>
 
     <div id="rpa-art-4.1.3" style="scroll-margin-top: 100px;">
@@ -71,7 +57,7 @@
     </div>
 
     <div id="rpa-art-4.2" class="mt-12" style="scroll-margin-top: 100px;">
-        <h2 class="rpa-h2" style="color: #c05621;">4.2 Méthode statique équivalente</h2>
+        <h2 class="rpa-h2">4.2 Méthode statique équivalente</h2>
         
         <div id="rpa-art-4.2.1" style="scroll-margin-top: 100px;">
             <h3 class="rpa-h3">4.2.1 Principe</h3>

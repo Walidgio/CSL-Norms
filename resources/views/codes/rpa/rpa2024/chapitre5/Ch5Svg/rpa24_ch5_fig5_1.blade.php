@@ -1,6 +1,6 @@
-<svg viewBox="0 0 500 250" class="w-full max-w-lg">
+<svg viewBox="0 0 500 250" class="w-full max-w-lg text-slate-900 dark:text-slate-100" style="font-family: 'Times New Roman', Times, serif;">
     <!-- Ground -->
-    <line x1="50" y1="200" x2="450" y2="200" stroke="black" stroke-width="4"/>
+    <line x1="50" y1="200" x2="450" y2="200" stroke="currentColor" stroke-width="4"/>
     <path d="M50 200 L450 200" stroke="black" stroke-width="1" stroke-dasharray="2,2"/>
     
     <!-- Building 2 (Taller) -->

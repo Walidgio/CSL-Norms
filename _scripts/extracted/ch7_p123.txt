@@ -1,0 +1,82 @@
+1 24 
+Chapter 7. STRUCTURES EN BETON ARME 
+' 
+h \\ 
+' 
+-
+' 
+h er 
+h , 
+y y 
+' 
+l,, . 
+.. ~ 
+Figure 7 . 1 4: Zone critique a la b ase du vo il e 
+Comm. e n.faire : L 'e n ve l o pp e d e c al c ul du dia g ramme d es effo rt s Ir an.chants es t co nstruit e en. tr ois 
+etapes: 
+• La premi e r e e t ape co n. s ist e a. amplifier l e dia g ram.m e i n itial d e 40%. 
+• La . deuxi e m e e tap e co nsi ste a. maint e nir la co urb e amplifiee d e la ba se du vo il e ju sq u 'a un.e 
+hauteur ega l e a. (h w/ 3). 
+• La troi sieme etape co nsiste en un. e e n ve lopp e lin ea ir e ent r e (h.., / 3) et l e sommet du voile. 
+L' e n. ve lopp e d e c al c ul m o difi ee p ou r Les effo rt s tran. c hants es t va lable uniquem e nl pour les 
+s ys t emes a co n.tr eve n.t e ment mixte . C e tt e modifi ca tion es t fai t e pour t e n.ir compte des in.certitudes 
+dues aux mod es super i eurs. 
+V /2 
+.!'<---+-+-+-- I - Courbed ' cffor t tranchant 
+issue de 11 analyse de structure 
+V - 1 ,41{, 
+Figur e 7 .1 5: Enveloppe d e ca lc u l pour ! es effo rt s tr a nchant s d a n s J es vo il es e l a n ces de s sys t e me s a 
+co n tr eve n tement mixte 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+1 2 4 
+C h a p t e r 7 . S T R U C TU R E S E N B E T O N A R M E 
+A 
+h 
+' 
+A 
+h a 
+h e 
+I' I' 
+A 
+F i g ur e 7 . 1 4 : Z o n e 
+c r i t i q u e 
+a l a b a s e d u v o i l e 
+C o m m e n t a i r e : L ' e n v e l o p p e d e c a l c u l d u d i a g r a m m e d e s e ffo r t s t r a n c h a n t s e s t c o n s t r u i t e e n t r o i s 
+~ t a p e s : 
+• La p r e m i ~ r e ~ t a p e c o n s i s t e ~ a m p l i fi e r l e d i a g r a m m e i n i t i a l d e 4 0 % . 
+• La d e u x i ~ m e ~ t a p e c o n s i s t e ~ m a i n t e n i r l a c o u r b e a m p l i fi ~ e d e l a b a s e d u v o i l e j u s q u ' ~ u n e 
+h a u t e u r ~ g a l e ~ ( h , , / 3 ) . 
+• La t r o i s i ~ m e ~ t a p e c o n s i s t e e n u n e e n v e l o p p e l i n ~ a i r e e n t r e 
+( h , / 3 ) 
+e t l e s o m m e t d u v o i l e . 
+L ' e n v e l o p p e d e c a l c u l m o d i f ~ e p o u r l e s e ffo r t s t r a n c h a n t s e s t v a l a b l e u n i q u e m e n t p o u r l e s 
+s y s t ~ m e s ~ c o n t r e v e n t e m e n t m i x t e . C e t t e m o d i fi c a t i o n e s t fa i t e p o u r t e n i r c o m p t e d e s i n c e r t i t u d e s 
+d u e s a u x m o d e s s u p ~ r i e u r s . 
+/ 2 
+h 
+Ht4
+3 - E ffo rt 
+t r an ch an t d e ca l cu l 
+2 - E ffo rt t r an ch an t 
+am p lifi ~ 
+1 - C o ur b e d ' e ffo rt t r an ch an t 
+i s s u e d e l ' an a l y s e d e s t ru ct ure 
+M 
+- 1 , 4 % 
+F i g u r e 7 . 1 5 : E n v e l o p p e d e c a l c u l p o u r l e s e ff o r t s t r a n c h a n t s d a n s l e s v o i l e s ~ l a n c ~ s d e s 
+s y s t ~ m e s 
+~ 
+c o n t r e v e n t e m e n t m i x t e 

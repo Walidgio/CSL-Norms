@@ -1,12 +1,9 @@
 {{-- Chapitre 5 — effet P-Δ ; repère imprimé env. p. 91 --}}
 <section id="rpa-p91" class="rpa-page rpa-scroll-spy-section" data-annotatable="true">
-    <div class="rpa-header-meta flex justify-between text-sm text-gray-500 mb-6 border-b border-black pb-1">
-        <span>91</span>
-        <span class="italic chapter">Chapitre 5. Justification de la sécurité</span>
-    </div>
+    @include('norms::codes.rpa.rpa2024.partials.rpa-page-header', ['page' => 91, 'meta' => 'norms::codes.rpa.rpa2024.partials.ch5-running-meta'])
 
     <section id="rpa-art-5.9" class="mt-2" style="scroll-margin-top: 100px;" aria-labelledby="rpa-ch5-h-5-9">
-        <h3 id="rpa-ch5-h-5-9" class="rpa-h2" style="color: #c05621;">5.9 Justification vis-à-vis de l'effet P-Δ</h3>
+        <h3 id="rpa-ch5-h-5-9" class="rpa-h2">5.9 Justification vis-à-vis de l'effet P-Δ</h3>
         <p class="text-justify mb-4 leading-relaxed">
             Les effets du 2<sup>e</sup> ordre (ou effet P-Δ) peuvent être négligés dans le cas des bâtiments si la condition suivante est satisfaite à tous les niveaux :
         </p>
@@ -94,10 +91,10 @@
         </ul>
     </section>
 
-    <figure id="rpa-fig-5.2" class="flex flex-col items-center mt-10 mb-2" style="scroll-margin-top: 100px;">
-        <figcaption class="text-sm font-bold mb-4 text-center max-w-lg">Figure 5.2 — Effet P-Δ</figcaption>
-        <div class="w-full flex justify-center" aria-hidden="true">
-            @include('norms::codes.rpa.rpa2024.chapitre5.Ch5Svg.rpa24_ch5_fig5_2')
-        </div>
-    </figure>
+    @include('norms::codes.rpa.rpa2024.partials.rpa-figure-showcase', [
+        'id' => 'rpa-fig-5.2',
+        'kicker' => 'Stabilité de forme',
+        'caption' => 'Figure 5.2 — Effet P-Δ',
+        'svg' => 'norms::codes.rpa.rpa2024.chapitre5.Ch5Svg.rpa24_ch5_fig5_2',
+    ])
 </section>

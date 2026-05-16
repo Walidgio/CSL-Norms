@@ -6,6 +6,7 @@
     @include('norms::partials.ui-theme-init')
     @if(isset($current))
         @include('norms::partials.doc-lecture-theme')
+        @include('norms::partials.reader-magic-styles')
     @endif
     <div class="flex flex-col h-screen overflow-hidden bg-gray-50 dark:bg-gray-900 {{ isset($current) ? 'zen-mode-active' : '' }}">
         {{-- Header Bar --}}
@@ -110,6 +111,22 @@
 
             {{-- Content Area --}}
             @include('norms::partials.content')
+
+            @if(isset($current))
+                @php
+                    $familySlug = $currentFamily['slug'] ?? '';
+                    $versionSlug = $current['slug'] ?? '';
+                    $viewPath = "norms::codes.{$familySlug}.{$versionSlug}.index";
+                    $hasHtmlView = view()->exists($viewPath);
+                    $showPdf = ($viewMode ?? 'html') === 'pdf' || !$hasHtmlView;
+                @endphp
+                @include('norms::partials.reader-magic-bar', [
+                    'showPdf' => $showPdf,
+                    'current' => $current,
+                    'viewMode' => $viewMode ?? 'html',
+                ])
+                @include('norms::partials.reader-magic-script')
+            @endif
 
             {{-- Global Remark System (Bulb Panel) --}}
             @if(isset($current))

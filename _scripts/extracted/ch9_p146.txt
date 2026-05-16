@@ -1,0 +1,248 @@
+9.4 Concept i o n 
+1 47 
+Nombre 
+Zones Sismiques et Sites 
+de 
+ni vea ux 
+I et II 
+III IV e t V VI 
+Tout site 
+S1 et S2 S 3 e t S4 S1 et S 2 S3 et S4 S1 e t S2 S3 et S4 
+Briques pleines , blocs de beton pleins, moe ll ons 
+1-2 
+1.5 
+2 . 0 2.5 3.0 
+3.5 
+4 . 0 4.5 
+3 
+2 . 0 2.5 3.0 3.5 4.0 NA NA 
+4 
+3 . 0 
+3 . 5 4.0 NA NA 
+NA 
+NA 
+5 4.5 NA NA 
+NA 
+NA NA NA 
+B riques creuses, blocs de beton creux 
+1-2 
+2.0 2.5 3.0 3.5 4.0 4 . 5 5.0 
+3 3 . 0 3 . 5 
+4.0 4.5 
+5 . 0 NA NA 
+4 4.0 
+4 . 5 
+5.0 NA 
+NA NA 
+NA 
+5 5 . 0 NA NA NA NA NA NA 
+Legende: "NA" sig n ifie non admis 
+Table 9.3: Indice de den s ite minima l e des murs, d ( % ), pour chaque direction d u batiment 
+f 
+n 
+A r = txr 
+(n) 
+h 
+I 
+/ 
+/ 
+h 
+I 
+(b) 
+·-- ~ 
+A < 0 . 1 L x 
+A r = L , x t 
+(c) 
+Figure 9.3: Panneaux demurs en mai;:onnerie confinee avec petites ouvertures : a) u n e ouverture en 
+dehors de s diagonale s peut etre negligee ; b) etc) ouvertures devant etre pri ses en compte 
+Le s c h ainages doi ve nt avoir une hauteur mini male de 1 5 cm. Le ur armature l ongitudinale doit 
+etre composee d'a u moin s une barre dans chaque ang l e de l a sec tion. Le minimum d 'armature 
+l ongitudinale des c h ainages horizonta u x est de 4 barres HA 1 2. L'espacement de deux barres d ' une 
+meme nappe horizont a le ne doit pas exceder 20 cm (cf. Figure (9 . 5)) . 
+Tout chainage horizontal doit comporter de s armatures transversale s d ' espacement, au p l us 
+ega l a l a hauteur d u chainage et a 25 cm . Les longueur s de recouvrement et d 'a ncrage sont ce ll es 
+donnees a u § 7.5.2 , soit: 
+• (50</>1) en zo n es I , II et III 
+• (60</>1) en zones IV , Vet VI. 
+Chainages verticau x 
+Ils seront realises sur toute la ha u te u r du mur et avec une section minimale ( 1 5cm x 15 cm). Les 
+sectio n s et di s posit i o n s minimales d'armature s sont J es memes que celles concemant J es cha1nages 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+9 . 4 C o n c e p t io n 1 4 7 
+N o mb re Zo n e s S i s mi q u e s e t S i te s 
+d e 
+n i v e a u x 
+T e t Il 
+Ill Iv e t V V I 
+T o u t s i t e S e t .$ , S e t S ; 
+S e t S 
+S e t S , 
+S e t S » 
+S e t S , 
+B ri q u e s p l ei n es , 
+b l oc s d e b~ ton 
+p l ei n s , 
+m oe ll o n s 
+1 - 2 1 . 5 2. 0 2. 5 3. 0 3. 5 4. 0 4. 5 
+3 2. 0 2. 5 3 . 0 3. 5 4 . 0 
+N A 
+N A 
+4 3 . 0 3. 5 4 . 0 N A N A N A N A 
+5 4 . 5 N A N A 
+N A N A 
+N A 
+N A 
+B ri q u e s 
+cre u se s , b l oc s d e b ~ t o n cre ux 
+1 - 2 2 . 0 2. 5 3. 0 3. 5 4 . 0 4 . 5 5. 0 
+3 3 . 0 3 . 5 
+4 . 0 
+4 . 5 5. 0 N A 
+N A 
+4 
+4 . 0 
+4. 5 
+5. 0 
+N A N A N A N A 
+5 
+5. 0 N A N A N A N A N A N A 
+L~ g e nde : " N A " 
+s i gn i fi e 
+n o n admi s 
+Ta b l e 9 . 3 : I n d i ce d e d e n s i t ~ mi n i ma l e d es m u r s , d ( % ) , 
+po ur c h a q u e 
+d i rec ti o n d u b ~ t i m e n t 
+A ss 
+A 
+Aao 
+I 
+' 
+' 
+g ­ 
+, 
+r 
+k -- -- - 
+I 
+« 
+· , 
+' 
+' 
+' 
+, 
+h 
+' , 
+' 
+h 
+. 
+, 
+I 
+, 
+, 
+' 
+I 
+l 
+, 
+' 
+' 
+, 
+, 
+, 
+, 
+' 
+, 
+, 
+' 
+' 
+, 
+' 
+, 
+, 
+' 
+, 
+, 
+' 
+' 
+, 
+, 
+' 
+, 
+, 
+' 
+' 
+­ 
+L 2 N1 . 6 
+­ - " 4 - + ­ 
+• 
+s h 1 5 
+J 
+A < 0 1 l x h 
+L T 6 
+L 
+- �  
+A r L x t 
+« 0 1 i x h A < 0 . 1 l x h 
+A i = ( + L ) x t 
+A r l x t 
+( a) 
+( b ) 
+( c 
+F i g ur e 9 . 3 : P ann e a u x d e m urs e n m a ~ o n n e ri e c o n fi n ~ e a v ec pe t i t e s o u v ert u r es : a ) u n e o u v e rt u re e n 
+de h or s d e s d i a g o n a l es 
+p e u t 
+~ tre 
+n ~ g l i g ~e ; 
+b ) e t c ) o u v ertu r e s d e v an t ~ tr e 
+p ri s es 
+e n co m p te 
+Le s 
+c ha~ n a g e s 
+d o i v e n t a v o ir u n e h a u t e u r mi ni m a l e d e 1 5 c m . Le u r arm a t u r e l o n g i t u d i n a l e d o i t 
+~ tr e 
+c o m po s ~ e 
+d ' a u m o i n s u n e b arr e d a n s 
+c h a q u e 
+an g l e d e l a se c ti o n . L e m i n i m u m d ' arma t u r e 
+l o n g i tud i n al e 
+d e s 
+c h a ~ n a g e s 
+h o riz o n t a ux e s t de 4 b arre s H A 1 2 . 
+L' e s p a ce m e n t 
+d e d e ux b arre s d ' u n e 
+m ~ m e 
+n a p pe 
+h o ri z o n ta l e n e d o i t 
+p as 
+e x c ~ d er 2 0 c m ( c f. 
+F i gu re 
+( 9 . 5 ) ) . 
+To u t 
+c h a~n a g e 
+h o ri z o n t a l d o i t 
+c o m po rt e r 
+d e s arm a t ur e s t r an s v e r s a l e s 
+d ' e s p a c e m e n t, 
+a u 
+p l u s 
+g a l ~ l a h a u t e u r d u c h a~ n a g e e t 2 2 5 c m . L e s l o n g u e ur s de r ec o u v r e m e n t e t d ' a n cr a g e s o n t ce l l e s 
+d o n n ~ e s a u $ 7 . 5 . 2 , s o i t : 
+( 5 0 ¢ p ) 
+e n z o n e s I , I I e t I I I 
+• ( 60 p ) e n z o n e s I V, V e t V I . 
+C h a in a g e s v e rti c a u x 
+I l s s e r o n t r~ a l i s~ s s u r t o u t e l a h a u t e ur d u m u r e t a v e c u n e s ec ti o n mi n i m a l e ( L 5 c m x 1 5 c m ) . Le s 
+sec t i o n s e t 
+d i s po s i ti o n s 
+m i n im al e s d ' arm at ure s s o n t l e s m ~ m e s q u e c e l l e s c o n ce rn a n t l e s c h a~ n a g e s 

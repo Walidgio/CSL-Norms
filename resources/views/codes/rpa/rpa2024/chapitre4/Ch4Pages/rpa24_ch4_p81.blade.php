@@ -1,9 +1,6 @@
 {{-- ==================== PAGE 81 ==================== --}}
 <section id="rpa-p81" class="rpa-page rpa-scroll-spy-section" data-annotatable="true">
-    <div class="rpa-header">
-        <span>81</span>
-        <span class="chapter">4.2 Méthode statique équivalente</span>
-    </div>
+    @include('norms::codes.rpa.rpa2024.partials.rpa-page-header', ['page' => 81, 'meta' => 'norms::codes.rpa.rpa2024.partials.ch4-running-meta'])
 
     <div id="rpa-art-4.2.5" style="scroll-margin-top: 100px;">
         <h3 class="rpa-h3">4.2.5 Distribution de la force sismique (V)</h3>

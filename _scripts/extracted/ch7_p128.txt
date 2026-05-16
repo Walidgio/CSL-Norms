@@ -1,0 +1,97 @@
+7. 7 Voiles de con t reventement 129 
+Pour ca lculer l a l o n g u e ur co mprim ee d es p arties d e ri ve, le. ca /cul, ii est n ecessa ire de calculer l e 
+raccourcis s ement Ii mi t e a l a rupture , E c u , c, du beton co mprim e: 
+E c u ,c = 0 .0 035 + 0.] aW wd 
+s oit done : 
+C c , . 1 
+l c , ca /cul =X u. ( 1 - --) 
+f c u , c 
+avec : E c
+11 
+= 0 .0 0 3 5 
+Cette l o n g u e u r l c. c a t c ut doit etre s up e ri e ur e a 1nax ( O. I Sl .., ; I . Sb ..,). 
+Ferraillage de la zone superieure 
+(7 .38) 
+( 7. 39) 
+La zone s uperi e ur e de s voiles e l a nce s peut e tre co n s ideree comme une zo n e e l as tiqu e d eva nt r es i s t e r 
+aux so llicitation s ; so n dimen s ionnem e nt p e ut etre co nduit se lon Je s r eg l es cla ss iqu es de beton 
+arme. Pour eviter tout e pla s tification de ce tte zone, ! es so ll ic it a tion s d e calcul so nt co n st itu ees p ar 
+l'enveloppe d es mom e nts et/ou de !' e ffort tran c h a nt a mplifi e . L es di s po s ition s ci-dessous doi ve nt 
+e tre re spec tee s : 
+• ! es barre s vertica l es prin c ipal es d ' ex tremit e doi ve nt et re s t ab ili sees contre le phen o m e n e de 
+fl a mbement ; 
+• L es barres h orizonta l es doivent etre munie s de croc h e t s a l e urs ex tremit es. 
+Voiles courts 
+Il s'agit du calcul clas s iqu e de beton ar m e d e fini par l a reglementation t ec hniqu e e n v i g u e ur. P o ur 
+ce t y pe d 'e l e m e nt s, l a rupt ur e predomin a nte est du e a ! 'e ffo rt tran c hant ; e n effe t , leur s ruptur es, p a r 
+) 'e ffort tr a nch a nt , n e so nt p as ductile s. 
+Regles communes 
+Les lon g ueurs d e recouvrement doivent etre egale s a : 
+• 60<P
+1 
+pour l es barres s itu ees d a n s l es zo n es IV , V et VI ; 
+• socp, pour l es b arres s itu ees dan s l es zo n es I , II e t Ill . 
+Le lon g d es joint s de repri se d e coulage , ! ' effort tranchant d o it e tre pri s par l es aciers de couture 
+dont la se ction doit e tr e ca lcul ee avec la formu l e : 
+(7.4 0) 
+avec : V = l.4V,, 
+Seu! est rajoute l ' ecart e ntr e l a sec tion obtenue par Eqn. (7.4 0 ) et ce ll e de s barre s existantes . 
+Elle d o it etre co n s titu ee d ' armatures d e di a metr e minimum de I Omm avec une longueur minimum 
+d ' ancrage de (S O <P
+1
+) . 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+7 . 7 V o i l e s d e c o n t r e v e n t e m e n t 1 2 9 
+P o u r c a l c u l e r l a l o n g u e u r c o m p ri m ~ e d e s p a rt i e s d e r i v e , l e c a l e t , i l e s t n ~ c e s s a i r e d e c a l c u l e r l e 
+r a c c o u r c i s s e m e n t l i m i t e ~ l a ru p t u r e , & a e , d u b ~ t o n c o m p r i m ~ : 
+€ a = 0 . 0 0 3 5 + 0 . 1 0 0, 
+s o i t d o n e : 
+& 
+l e . c a t e t = x . ( I - ) 
+F e . e 
+a v e c : € a = 0 . 00 3 5 
+( 7 . 3 8 ) 
+( 7 . 3 9 ) 
+C e t t e l o n g u e u r l e . a t e d o i t ~ t r e s u p ~ r i e u r e ~ m a x ( 0 . 1 5 1 ; 1 . 5 b , ) . 
+F e r r a i l l a g e d e l a z o n e s u p ~ r i e u r e 
+L a z o n e s u p ~ r i e u r e d e s v o i l e s ~ l a n c ~ s p e u t ~ t r e c o n s i d ~ r ~ e c o m m e u n e z o n e ~ l a s t i q u e d e v a n t r ~ s i s t e r 
+a u x s o l l i c i t a t i o n s ; s o n d i m e n s i o n n e m e n t p e u t ~ t r e c o n d u i t s e l o n l e s r ~ g l e s c l a s s i q u e s d e b ~ t o n 
+arm ~ . P o u r ~ v i t e r t o u t e p l a s t i fi c a t i o n d e c e t t e z o n e , l e s s o l l i c i t a t i o n s d e c a l c u l s o n t c o n s t i t u ~ e s p ar 
+l' e n v e l o p p e d e s m o m e n t s e t/ o u d e l' e f fo rt t r a n c h a n t a m p l i fi ~ . L e s 
+d i s p o s i t i o n s 
+c i - d e s s o u s d o i v e n t 
+~ tr e r e s p e c t ~ e s : 
+• l e s b arr e s v e r t i c a l e s p ri n c i p a l e s d ' e x t r ~ m i t ~ d o i v e n t ~ t r e s t a b i l i s ~ e s c o n t r e l e p h ~ n o m ~ n e d e 
+fl a m b e m e n t ; 
+• L e s b ar r e s h o r i z o n t a l e s d o i v e n t ~ t r e m u n i e s d e c r o c h e t s ~ l e u r s e x t r ~ m i t ~ s . 
+V o il e s c o u r t s 
+I I s ' a g i t d u c a l c u l c l a s s i q u e d e b ~ t o n a r m ~ d ~ fi n i p ar l a r ~ g l e m e n t a t i o n t e c h n i q u e e n v i g u e u r. P o u r 
+c e t y p e d ' ~ l ~ m e n t s , l a ru p t u r e p r ~ d o m i n a n t e e s t d u e ~ l ' e f f o r t t r a n c h a n t ; e n e f f e t , l e u r s ru p t u r e s , p ar 
+I' e f f o rt t r a n c h a n t , n e s o n t p a s d u c t i l e s . 
+R ~ g l e s c o m m u n e s 
+L e s l o n g u e u r s d e r e c o u v r e m e n t d o i v e n t ~ t r e ~ g a l e s ~ : 
+• 6 0 ¢ y p o u r l e s b a r r e s s i t u ~ e s d a n s l e s z o n e s I V, V e t V I ; 
+• 5 0 ¢ y p o u r l e s b a r r e s s i t u ~ e s d a n s l e s z o n e s I , I I e t I I I 
+L e l o n g d e s j o i n t s d e r e p ri s e d e c o u l a g e , I' e ff o rt t ra n c h a nt d o i t ~ t r e p r i s p ar ! e s a ci e r s d e c o u t u r e 
+d o n t l a s e c t i o n d o i t ~ t r e c a l c u l ~ e a v e c l a f o r m u l e : 
+V 
+A , , = 1 . I ( - ) 
+f e 
+( 7 .4 0 ) 
+a v e e : V = 1 . 4 V , 
+S e u l e s t r a j o u t ~ l ' ~ c a rt e n t r e l a s e c t i o n o b t e n u e p ar E q n . ( 7 . 4 0 ) e t c e l l e d e s b a rr e s e x i s t an t e s . 
+E l l e d o i t ~ t r e c o n s t i t u ~ e d ' a r m a t u r e s d e d i a m ~ t r e m i n i m u m d e I O m m a v e c u n e l o n g u e u r m i n i m u m 
+d an c r a g e d e ( 5 0 0 p ) . 

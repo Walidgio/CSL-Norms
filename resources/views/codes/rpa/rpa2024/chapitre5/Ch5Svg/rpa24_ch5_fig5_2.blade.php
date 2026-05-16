@@ -1,6 +1,6 @@
-<svg viewBox="0 0 400 300" class="w-full max-w-sm">
+<svg viewBox="0 0 400 300" class="w-full max-w-sm text-slate-900 dark:text-slate-100" style="font-family: 'Times New Roman', Times, serif;">
     <!-- Ground -->
-    <line x1="50" y1="250" x2="350" y2="250" stroke="black" stroke-width="3"/>
+    <line x1="50" y1="250" x2="350" y2="250" stroke="currentColor" stroke-width="3"/>
     
     <!-- Original Structure (Dashed) -->
     <rect x="150" y="50" width="100" height="200" fill="none" stroke="black" stroke-width="1" stroke-dasharray="5,5"/>

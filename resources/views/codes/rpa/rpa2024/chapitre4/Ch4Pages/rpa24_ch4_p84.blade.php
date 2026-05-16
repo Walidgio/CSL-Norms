@@ -1,12 +1,9 @@
 {{-- ==================== PAGE 84 ==================== --}}
 <section id="rpa-p84" class="rpa-page rpa-scroll-spy-section" data-annotatable="true">
-    <div class="rpa-header">
-        <span>84</span>
-        <span class="chapter">4.5 Prescriptions communes</span>
-    </div>
+    @include('norms::codes.rpa.rpa2024.partials.rpa-page-header', ['page' => 84, 'meta' => 'norms::codes.rpa.rpa2024.partials.ch4-running-meta'])
 
     <div id="rpa-art-4.5" style="scroll-margin-top: 100px;">
-        <h2 class="rpa-h2" style="color: #c05621;">4.5 Prescriptions communes aux méthodes d'analyse</h2>
+        <h2 class="rpa-h2">4.5 Prescriptions communes aux méthodes d'analyse</h2>
         
         <div id="rpa-art-4.5.1" style="scroll-margin-top: 100px;">
             <h3 class="rpa-h3">4.5.1 Justification de la sécurité</h3>

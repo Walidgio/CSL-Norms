@@ -1,0 +1,93 @@
+144 Chapter 9. STRUCTURES EN MA<;ONNERIE CHAINEE 
+~ LANCHER 
+CHAINAGES 
+FONDATIONS 
+CHAINAGE 
+Figure 9.1: Construction en m a9o nneri e c h a1' n ee avec pl a nch er e n b e ton ar m e 
+9.3 Materiaux 
+9.3.1 Generalites 
+La qualit e de s materiaux utili ses dan s la co n s truction joue un r o l e import a nt dan s la r es i s tanc e a ux 
+effor t s i s mique s. 
+L es materiaux co n sti tutif s so nt , entre a utre s: 
+• m oe llon s d e pi e rre 
+• pierres de t a i I l e 
+• briqu es et blo cs de terr e cuite 
+• blo cs e n b e t o n ( pl e in ou cre ux ) 
+• bricjues silico -ca lcaire s 
+• bl ocs de b eton de terr e stabi li see B.T.S. 
+• bl ocs de b e t o n ce llulair e a utocl ave 
+• mortier 
+• a rmature s m e t a llique s 
+• b e t o n 
+L e fo urni sse ur doit e tablir une fi c h e technique d o nn a nt J es caracteristiques phy s ique s e t me­
+caniques du mat er iau, notamment la r es i s tance caracteristique a la ruptur e en compre ss ion . 
+9.3.2 Specifications concernant les materiaux 
+Blocs de pierre 
+A defaut de determination experimentale , l a resistance caracteristique en compression est pri se 
+egale a l a va leur minim a le communement a dmi se e n fonction de la categorie de ro c he d ' origine. 
+Briques et blocs manufactures 
+Le s caracteristiques ph ys iqu es et mec a nique s de ces mat e riaux , et en particulier l a r es i s tan ce e n 
+compre ss i o n , doi ve nt et re conformes a u x prescription s t ec hnique s y afferentes . 
+En p a rticulier , l a resistance caracteristique minim a le en co mpres s ion ex igee e s t de 5 MPa . 
+Mortiers 
+Le s morti e r s utili ses po ur Je s construction s d es structures en m a9o nnerie sero nt a ba se d e ciment o u 
+ciment - chaux hydraulique et leur re s i s t a nce minimale caracteristique a la compression s era de 5 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+1 44 C h a p t e r 9 . S T R U C T U R E S E N M A C O N N E RI E C H AI N E E 
+�
+L A N C H E R 
+·c A u A s s s 
+/ 
+M U R 
+F O N D A TI O N S 
+C H A I N A G E 
+F i g u r e 9 . 1 : C o n s tru c t i o n e n m a ~ o n n e ri e c h a~ n ~ e a v e c p l a n c h e r e n b ~ t o n arm ~ 
+9 . 3 M a t ~ r i a u x 
+9 . 3 . 1 G ~ n ~ r a l i t ~ s 
+L a q u a l i t ~ d e s m a t ~ ri a u x u t i l i s ~ s d a n s l a c o n s tru c t i o n j o u e u n r ~ l e i m po rt a n t d an s l a r ~ s i s t a n c e a u x 
+e ff o rt s s i s mi q u e s . 
+Le s m a t ~ ri a u x c o n s ti t u t i f s s o n t , e n tr e a u tr e s : 
+• m o e ll o n s d e p i e rr e 
+• p i e rr e s d e t a ill e 
+• b ri q u e s e t b l o c s d e t e rr e c u i t e 
+• b l oc s e n b ~ t o n ( p l e i n o u c r e ux ) 
+• b ri q u es s i l i c o - c al c ai r e s 
+• b l oc s d e b ~ t o n d e t e rre s t a b i l i s ~e B . T. S . 
+• b l o c s d e b ~ t o n c e l l u l a i r e a u t oc l a v ~ 
+• m o rt i e r 
+• arm a t u r e s m ~ t al l i q u e s 
+• b~ t o n 
+Le f o um i s s e u r d o i t ~ ta b l i r u n e fi c h e t e c h ni q u e d o n n an t l e s c ar a c t ~ ri s ti q u e s 
+p h y s i q u e s 
+e t m ~ ­ 
+c a ni q u e s d u m a t ~ ri a u , n o ta m m e n t l a r ~ s i s t a n c e c ar a c t ~ ri s t i q u e ~ l a ru p t u re e n c o m p r e s s i o n . 
+9 . 3 . 2 S p ~ c i fi c a t i o n s c o n c e r n a n t l e s m a t ~ r i a u x 
+B l o c s d e p l e rr e 
+A d ~ f a u t d e d ~ t e rm i n a ti o n e x p~ ri m e n t a l e , l a r e s i s t an c e c ar a c t ~ ri s ti q u e e n 
+c o m p r e s s i o n 
+e s t 
+p ri s e 
+~ g al e ~ l a v a l e ur mi n i m al e c o mm u n ~ m e n t a d mi s e e n fo n c t i o n d e l a c a t ~ g o ri e d e r oc h e d ' o ri g i n e . 
+B r i q u e s e t b l o c s m a n u f a c t u r ~ s 
+Le s c ar a c t ~ ri s ti q u e s p h y s i q u e s e t m ~c an i q u e s d e c e s m a t ~ ri a u x , e t e n p art i c u l i e r l a r ~ s i s ta n c e e n 
+c o m p r es s i o n , d o i v e n t ~ tr e c o n fo rm e s a u x p r e s c ri p ti o n s t ec h n i q u e s y 
+aff ~ r e n t e s . 
+E n p arti c u l i e r , l a r ~ s i s t an c e c ara c t ~ ri s t i q u e mi n i m al e e n c o m p r e s s i o n e x i g ~e e s t d e 5 MP a. 
+M o rt i e r s 
+Le s m o rt i e r s u t i l i s ~ s p o u r l e s c o n s tru c t i o n s d e s s tru c t u r e s e n m a ~ o n n e ri e s e r o n t ~ b as e d e c i m e n t o u 
+c i m e n t - c h a u x h y d r a u l i q u e e t l e u r r ~ s i s t a n c e mi n i m a l e c ara c t ~ ri s t i q u e ~ l a 
+c o m p r e s s i o n 
+s e r a d e 5 

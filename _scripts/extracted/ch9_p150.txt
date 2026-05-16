@@ -1,0 +1,118 @@
+9 .4 Con c e p t i on 
+1 5 1 
+Le s d ime n s i o n s des trum ea u x e t l a h a ut e u r du b atime n t doivent respecter , par ai lleur s , J es 
+condit i ons suivantes ( cf. Figure (9 . 9 )): 
+{ 
+~a; 2 0.5L 
+T :S 1.5 
+Pour J es trum eaux ex tr e m es : 
+{ a1 , a4 2 I .O m: que ll e que soi t la zone 
+Pour J es a u t r es t r um ea u x : 
+Pour Je s zones IV, Vet VI: { a2 , a 3 2 l .Om 
+Po"' J es woes I, TI et Ill , { 
+D 
+H 
+II 
+~ 
+b1 
+a > b, + b , 
+2 - 3 
+a 
+> b ,+ b , 
+3 - 3 
+D 
+• 
+-
+b2 
+-
+• 
+L 
+o·, 
+:I I 
+i :I 
+I :I 
+:I i 
+i :I 
+Ill~ 
+i 
+b3 
+, 
+g 
+i 
+c. 
+Figure 9.9: Emplacement e t dimens i ons des ouvertures 
+9.4 . 6 Harpage a !' i nterfa c e mur-chainage vertical 
+Une bonne liaison en t r e l emur de ma9onner i e et le cha1nage ve 1 1ical est impor t ante pour u n bon 
+comportemen t de ce mur vis-a - vis de s so ll icitatio n s s i s mique s, e t pour eviter un deco ll ement 
+premature au nive a u d e ! ' interface m u r -c ha 1 nage . La liaison entre mur et chainage est u n e car­
+acteristique essentielle de l a constr u ctio n en ma9onnerie chainee et elle pe u t etre atteinte p a r l a 
+rea l isat i on d'indentations (murs de n t e l es) a !'interface mur-chainage , comme l e montre l a Figure 
+(9. 1 Oa ). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+9. 4 
+C once p ti o n 
+1 5 l 
+Les d i m e n s ion s des t ru e s et la hau t eu r d u b t i m en d doi ve n t 
+re s pec te r , 
+par 
+ai l le u rs, les 
+con d i t i on s 
+s u r van tes ( c f. Fi g ure 
+( 9 . 9 ) ) 
+Pour le s t ru m e a x e x t r e m es 
+t
+a u , a 
+Om 
+q ue l le q ue 
+soi t l a zone 
+Pour les zones I V , V et V I { a. a L. Om 
+Pou r les zones , I et L I 
+9 . 4 . 6 
+H a r pag e 
+l ' inte rf ac e 
+mu r - c hainag e 
+ve r t ic al 
+L e bo ne l i ai son en tre le m ur de maon e ri e e t le 
+ha a ge 
+ve rt ic a l est 
+i mport ant e pou r 
+um bon 
+c om por t m e n t de e mur v i s- v i s des sol / ic i t a t ions 
+1 m i0 e s , 
+et 
+pour 
+~ v i ter u n dcol lene n t 
+pr e m a t u r e 
+au n i vea u de l ' i n te rf ac e 
+m u r- -c ha na ge . 
+La l i a i son e n t re f ur et 
+c ha i nag e 
+est ne c ar ­ 
+a e t er i s tiq ue 
+sse nt ie l l e de la c on st ruc t ion e n 
+a o ee rie 
+c h i ne e t e l le 
+pe u t 
+e t re a t te i n te 
+pa r 
+l a 
+re a l i sat io n d ' i nde n t a t ion s 
+( murs 
+den t e les l in te rf ac e 
+f u r -c ha i n. a ge 
+c omme le mon tre la 
+Fi gur e 
+( 9. 1 0a 

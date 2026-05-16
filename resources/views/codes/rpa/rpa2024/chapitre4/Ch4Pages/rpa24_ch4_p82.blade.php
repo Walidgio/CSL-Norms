@@ -1,9 +1,6 @@
 {{-- ==================== PAGE 82 ==================== --}}
 <section id="rpa-p82" class="rpa-page rpa-scroll-spy-section" data-annotatable="true">
-    <div class="rpa-header">
-        <span>82</span>
-        <span class="chapter">4.2 Méthode statique équivalente</span>
-    </div>
+    @include('norms::codes.rpa.rpa2024.partials.rpa-page-header', ['page' => 82, 'meta' => 'norms::codes.rpa.rpa2024.partials.ch4-running-meta'])
 
     <div id="rpa-art-4.2.6" style="scroll-margin-top: 100px;">
         <h3 class="rpa-h3">4.2.6 Effets de la torsion</h3>
@@ -31,7 +28,7 @@
     </div>
 
     <div id="rpa-art-4.3" class="mt-12" style="scroll-margin-top: 100px;">
-        <h2 class="rpa-h2" style="color: #c05621;">4.3 Méthode d'analyse modale spectrale</h2>
+        <h2 class="rpa-h2">4.3 Méthode d'analyse modale spectrale</h2>
         
         <div id="rpa-art-4.3.1" style="scroll-margin-top: 100px;">
             <h3 class="rpa-h3">4.3.1 Principe</h3>

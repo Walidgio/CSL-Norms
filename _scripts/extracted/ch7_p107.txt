@@ -1,0 +1,112 @@
+108 
+Chapter 7. STRUCTURES EN BETON ARME 
+Le s dimen s ion s d e l a sec tion tran sve r sa l e de s poteau x doivent sa ti sfa ire !e s co ndition s s uiv a n tes 
+(c f. Figur e (7. 1 )): 
+Min ( b c, h c ) 2'. 25 cm : en zones I , II et III 
+Min ( b c, h c) 2'. 3 0 cm : en zones IV , V e t VI 
+Min (bc , h c) 2 16 : quelle qu e so it la zone 
+! < ~ < 4 : quelle que so it l a zo ne 
+Pour le s poteaux circu l aires , le di a m e tr e, D , de vra sat i sfa ir e J es co ndition s ci - de sso u s : 
+D 2'. 25 cm : e n zones I et II 
+D 2'. 30 cm : en zone III 
+D 2'. 3 5 cm : en zones IV , V e t VI 
+D 2'. ~ : qu e ll e que so it l a zo n e 
+LJ
+- - - u -
+I II 
+i ' i 
+ii i i 
+ii i i 
+[ ! !! 
+Se ct io n 1 - 1 
+o · 
+b e 
+h e 
+fci 
+Sec t io n 11-11 
+II 
+I 'i 
+ii ii 
+ii ii 
+i !]_ [T=! i 
+U - II 
+II - I I 
+-- - - - - - --
+o· 
+h 
+b 
+Figur e 7. I : Coffra ge d es poteaux 
+7 .4 . 2 Ferraillage 
+Exigences de duct i lite pour la zone critique 
+Les zones s ' e tendant s ur une di s t a nc e, l cr , a partir des deux sec tion s d ' extremite d ' un poteau , 
+doivent etre co n s ider ees co mrne de s zones critiques : 
+( 
+l e t 
+le,. = max I.Sh e ; 
+6 
+; 60 cm ) 
+( 7 . 2 ) 
+• h e (uni t es: cm): la p l u s grande dimen s i on de l a sec tion t ran sve r sa le du poteau 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+1 0 8 C h a p t e r 7 . S T R U C TU R E S E N B ET O N A R M E 
+L e s d i m e n s i o n s d e l a s e c t i o n t ra n s v e r s a l e d e s p o t e a u x d o i v e n t s a t i s fa i r e J e s c o n d i t i o n s s u i v a nt e s 
+( c f . F i g u r e ( 7 . 1 ) ) : 
+M i n ( b _ . h , ) > 2 5 c m : e n z o n e s I , I I e t I I I 
+M i n ( b . h ) > 3 0 c m : e n z o n e s I V . V e t V I 
+M i n ( b . . h , ) > 'k : q u e l l e q u e s o i t l a z o n e 
+} < '; 
+< 4 : q u e l l e q u e s o i t l a z o n e 
+P o u r l e s p o t e a u x c i r c u l a i r e s , l e d i a m ~ t r e , D , d e v r a s a t i s f a i r e l e s c o n d i t i o n s c i - d e s s o u s : 
+D > 2 5 c m : e n z o n e s I e t I I 
+D > 3 0 c m : e n z o n e I I I 
+D > 3 5 c m : e n z o n e s I V . V e t V I 
+D > 
+'{ : q u e l l e 
+q u e s o i t l a z o n e 
+- - - L - 
+I I ! 
+II 1 
+! i 
+! 1 
+= 
+I I 
+1 L 
+S e c t i o n I - I 
+7 
+b e 
+h , 
+& 
+Se c t i o n I I - I I 
+□ · 
+h 
+b 
+F i g u r e 7 . I : 
+C o ff r a g e 
+d e s p o t e a u x 
+7. 4 . 2 F e r r a i l l a g e 
+E x i g e n c e s d e d u c t i l i t ~ p o u r l a z o n e c r i t i q u e 
+L e s z o n e s s ' ~ t e n d a n t s u r u n e d i s t a n c e . l , , ~ p a rt i r d e s d e u x s e c t i o n s d ' e x t r ~ m i t ~ d ' u n 
+p o t e a u , 
+d o i v e n t ~ t r e c o n s i d ~ r ~ e s c o m m e d e s z o n e s 
+c r i t i q u e s 
+: 
+l a 
+, , = m a x ( 1 5 h , : 
+, 
+: 6 0 e m ) 
+• h , ( u n i t ~ s : c m ) : l a p l u s g r a n d e d i m e n s i o n d e l a s e c t i o n t r a n s v e r s a l e d u 
+p o t e a u 
+( 7 . 2 ) 

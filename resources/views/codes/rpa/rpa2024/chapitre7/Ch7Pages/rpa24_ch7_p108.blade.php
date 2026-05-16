@@ -1,8 +1,5 @@
 <section id="rpa-p108" class="rpa-page rpa-scroll-spy-section">
-    <div class="rpa-header">
-        <span>108</span>
-        <span class="chapter">Chapter 7. STRUCTURES EN BETON ARME</span>
-    </div>
+    @include('norms::codes.rpa.rpa2024.partials.rpa-page-header', ['page' => 108, 'meta' => 'norms::codes.rpa.rpa2024.partials.ch7-running-meta'])
 
     <p style="text-indent: 20px; text-align: justify;">
         Les dimensions de la section transversale des poteaux doivent satisfaire les conditions suivantes (cf. <a href="#rpa-fig-7.1" class="rpa-link">Figure (7.1)</a>):
@@ -42,14 +39,15 @@
         <div class="rpa-eq-num"></div>
     </div>
 
-    <!-- Figure 7.1 SVG -->
-    <div class="my-8 flex flex-col items-center justify-center" id="rpa-fig-7.1-container">
-        @include('norms::codes.rpa.rpa2024.chapitre7.Ch7Svg.rpa24_ch7_fig7_1')
-        <div class="text-sm font-medium mt-2" id="rpa-fig-7.1">Figure 7.1: Coffrage des poteaux</div>
-    </div>
+    @include('norms::codes.rpa.rpa2024.partials.rpa-figure-showcase', [
+        'id' => 'rpa-fig-7.1',
+        'kicker' => 'Poteaux — coffrage',
+        'caption' => 'Figure 7.1 : Coffrage des poteaux',
+        'svg' => 'norms::codes.rpa.rpa2024.chapitre7.Ch7Svg.rpa24_ch7_fig7_1',
+    ])
 
     <div id="rpa-art-7.4.2" style="scroll-margin-top: 100px;">
-        <div class="rpa-h3" style="color: #d97706; margin-top: 40px;">7.4.2 <span class="text-gray-900 dark:text-gray-100">Ferraillage</span></div>
+        <div class="rpa-h3">7.4.2 <span class="text-gray-900 dark:text-gray-100">Ferraillage</span></div>
         <div class="rpa-h2-black" id="rpa-art-7.4.2-duct">Exigences de ductilité pour la zone critique</div>
         <p style="text-align: justify;">
             Les zones s'étendant sur une distance, <i>l<sub>cr</sub></i>, à partir des deux sections d'extrémité d'un poteau, doivent être considérées comme des zones critiques :

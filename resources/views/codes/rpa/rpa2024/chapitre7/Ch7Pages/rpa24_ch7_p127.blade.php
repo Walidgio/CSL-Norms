@@ -1,61 +1,50 @@
 {{-- ==================== PAGE 127 ==================== --}}
-<section id="rpa-p127" class="rpa-page rpa-scroll-spy-section">
-    <div class="rpa-header">
-        <span>127</span>
-        <span class="chapter">Chapter 7. STRUCTURES EN BETON ARME</span>
+<section id="rpa-p127" class="rpa-page rpa-scroll-spy-section" data-annotatable="true">
+    <div class="rpa-header-meta flex flex-wrap items-start justify-between gap-2 text-sm mb-6 border-b border-black/90 dark:border-slate-500 pb-2">
+        <span class="tabular-nums font-semibold text-slate-700 dark:text-slate-300">127</span>
+        <div class="text-right max-w-[min(100%,28rem)] space-y-0.5">
+            @include('norms::codes.rpa.rpa2024.partials.ch7-running-meta')
+        </div>
     </div>
-
     <div class="rpa-indent">
-        <p>où :</p>
-        <div class="rpa-bullet">• <i>b<sub>0</sub></i> représente la largeur du noyau confinée de l'élément de rive</div>
-        <div class="rpa-bullet">• (<i>A<sub>g</sub>/A<sub>c</sub></i>) représente le rapport de la surface totale de l'élément de rive sur sa surface confinée</div>
+        <p>o&ugrave; :</p>
+        <div class="rpa-bullet">&bull; <i>b<sub>0</sub></i> repr&eacute;sente la largeur du noyau confin&eacute; de l&rsquo;&eacute;l&eacute;ment de rive</div>
+        <div class="rpa-bullet">&bull; (<i>A<sub>g</sub></i>/<i>A<sub>c</sub></i>) repr&eacute;sente le rapport de la surface totale de l&rsquo;&eacute;l&eacute;ment de rive sur sa surface confin&eacute;e</div>
     </div>
 
     <p style="margin-top:15px; text-indent: 20px; text-align: justify;">
-        Au-dessus de la zone critique, et en respectant la disposition de contreventement en voiles dans deux directions orthogonales, le calcul des voiles et des trumeaux se fera exclusivement dans la direction de leur plan moyen, en appliquant les règles de béton armé en vigueur.
+        Au-dessus de la zone critique, et en respectant la disposition de contreventement en voiles dans deux directions orthogonales, le calcul des voiles et des trumeaux se fera exclusivement dans la direction de leur plan moyen, en appliquant les r&egrave;gles de b&eacute;ton arm&eacute; en vigueur.
     </p>
     <p style="text-indent: 20px; text-align: justify;">
-        Il convient, en outre, de prévoir des éléments de rive sur un niveau supplémentaire, avec au moins la moitié des armatures de confinement requises dans la zone critique.
+        Il convient, en outre, de pr&eacute;voir des &eacute;l&eacute;ments de rive sur un niveau suppl&eacute;mentaire, avec au moins la moiti&eacute; des armatures de confinement requises dans la zone critique.
     </p>
 
-    <div class="rpa-h2" id="rpa-art-7.7.4-ame"  style="margin-top: 25px;">Ferraillage de l'âme</div>
+    <div class="rpa-h2-black" id="rpa-art-7.7.4-ame">Ferraillage de l&rsquo;&acirc;me</div>
 
-    <div class="rpa-bullet mt-2">• <b>Aciers verticaux</b></div>
+    <div class="rpa-bullet">&bull; Aciers verticaux</div>
     <p style="text-align: justify;">
-        Les armatures d'âme doivent se composer de deux treillis de barres ayant les mêmes caractéristiques d'adhérence, reliés par des étriers espacés d'environ 500 mm.
+        Les armatures d&rsquo;&acirc;me doivent se composer de deux treillis de barres ayant les m&ecirc;mes caract&eacute;ristiques d&rsquo;adh&eacute;rence, reli&eacute;s par des &eacute;triers espac&eacute;s d&rsquo;environ 500&nbsp;mm.
     </p>
     <p style="text-align: justify;">
-        Le diamètre maximal, <i>&phi;<sub>max</sub></i>, des armatures d'âme doivent respecter la condition :
+        Le diam&egrave;tre maximal, &phi;<sub>max</sub>, des armatures d&rsquo;&acirc;me doivent respecter la condition :
     </p>
 
-    <div class="rpa-equation-container" id="rpa-eqt-7.28">
-        <div class="rpa-equation">
-            <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
-                <mrow>
-                    <mn>8</mn><mtext>mm</mtext>
-                    <mo>&le;</mo>
-                    <msub><mi>&phi;</mi><mtext>max</mtext></msub>
-                    <mo>&le;</mo>
-                    <msub><mi>b</mi><mi>w</mi></msub><mo>/</mo><mn>8</mn>
-                </mrow>
-            </math>
-        </div>
-        <div class="rpa-eq-num">(7.28)</div>
+
     </div>
 
     <p style="text-align: justify;">
-        L'espacement des armatures d'âme ne doit pas être supérieur à 250 mm ou 25 fois le diamètre des barres, en prenant la plus petite valeur.
+        L&rsquo;espacement des armatures d&rsquo;&acirc;me ne doit pas &ecirc;tre sup&eacute;rieur &agrave; 250&nbsp;mm ou 25 fois le diam&egrave;tre des barres, en prenant la plus petite valeur.
     </p>
     <p style="text-align: justify;">
-        Les barres verticales du dernier niveau doivent être munies de crochets à la partie supérieure. Toutes les autres barres n'ont pas de crochets (jonction par recouvrement).
+        Les barres verticales du dernier niveau doivent &ecirc;tre munies de crochets &agrave; la partie sup&eacute;rieure. Toutes les autres barres n&rsquo;ont pas de crochets (jonction par recouvrement).
     </p>
 
-    <div class="rpa-bullet mt-4">• <b>Aciers horizontaux</b></div>
+    <div class="rpa-bullet">&bull; Aciers horizontaux</div>
     <p style="text-align: justify;">
-        Les barres horizontales doivent être munies de crochets. Dans le cas où il existe des extrémités confinées, les barres horizontales peuvent être ancrées sans crochets si les dimensions des talons permettent la réalisation d'un ancrage droit.
+        Les barres horizontales doivent &ecirc;tre munies de crochets. Dans le cas o&ugrave; il existe des extr&eacute;mit&eacute;s confin&eacute;es, les barres horizontales peuvent &ecirc;tre ancr&eacute;es sans crochets si les dimensions des talons permettent la r&eacute;alisation d&rsquo;un ancrage droit.
     </p>
     <p style="text-align: justify;">
-        Le ferraillage horizontal, nécessaire pour la résistance à l'effort tranchant, doit satisfaire <a href="#rpa-eqt-7.29" class="rpa-link">Eqn. (7.29)</a>:
+        Le ferraillage horizontal, n&eacute;cessaire pour la r&eacute;sistance &agrave; l&rsquo;effort tranchant, doit satisfaire Eqn. (7.29)&nbsp;:
     </p>
 
     <div class="rpa-equation-container" id="rpa-eqt-7.29">
@@ -83,14 +72,14 @@
         avec:<br>
         <div class="rpa-indent">
             <div class="rpa-bullet">- <math xmlns="http://www.w3.org/1998/Math/MathML"><mover><mi>V</mi><mo>&mdash;</mo></mover></math>: effort tranchant de calcul, <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mover><mi>V</mi><mo>&mdash;</mo></mover><mo>=</mo><mn>1.4</mn><msub><mi>V</mi><mi>u</mi></msub></mrow></math></div>
-            <div class="rpa-bullet">- <i>z</i>: distance entre les centres de gravité des armatures des deux extrémités confinées.</div>
+            - z: distance entre les centres de gravit&eacute; des armatures des deux extr&eacute;mit&eacute;s confin&eacute;es.
         </div>
     </div>
 
     <div id="rpa-art-7.7.5" style="scroll-margin-top: 100px;">
-        <div class="rpa-h3" id="rpa-art-7.7.5-1" style="color: #d97706; margin-top: 40px;">7.7.5 Conditions de ductilité locale</div>
+        <div class="rpa-h3" id="rpa-art-7.7.5-1">7.7.5 Conditions de ductilit&eacute; locale</div>
         <p style="text-align: justify;">
-            Dans les voiles de section rectangulaire, le rapport mécanique en volume des armatures de confinement requises, <i>&omega;<sub>wd</sub></i>, dans les éléments de rive, doit respecter la condition ci-dessous :
+            Dans les voiles de section rectangulaire, le rapport m&eacute;canique en volume des armatures de confinement requises, <i>&omega;<sub>wd</sub></i>, dans les &eacute;l&eacute;ments de rive, doit respecter la condition ci-dessous :
         </p>
 
         <div class="rpa-equation-container" id="rpa-eqt-7.30">

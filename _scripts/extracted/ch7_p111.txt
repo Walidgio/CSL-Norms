@@ -1,0 +1,94 @@
+112 
+Chapter 7 . STRUCTURES EN BETON ARME 
+Les symbo l es ont Jes memes significations qu ' en § 7.1.3. 
+Comm e ntair e: La limitation, cf. Eqn . (7.5) , a pour objectif, a defaut d'empecher la ruptur e d'une 
+section c ritiqu e d ' un p o t e au (general e m en t soumis a une flexion compos ee) , d e la r eta rd e r o u , a u 
+c as o i 't elle se pr o duit , de faire en so rt e qu 'e ll e se m . an if es t e , le plu s sou ve nt sous fonne d e rupture 
+du c til e, c'es t -a-d ir e par ruptur e des a c i e rs tendu s (sui t e a leur allongem e nt clans l e pa li e r pla s tiqu e), 
+pr e alablem e nt a l ' atteinte de la r e sistan ce ultim e du heron co mprim .e. La di spos iti on d ' armatur es 
+tran. sve rsal es rappro c h.ees , dans la za n. e c ritiqu e co n ce rn ee qu 'e lle s co njinent, co ntribue ega l e m e nt 
+a l'att e int e d e ce t o bje c tif. 
+Sollicitations tangentes 
+La contrainte de cisaillement co nv ent ionn elle de ca lcul dans le beton , 1:b
+11
+, sous comb in a i son 
+s i s mique doit e tre inferieure ou egale a l a va l e ur limite , 'tb
+11
+: 
+( 7 . 6) 
+ou : P d e s t ega l a 0.075 s i l ' elancement geo m e trique , dan s la direction co n s id e r ee, es t s uperieur 
+OU egal a 5 ; ii est ega l a 0 . 04 , dans l e ca CO ntraire . 
+Dan s le cas de rempli ss age en ma9onneri e , ne regn a nt pas s ur toute la haut e ur d ' un pote a u 
+(presence d ' ouvert ur es en vasistas par exemple) , l a hauteur de calcul d e l 'e l a nc e ment ge ometrique 
+sera celle de l ' o uv erture . 
+_J lc____l L_ } 
+a 
+>-g = l lii l 
+Figure 7 .3: Cas de con s titution de poteau court , p a r hauteur in suffisante de l a ma9onnerie de 
+remplis s age 
+II ya li e u de not er que cette partie de pote a u de hauteur h , con s id eree comme poteau court s i 
+A g< 5 , doit etre confinee par des armature s tr a n s ver s ales calcu l ees avec Eqn . (7.3) ou deduite s d es 
+minim a donne s a u§ 7.4.2. 
+Dans Eqn . (7.3), ii ya lieu de bien veiller ace que ! 'e ffort, V
+11
+, so lli c it ant l e pote a u court, 
+ait bien ete calc ul e en considerant l a g rande raideur de ce demier par rapport aux autres pote a ux 
+d 'e t age de h a uteur " normale ". 
+Le s pote a ux co urt s, d ' une mani e re ge ner ale, a menent a de graves de so rdre s a ! ' occasion de 
+se i s mes, m e me moderes . Si l eur u sage n e peut -e tr e evite, ii est recomm a nde que de s contrevente ­
+ment s par voi l es ou p a lee s prennent l 'ess entie l d e !'effort horizontal. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+11 2 
+C h a p t e r 7 . S T R U C T U R E S E N B E T O N A R M E 
+L e s s y m b o l e s o n t l e s m ~ m e s s i g n i fi c a t i o n s q u ' e n $ 7 . 1 . 3 . 
+C o m m e n t a i r e : La l i m i t a t i o n , c f. E q n . ( 7. 5 ) , a p o u r o b j e c t i f, ~ d ~ fa u t d ' e m p ~ c h e r l a r u p t u r e d ' u n e 
+s e c t i o n c r i t i q u e d ' u n p o t e a u ( g ~ n ~ r a l e m e n t s o u m i s ~ u n e fl e x i o n c o m p o s ~ e ) , d e l a r e t a r d e r o u , a u 
+c a s o e l l e s e p r o d u i t , d e fa i r e e n s o r t e q u ' e l l e s e m a n i fe s t e , l e p l u s s o u v e n t s o u s fo r m e d e r u p t u r e 
+d u c t i l e , c ' e s t - ~ - d i r e p a r 
+r u p t u r e 
+d e s a c i e r s t e n d u s ( s u i t e ~ l e u r a l l o n g e m e n t d a n s l e p a l i e r p l a s t i q u e ) 
+p r ~ a l a b l e m e n t ~ l ' a t t e i n t e d e l a r ~ s i s t a n c e u l t i m e d u b ~ t o n c o m p r i m ~ . La d i s p o s i t i o n d ' a r m a t u r e s 
+t r a n s v e r s a l e s r a p p r o c h ~ e s , d a n s l a z o n e c r i t i q u e c o n c e r n ~ e q u ' e l l e s c o n fi n e n t , c o n t r i b u e ~ g a l e m e n t 
+~ l ' a t t e i n t e d e c e t o b j e c t i f. 
+S o lli c i t a t i o n s t a n g e n t e s 
+L a c o n t r a i n t e d e c i s a i l l e m e n t c o n v e n t i o n n e l l e d e c a l c u l d a n s l e b ~ t o n , ~ , s o u s c o m b i n a i s o n 
+s i s m i q u e d o i t ~ t r e i n f~ r i e u r e o u ~ g a l e ~ l a v a l e u r l i m i t e . T m : 
+t % = P 4 . f e s 
+( 7 . 6 ) 
+o : p e s t ~ g a l ~ 0 . 0 7 5 s i l ' ~ l a n c e m e n t g ~ o m ~ t r i q u e . d a n s l a d i r e c t i o n c o n s i d ~ r ~ e , e s t s u p ~ ri e u r 
+o u ~ g a l ~ 5 ; i l e s t ~ g a l ~ 0 . 0 4 , d a n s l e c a s c o n t r a i r e. 
+D a n s l e c a s d e 
+r e m p l i s s a g e 
+e n m a ~ o n n e r i e , n e r ~ g n a n t p a s s u r t o u t e l a h a u t e u r d ' u n p o t e a u 
+( p r ~ s e n c e 
+d ' o u v e rt u r e s e n v a s i s t a s p a r e x e m p l e ) , l a h a u t e u r d e c a l c u l d e l ' ~ l a n c e m e n t g ~ o m ~ t ri q u e 
+s e r a c e l l e d e l o u v e rt u r e . 
+a 
+I 
+· 4 
+L 
+F i g u r e 7. 3 : C a s d e c o n s t i t u t i o n d e p o t e a u co u rt , p a r h a u t e ur i n s u ffi s a n t e d e l a m a ~ o n n e r i e d e 
+r e m p li s s a g e 
+I ] y a l i e u d e n o t e r q u e c e t t e p a rt i e d e p o t e a u d e h a u t e u r h , c o n s i d ~ r ~ e c o m m e p o t e a u c o u rt s i 
+l , 
+< 5 , d o i t ~ t r e c o n fi n e p ar d e s a rm a t u r e s t r a n s v e r s a l e s c a l c u l ~ e s a v e c E q n . ( 7 . 3 ) o u d ~ d u i t e s d e s 
+m i n i m a d o n n ~ s a u $ 7 . 4 . 2 . 
+D a n s E q n . ( 7 . 3 ) , i l y a l i e u d e b i e n v e i l l e r ~ c e q u e l ' e ff o r t , V , , s o l l i c i t a n t l e p o t e a u c o u r t , 
+a i t b i e n ~ t ~ c a l c u l ~ e n c o n s i d ~ r a n t l a g r a n d e r a i d e u r d e c e d e rn i e r p a r r a p p o r t a u x a u t r e s p o t e a u x 
+d ' ~ t a g e d e h a u t e u r " n o r m a l e " . 
+L e s p o t e a u x c o u rt s , d u n e m a n i ~ r e g ~ n ~ r a l e , a m ~ n e n t ~ d e g r a v e s d ~ s o r d r e s ~ l ' o c c a s i o n d e 
+s ~ i s m e s , m ~ m e m o d ~ r ~ s . S i l e u r u s a g e n e p e u t - ~ t r e ~ v i t ~ , i l e s t r e c o m m a n d ~ q u e d e s c o n t r e v e n t e ­ 
+m e n t s p a r v o i l e s o u p a l ~ e s p r e n n e n t T e s s e n t i e l d e l e ff o r t h o r i z o n t a l . 

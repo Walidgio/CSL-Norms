@@ -13,22 +13,16 @@
         </div>
     </div>
 
-    <div class="rpa-header">
-        <span>7 STRUCTURES EN BETON ARME</span>
-        <span>105</span>
-    </div>
+    @include('norms::codes.rpa.rpa2024.partials.rpa-page-header', ['page' => 105, 'meta' => 'norms::codes.rpa.rpa2024.partials.ch7-running-meta'])
 
-    <div id="rpa-art-7" style="scroll-margin-top: 100px;">
-        {{-- Stylized Title Border --}}
-        <div class="relative mb-12 mt-8">
-            <div class="absolute inset-0 border-2 border-orange-500 rounded-full -m-2 opacity-20"></div>
-            <div class="relative border-4 border-orange-500 rounded-full px-12 py-3 bg-white inline-block">
-                <h1 class="text-2xl font-black text-gray-900 tracking-wider uppercase mb-0">7. STRUCTURES EN BETON ARME</h1>
-            </div>
-        </div>
-        
+    @include('norms::codes.rpa.rpa2024.partials.rpa-chapter-opening', [
+        'id' => 'rpa-art-7',
+        'numeral' => 'VII',
+        'title' => 'Structures en b&eacute;ton arm&eacute;',
+    ])
+
         <div id="rpa-art-7.1" style="scroll-margin-top: 100px;">
-             <h2 class="rpa-h2" style="color: #d97706;">7.1 Généralités</h2>
+             <h2 class="rpa-h2">7.1 Généralités</h2>
              
              <div class="rpa-h3" id="rpa-art-7.1.1">7.1.1 Objet</div>
              <p style="text-indent: 20px; text-align: justify;">

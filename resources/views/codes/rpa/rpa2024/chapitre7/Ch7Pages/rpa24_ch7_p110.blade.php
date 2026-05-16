@@ -1,8 +1,5 @@
 <section id="rpa-p110" class="rpa-page rpa-scroll-spy-section">
-    <div class="rpa-header">
-        <span>110</span>
-        <span class="chapter">Chapter 7. STRUCTURES EN BETON ARME</span>
-    </div>
+    @include('norms::codes.rpa.rpa2024.partials.rpa-page-header', ['page' => 110, 'meta' => 'norms::codes.rpa.rpa2024.partials.ch7-running-meta'])
 
     <!-- Figure 7.2 SVG -->
     <div class="my-8 flex flex-col items-center justify-center" id="rpa-fig-7.2-container">

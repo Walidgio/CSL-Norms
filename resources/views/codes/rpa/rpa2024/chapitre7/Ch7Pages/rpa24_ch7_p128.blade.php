@@ -1,14 +1,15 @@
 {{-- ==================== PAGE 128 ==================== --}}
-<section id="rpa-p128" class="rpa-page rpa-scroll-spy-section">
-    <div class="rpa-header">
-        <span class="chapter">Chapter 7. STRUCTURES EN BETON ARME</span>
-        <span>128</span>
+<section id="rpa-p128" class="rpa-page rpa-scroll-spy-section" data-annotatable="true">
+    <div class="rpa-header-meta flex flex-wrap items-start justify-between gap-2 text-sm mb-6 border-b border-black/90 dark:border-slate-500 pb-2">
+        <span class="tabular-nums font-semibold text-slate-700 dark:text-slate-300">128</span>
+        <div class="text-right max-w-[min(100%,28rem)] space-y-0.5">
+            @include('norms::codes.rpa.rpa2024.partials.ch7-running-meta')
+        </div>
     </div>
-
-    <div>
-        <p>où :</p>
-        <div class="rpa-bullet">• <i>&mu;<sub>&phi;</sub></i> : Valeur requise du coefficient de ductilité en courbure ;</div>
-        <div class="rpa-bullet">• <i>&epsilon;<sub>sy</sub></i> : Valeur de la déformation à la limite élastique de l'acier, donnée comme suit :</div>
+<div>
+        <p>o&ugrave; :</p>
+        <div class="rpa-bullet">&bull; <i>&mu;<sub>&phi;</sub></i> : valeur requise du coefficient de ductilit&eacute; en courbure ;</div>
+        <div class="rpa-bullet">&bull; <i>&epsilon;<sub>sy</sub></i> : valeur de la d&eacute;formation &agrave; la limite &eacute;lastique de l&rsquo;acier, donn&eacute;e comme suit :</div>
     </div>
 
     <div class="rpa-equation-container" id="rpa-eqt-7.33">
@@ -28,9 +29,9 @@
     </div>
 
     <div class="mt-2">
-        <div class="rpa-bullet">• <i>E<sub>s</sub></i> : module d'élasticité de l'acier</div>
-        <div class="rpa-bullet">• <i>v<sub>d</sub></i> : effort normal réduit, cas d'une section rectangulaire</div>
-        <div class="rpa-bullet">• <i>&omega;<sub>v</sub></i> : pourcentage normalisé des armatures verticales d'âmes</div>
+        <div class="rpa-bullet">&bull; <i>E<sub>s</sub></i> : module d&rsquo;&eacute;lasticit&eacute; de l&rsquo;acier</div>
+        <div class="rpa-bullet">&bull; <i>v<sub>d</sub></i> : effort normal r&eacute;duit, cas d' une section rectangulaire</div>
+        <div class="rpa-bullet">&bull; <i>&omega;<sub>v</sub></i> : pourcentage normalis&eacute; des armatures verticales d&rsquo;&acirc;mes</div>
     </div>
 
     <div class="rpa-equation-container" id="rpa-eqt-7.34">
@@ -57,10 +58,10 @@
     </div>
 
     <div class="mt-2">
-        <div class="rpa-bullet">• <i>A<sub>sv</sub></i> : section de ferraillage correspondant à la section de l'âme du voile</div>
-        <div class="rpa-bullet">• <i>f<sub>yd</sub></i> : valeur de calcul de la limite d'élasticité de l'acier</div>
-        <div class="rpa-bullet">• <i>f<sub>cd</sub></i> : valeur de calcul de la résistance du béton à la compression</div>
-        <div class="rpa-bullet">• <i>&alpha;</i> : coefficient d'efficacité du confinement, égal à (<i>&alpha;<sub>n</sub></i> &sdot; <i>&alpha;<sub>s</sub></i>), avec :</div>
+        <div class="rpa-bullet">&bull; <i>A<sub>sv</sub></i> : section de ferraillage correspondant a la section de !' a.me du voile</div>
+        <div class="rpa-bullet">&bull; <i>f<sub>yd</sub></i> : valeur de calcul de la limite d'elasticite de l'acier</div>
+        <div class="rpa-bullet">&bull; <i>f<sub>cd</sub></i> : valeur de calcul de la r&eacute;sistance du b&eacute;ton a la compression</div>
+        <div class="rpa-bullet">&bull; <i>&alpha;</i> : coefficient d&rsquo;efficacit&eacute; du confinement, &eacute;gal &agrave; (&alpha;<sub>n</sub>&middot;&alpha;<sub>s</sub>), avec :</div>
     </div>
 
     <div class="rpa-equation-container" id="rpa-eqt-7.35">
@@ -112,16 +113,16 @@
     </div>
 
     <div class="rpa-indent">
-        <div class="rpa-bullet">- <i>n</i> : nombre total de barres longitudinales latéralement maintenues par des armatures de confinement ou des épingles ;</div>
-        <div class="rpa-bullet">- <i>b<sub>i</sub></i> : distance entre des barres maintenues consécutives (cf. <a href="#rpa-fig-7.2" class="rpa-link">Figure (7.2a)</a>)</div>
-        <div class="rpa-bullet">- <i>b<sub>0</sub>, h<sub>0</sub>, t</i> : grandeurs géométriques (cf. <a href="#rpa-fig-7.2" class="rpa-link">Figure (7.2a)</a>).</div>
+        - n : nombre total de barres longitudinales lateralement maintenues par des armatures de
+        - b;: distance entre des barres maintenues consecutives (cf. Figure (7.2a)
+        - bo, ho, t : grandeurs gÃ©omÃ©triques (cf. Figure (7.2a).
     </div>
 
     <p style="text-align: justify; margin-top: 15px;">
-        Il convient de prévoir une valeur minimale de <i>&omega;<sub>wd</sub></i> égale à 0.12 dans la zone critique à la base du voile.
+        Il convient de pr&eacute;voir une valeur minimale de &omega;<sub>wd</sub> &eacute;gale &agrave; 0,12 dans la zone critique ~ la base
     </p>
     <p style="text-indent: 20px; text-align: justify;">
-        Le coefficient de ductilité en courbure (<i>&mu;<sub>&phi;</sub></i>) peut être déterminé selon <a href="#rpa-eqt-7.36" class="rpa-link">Eqn. (7.36)</a>, en fonction de la période fondamentale (<i>T<sub>0</sub></i>), de la valeur (<i>T<sub>2</sub></i>) du spectre de calcul, du coefficient de comportement (<i>R/Q<sub>F</sub></i>) et du rapport (<i>M<sub>ED</sub>/M<sub>RD</sub></i>).
+        Le coefficient de ductilit&eacute; en courbure (&mu;<sub>&phi;</sub>) peut &ecirc;tre d&eacute;termin&eacute; selon Eqn. (7.36), en fonction de la p&eacute;riode fondamentale (<i>T<sub>0</sub></i>), de la valeur (<i>T<sub>2</sub></i>) du spectre de calcul, du coefficient de comportement (<i>R</i>/<i>Q<sub>F</sub></i>) et du rapport (<i>M<sub>ED</sub></i>/<i>M<sub>RD</sub></i>).
     </p>
 
     <div class="rpa-equation-container" id="rpa-eqt-7.36">
@@ -139,7 +140,7 @@
                                     <mo>(</mo>
                                     <mfrac><mi>R</mi><msub><mi>Q</mi><mi>F</mi></msub></mfrac>
                                     <mo>&sdot;</mo>
-                                    <mfrac><msub><mi>M</mi><mtext>ED</mtext></msub><msub><mi>M</text><mtext>RD</mtext></msub></mfrac>
+                                    <mfrac><msub><mi>M</mi><mtext>ED</mtext></msub><msub><mi>M</mi><mtext>RD</mtext></msub></mfrac>
                                     <mo>)</mo>
                                 </mrow>
                                 <mo>&minus;</mo><mn>1</mn>
@@ -155,7 +156,7 @@
                                         <mo>(</mo>
                                         <mfrac><mi>R</mi><msub><mi>Q</mi><mi>F</mi></msub></mfrac>
                                         <mo>&sdot;</mo>
-                                        <mfrac><msub><mi>M</mi><mtext>ED</mtext></msub><msub><mi>M</text><mtext>RD</mtext></msub></mfrac>
+                                        <mfrac><msub><mi>M</mi><mtext>ED</mtext></msub><msub><mi>M</mi><mtext>RD</mtext></msub></mfrac>
                                         <mo>)</mo>
                                     </mrow>
                                     <mo>&minus;</mo><mn>1</mn>
@@ -174,11 +175,11 @@
     </div>
 
     <p style="text-align: justify;">
-        <i>M<sub>ED</sub></i> est le moment fléchissant issu de l'analyse (enveloppe de calcul décalée de <i>h<sub>cr</sub></i>) à la base du mur (cf <a href="#rpa-fig-7.13" class="rpa-link">Figure (7.13)</a>); <i>M<sub>RD</sub></i> est la résistance à la flexion de calcul.
+        <i>M<sub>ED</sub></i> est le moment fl&eacute;chissant issu de l&rsquo;analyse (enveloppe de calcul decalee de he,.) a la base
     </p>
 
     <p style="text-align: justify; text-indent: 20px; margin-top: 15px;">
-        La position de l'axe neutre, <i>x<sub>u</sub></i>, correspondant à la courbure ultime après éclatement du béton situé hors du noyau confiné des éléments de rive peut être estimée comme suit :
+        La position de l&rsquo;axe neutre, <i>x<sub>u</sub></i>, correspondant &agrave; la courbure ultime apr&egrave;s &eacute;clatement du b&eacute;ton situ&eacute; hors du noyau confin&eacute; des &eacute;l&eacute;ments de rive peut &ecirc;tre estim&eacute;e comme suit :
     </p>
 
     <div class="rpa-equation-container" id="rpa-eqt-7.37">
@@ -204,6 +205,6 @@
     </div>
 
     <p style="text-align: justify; text-indent: 20px;">
-        Les paramètres de l'<a href="#rpa-eqt-7.37" class="rpa-link">Eqn. (7.37)</a> sont définis dans les sections précédentes (cf. <a href="#rpa-eqt-7.11" class="rpa-link">Eqns. (7.11)</a> & <a href="#rpa-eqt-7.34" class="rpa-link">(7.34)</a>, <a href="#rpa-fig-7.16" class="rpa-link">Figures (7.16)</a>).
+        Les param&egrave;tres de l&rsquo;Eqn. (7.37) sont d&eacute;finis dans les sections prÃ©cÃ©dentes (cf. Eqns. (7 .11 ) &
     </p>
 </section>

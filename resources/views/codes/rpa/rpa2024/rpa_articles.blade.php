@@ -84,12 +84,16 @@
             .dark .doc-theme-responsive .rpa-chapter--3 .rpa-page {
                 box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
             }
-            .rpa-chapter--5 .rpa-page {
+            .rpa-chapter--4 .rpa-page,
+            .rpa-chapter--5 .rpa-page,
+            .rpa-chapter--7 .rpa-page {
                 border-radius: 0.75rem;
                 border-color: rgba(234, 88, 12, 0.12);
                 box-shadow: 0 8px 30px rgba(15, 23, 42, 0.06);
             }
-            .dark .doc-theme-responsive .rpa-chapter--5 .rpa-page {
+            .dark .doc-theme-responsive .rpa-chapter--4 .rpa-page,
+            .dark .doc-theme-responsive .rpa-chapter--5 .rpa-page,
+            .dark .doc-theme-responsive .rpa-chapter--7 .rpa-page {
                 box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
             }
             a.rpa-cover-nav-link {
@@ -108,20 +112,32 @@
                 border-color: rgba(251, 146, 60, 0.85);
             }
             .rpa-chapter--3 h2.rpa-h2,
+            .rpa-chapter--4 h2.rpa-h2,
             .rpa-chapter--5 h2.rpa-h2,
+            .rpa-chapter--7 h2.rpa-h2,
             .rpa-chapter--3 h3.rpa-h2,
+            .rpa-chapter--4 h3.rpa-h2,
             .rpa-chapter--5 h3.rpa-h2,
+            .rpa-chapter--7 h3.rpa-h2,
             .rpa-chapter--3 h3.rpa-h3,
-            .rpa-chapter--5 h3.rpa-h3 {
+            .rpa-chapter--4 h3.rpa-h3,
+            .rpa-chapter--5 h3.rpa-h3,
+            .rpa-chapter--7 h3.rpa-h3 {
                 position: relative;
                 padding-left: 0.65rem;
             }
             .rpa-chapter--3 h2.rpa-h2::before,
+            .rpa-chapter--4 h2.rpa-h2::before,
             .rpa-chapter--5 h2.rpa-h2::before,
+            .rpa-chapter--7 h2.rpa-h2::before,
             .rpa-chapter--3 h3.rpa-h2::before,
+            .rpa-chapter--4 h3.rpa-h2::before,
             .rpa-chapter--5 h3.rpa-h2::before,
+            .rpa-chapter--7 h3.rpa-h2::before,
             .rpa-chapter--3 h3.rpa-h3::before,
-            .rpa-chapter--5 h3.rpa-h3::before {
+            .rpa-chapter--4 h3.rpa-h3::before,
+            .rpa-chapter--5 h3.rpa-h3::before,
+            .rpa-chapter--7 h3.rpa-h3::before {
                 content: '';
                 position: absolute;
                 left: 0;
@@ -132,28 +148,119 @@
                 background: linear-gradient(180deg, #fdba74, #ea580c);
             }
             .rpa-chapter--3 a.rpa-inline-link,
-            .rpa-chapter--5 a.rpa-inline-link {
+            .rpa-chapter--4 a.rpa-inline-link,
+            .rpa-chapter--5 a.rpa-inline-link,
+            .rpa-chapter--7 a.rpa-inline-link,
+            .rpa-chapter--7 a.rpa-link {
                 text-decoration: none;
                 border-bottom: 2px solid rgba(249, 115, 22, 0.35);
                 transition: border-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
             }
             .rpa-chapter--3 a.rpa-inline-link:hover,
-            .rpa-chapter--5 a.rpa-inline-link:hover {
+            .rpa-chapter--4 a.rpa-inline-link:hover,
+            .rpa-chapter--5 a.rpa-inline-link:hover,
+            .rpa-chapter--7 a.rpa-inline-link:hover,
+            .rpa-chapter--7 a.rpa-link:hover {
                 border-bottom-color: #ea580c;
                 box-shadow: 0 14px 32px -18px rgba(234, 88, 12, 0.45);
             }
             .dark .doc-theme-responsive .rpa-chapter--3 a.rpa-inline-link,
-            .dark .doc-theme-responsive .rpa-chapter--5 a.rpa-inline-link {
+            .dark .doc-theme-responsive .rpa-chapter--4 a.rpa-inline-link,
+            .dark .doc-theme-responsive .rpa-chapter--5 a.rpa-inline-link,
+            .dark .doc-theme-responsive .rpa-chapter--7 a.rpa-inline-link,
+            .dark .doc-theme-responsive .rpa-chapter--7 a.rpa-link {
                 border-bottom-color: rgba(147, 197, 253, 0.45);
             }
             .dark .doc-theme-responsive .rpa-chapter--3 a.rpa-inline-link:hover,
-            .dark .doc-theme-responsive .rpa-chapter--5 a.rpa-inline-link:hover {
+            .dark .doc-theme-responsive .rpa-chapter--4 a.rpa-inline-link:hover,
+            .dark .doc-theme-responsive .rpa-chapter--5 a.rpa-inline-link:hover,
+            .dark .doc-theme-responsive .rpa-chapter--7 a.rpa-inline-link:hover,
+            .dark .doc-theme-responsive .rpa-chapter--7 a.rpa-link:hover {
                 border-bottom-color: #fdba74;
             }
             .rpa-header .chapter {
                 text-transform: uppercase;
                 font-weight: bold;
                 letter-spacing: 0.5px;
+            }
+            .rpa-chapter-opening {
+                position: relative;
+                padding: 1.35rem 1.25rem 1.5rem;
+                border-radius: 1rem;
+                border: 1px solid rgba(251, 191, 36, 0.35);
+                background: linear-gradient(135deg, rgba(255, 251, 235, 0.95), rgba(255, 247, 237, 0.88));
+                box-shadow: 0 10px 36px -12px rgba(234, 88, 12, 0.22);
+            }
+            .rpa-chapter-opening::before {
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 0.85rem;
+                bottom: 0.85rem;
+                width: 4px;
+                border-radius: 0 4px 4px 0;
+                background: linear-gradient(180deg, #fdba74, #ea580c);
+            }
+            .rpa-chapter-opening__eyebrow {
+                display: block;
+                margin-bottom: 0.35rem;
+                padding-left: 0.65rem;
+                font-size: 0.65rem;
+                font-weight: 800;
+                letter-spacing: 0.28em;
+                text-transform: uppercase;
+                color: #c2410c;
+            }
+            .rpa-chapter-opening__title {
+                margin: 0;
+                padding-left: 0.65rem;
+                font-size: clamp(1.35rem, 3.5vw, 1.85rem);
+                font-weight: 900;
+                line-height: 1.15;
+                letter-spacing: -0.02em;
+                background: linear-gradient(90deg, #c2410c, #ea580c 55%, #d97706);
+                -webkit-background-clip: text;
+                background-clip: text;
+                color: transparent;
+            }
+            .rpa-chapter-opening__lead {
+                margin: 0.65rem 0 0;
+                padding-left: 0.65rem;
+                font-size: 0.9rem;
+                line-height: 1.55;
+                color: #64748b;
+            }
+            .dark .doc-theme-responsive .rpa-chapter-opening {
+                background: linear-gradient(135deg, rgba(30, 41, 59, 0.92), rgba(15, 23, 42, 0.88));
+                border-color: rgba(251, 146, 60, 0.28);
+            }
+            .dark .doc-theme-responsive .rpa-chapter-opening__eyebrow { color: #fdba74; }
+            .dark .doc-theme-responsive .rpa-chapter-opening__title {
+                background: linear-gradient(90deg, #fed7aa, #fb923c 55%, #fdba74);
+                -webkit-background-clip: text;
+                background-clip: text;
+                color: transparent;
+            }
+            .dark .doc-theme-responsive .rpa-chapter-opening__lead { color: #94a3b8; }
+            .rpa-chapter--4 h2.rpa-h2,
+            .rpa-chapter--5 h2.rpa-h2,
+            .rpa-chapter--7 h2.rpa-h2,
+            .rpa-chapter--4 h3.rpa-h2,
+            .rpa-chapter--5 h3.rpa-h2,
+            .rpa-chapter--7 h3.rpa-h2 {
+                font-size: clamp(1rem, 2.2vw, 1.125rem);
+                font-weight: 800;
+                color: #c2410c;
+                letter-spacing: -0.01em;
+                margin: 1.75rem 0 0.85rem;
+            }
+            .rpa-chapter--4 h3.rpa-h3,
+            .rpa-chapter--5 h3.rpa-h3,
+            .rpa-chapter--7 h3.rpa-h3 {
+                font-size: clamp(0.95rem, 2vw, 1.05rem);
+                font-weight: 700;
+                color: #ea580c;
+                margin: 1.35rem 0 0.65rem;
             }
             .rpa-h2 { font-size: 16px; font-weight: bold; margin: 25px 0 12px 0; color: #d97706; scroll-margin-top: 100px; } 
             .rpa-h2-black { font-size: 16px; font-weight: bold; margin: 25px 0 12px 0; color: #1e293b; }
@@ -239,8 +346,12 @@
             /* Chapter cover pages: subtle gradient in dark responsive (global .rpa-page rule is flat) */
             :root.dark .doc-theme-responsive .rpa-ch3-cover.rpa-page,
             .dark .doc-theme-responsive .rpa-ch3-cover.rpa-page,
+            :root.dark .doc-theme-responsive .rpa-ch4-cover.rpa-page,
+            .dark .doc-theme-responsive .rpa-ch4-cover.rpa-page,
             :root.dark .doc-theme-responsive .rpa-ch5-cover.rpa-page,
-            .dark .doc-theme-responsive .rpa-ch5-cover.rpa-page {
+            .dark .doc-theme-responsive .rpa-ch5-cover.rpa-page,
+            :root.dark .doc-theme-responsive .rpa-ch7-cover.rpa-page,
+            .dark .doc-theme-responsive .rpa-ch7-cover.rpa-page {
                 background: linear-gradient(to bottom, #0c1222, #0f172a 45%, #1e293b) !important;
             }
             :root.dark .doc-theme-responsive .rpa-header,
@@ -502,6 +613,307 @@
             .dark .doc-theme-responsive .rpa-figure-raster-notes {
                 color: #94a3b8 !important;
             }
+            .rpa-chapter--7 a.rpa-link {
+                color: #2563eb;
+                text-decoration: none;
+                border-bottom: 2px solid rgba(249, 115, 22, 0.35);
+                transition: border-color 0.2s ease, color 0.2s ease;
+            }
+            .rpa-figure-showcase__toolbar {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: space-between;
+                gap: 0.65rem;
+                margin-bottom: 0.85rem;
+            }
+            .rpa-figure-showcase__toolbar-title {
+                font-size: 0.68rem;
+                font-weight: 800;
+                letter-spacing: 0.18em;
+                text-transform: uppercase;
+                color: #b45309;
+            }
+            .rpa-figure-showcase__controls {
+                display: inline-flex;
+                gap: 0.35rem;
+                padding: 0.25rem;
+                border-radius: 0.65rem;
+                background: rgba(255, 255, 255, 0.65);
+                border: 1px solid rgba(251, 191, 36, 0.35);
+            }
+            .rpa-fig-ctrl {
+                min-width: 2rem;
+                height: 2rem;
+                padding: 0 0.5rem;
+                border-radius: 0.45rem;
+                border: 1px solid rgba(251, 146, 60, 0.35);
+                background: linear-gradient(180deg, #fff 0%, #fff7ed 100%);
+                color: #c2410c;
+                font-size: 0.95rem;
+                font-weight: 700;
+                line-height: 1;
+                cursor: pointer;
+                transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+            }
+            .rpa-fig-ctrl:hover {
+                transform: translateY(-1px);
+                border-color: #ea580c;
+                box-shadow: 0 4px 12px rgba(234, 88, 12, 0.2);
+            }
+            .rpa-fig-ctrl--ghost { background: transparent; font-size: 0.85rem; }
+            .rpa-figure-showcase__viewport {
+                overflow: auto;
+                max-height: min(72vh, 36rem);
+                border-radius: 0.85rem;
+                border: 1px solid rgba(148, 163, 184, 0.25);
+                background: rgba(248, 250, 252, 0.6);
+                cursor: grab;
+            }
+            .rpa-figure-showcase__viewport.is-panning { cursor: grabbing; }
+            .rpa-figure-showcase__stage {
+                transform-origin: center center;
+                transition: transform 0.12s ease-out;
+                padding: 0.5rem;
+            }
+            .rpa-figure-showcase__stage svg {
+                display: block;
+                width: 100%;
+                height: auto;
+                color: #0f172a;
+            }
+            .dark .doc-theme-responsive .rpa-figure-showcase__controls {
+                background: rgba(30, 41, 59, 0.85);
+                border-color: rgba(71, 85, 105, 0.55);
+            }
+            .dark .doc-theme-responsive .rpa-fig-ctrl {
+                background: linear-gradient(180deg, #1e293b 0%, #0f172a 100%);
+                color: #fdba74;
+                border-color: rgba(251, 146, 60, 0.28);
+            }
+            .dark .doc-theme-responsive .rpa-figure-showcase__viewport {
+                background: rgba(15, 23, 42, 0.65);
+                border-color: rgba(71, 85, 105, 0.45);
+            }
+            .dark .doc-theme-responsive .rpa-figure-showcase__stage svg { color: #e2e8f0; }
+
+            /* Tables, comments, equations — ch. 4, 5, 7 */
+            .rpa-chapter--4 .rpa-table-showcase,
+            .rpa-chapter--5 .rpa-table-showcase,
+            .rpa-chapter--7 .rpa-table-showcase {
+                max-width: 100%;
+            }
+            .rpa-table-showcase__surface {
+                border-radius: 1rem;
+                overflow: hidden;
+                box-shadow: 0 8px 30px -6px rgba(234, 88, 12, 0.16), 0 0 0 1px rgba(251, 191, 36, 0.35);
+            }
+            .rpa-table-showcase__kicker {
+                font-size: 0.68rem;
+                font-weight: 800;
+                letter-spacing: 0.2em;
+                text-transform: uppercase;
+                color: #b45309;
+                margin: 0 0 0.5rem 0.35rem;
+            }
+            .rpa-table-showcase__caption {
+                margin: 0;
+                padding: 0.85rem 1rem;
+                text-align: center;
+                font-size: 0.9rem;
+                font-weight: 700;
+                color: #334155;
+                border-top: 1px solid rgba(251, 191, 36, 0.25);
+                background: linear-gradient(to right, rgba(255, 251, 235, 0.95), rgba(254, 243, 199, 0.5));
+            }
+            .rpa-table-showcase__footnote {
+                margin: 0.65rem 0 0;
+                padding: 0 0.35rem;
+                font-size: 0.8rem;
+                font-style: italic;
+                color: #64748b;
+            }
+            .rpa-table-showcase table.rpa-table,
+            .rpa-chapter--4 .rpa-table-showcase table,
+            .rpa-chapter--5 .rpa-table-showcase table,
+            .rpa-chapter--7 .rpa-table-showcase table {
+                width: 100%;
+                border-collapse: collapse;
+                font-size: 0.9rem;
+                line-height: 1.45;
+                background: #fff;
+            }
+            .rpa-table-showcase table.rpa-table thead tr,
+            .rpa-table-showcase table thead tr {
+                background: linear-gradient(90deg, #ea580c, #f59e0b);
+                color: #fff;
+            }
+            .rpa-table-showcase table.rpa-table th,
+            .rpa-table-showcase table th {
+                padding: 0.65rem 0.85rem;
+                font-weight: 700;
+                font-size: 0.72rem;
+                text-transform: uppercase;
+                letter-spacing: 0.06em;
+                border: none;
+                border-left: 1px solid rgba(255, 255, 255, 0.2);
+            }
+            .rpa-table-showcase table.rpa-table th:first-child,
+            .rpa-table-showcase table th:first-child { border-left: none; }
+            .rpa-table-showcase table.rpa-table td,
+            .rpa-table-showcase table.rpa-table th[scope="row"],
+            .rpa-table-showcase table td,
+            .rpa-table-showcase table th[scope="row"] {
+                padding: 0.6rem 0.85rem;
+                border-bottom: 1px solid rgba(226, 232, 240, 0.9);
+                color: #1e293b;
+                vertical-align: middle;
+            }
+            .rpa-table-showcase table.rpa-table tbody tr:nth-child(even),
+            .rpa-table-showcase table tbody tr:nth-child(even) {
+                background: rgba(248, 250, 252, 0.85);
+            }
+            .rpa-table-showcase table.rpa-table tbody tr:hover,
+            .rpa-table-showcase table tbody tr:hover {
+                background: rgba(255, 247, 237, 0.9);
+            }
+            .rpa-table-showcase table.rpa-table th[scope="row"],
+            .rpa-table-showcase table th[scope="row"] {
+                text-align: left;
+                font-weight: 700;
+                background: rgba(254, 243, 199, 0.35);
+            }
+            .rpa-table-showcase table.rpa-table td.text-center,
+            .rpa-table-showcase table td.text-center { text-align: center; }
+            .rpa-comment-box {
+                position: relative;
+                border-radius: 0.85rem;
+                border: 1px solid rgba(251, 191, 36, 0.4);
+                border-left: 4px solid #f97316;
+                padding: 1rem 1.15rem 1rem 1.25rem;
+                background: linear-gradient(135deg, rgba(255, 251, 235, 0.92), rgba(255, 255, 255, 0.75));
+                box-shadow: 0 4px 18px -6px rgba(234, 88, 12, 0.12);
+            }
+            .rpa-comment-box p {
+                margin: 0 0 0.75rem;
+                text-align: justify;
+                line-height: 1.55;
+                font-size: 0.9rem;
+                color: #475569;
+            }
+            .rpa-comment-box p:last-child { margin-bottom: 0; }
+            .rpa-comment-box em, .rpa-comment-box .italic { font-style: italic; }
+            .rpa-chapter--4 .rpa-comment,
+            .rpa-chapter--7 .rpa-comment {
+                border-radius: 0.85rem;
+                border: 1px solid rgba(251, 191, 36, 0.4);
+                border-left: 4px solid #f97316;
+                padding: 1rem 1.15rem;
+                background: linear-gradient(135deg, rgba(255, 251, 235, 0.92), rgba(255, 255, 255, 0.75));
+                box-shadow: 0 4px 18px -6px rgba(234, 88, 12, 0.12);
+            }
+            .rpa-chapter--4 .rpa-comment p,
+            .rpa-chapter--7 .rpa-comment p {
+                margin: 0;
+                text-align: justify;
+                font-size: 0.9rem;
+                font-style: italic;
+                color: #475569;
+                line-height: 1.55;
+            }
+            .rpa-chapter--4 .rpa-equation-container,
+            .rpa-chapter--5 .rpa-equation-container,
+            .rpa-chapter--7 .rpa-equation-container {
+                margin: 1.25rem 0;
+                padding: 0.85rem 1rem;
+                border-radius: 0.65rem;
+                background: linear-gradient(90deg, rgba(248, 250, 252, 0.9), rgba(255, 251, 235, 0.45));
+                border: 1px solid rgba(226, 232, 240, 0.8);
+            }
+            .rpa-chapter--4 .rpa-eq-num,
+            .rpa-chapter--5 .rpa-eq-num,
+            .rpa-chapter--7 .rpa-eq-num {
+                font-weight: 700;
+                color: #c2410c;
+                min-width: 3.5rem;
+            }
+            .rpa-spec-card {
+                border-radius: 0.85rem;
+                border: 1px solid rgba(148, 163, 184, 0.35);
+                background: linear-gradient(160deg, rgba(255, 255, 255, 0.98), rgba(248, 250, 252, 0.95));
+                overflow: hidden;
+            }
+            .rpa-spec-card__head {
+                padding: 0.65rem 1rem;
+                font-weight: 800;
+                font-size: 0.8rem;
+                text-transform: uppercase;
+                letter-spacing: 0.08em;
+                color: #c2410c;
+                background: linear-gradient(90deg, rgba(254, 243, 199, 0.65), transparent);
+                border-bottom: 1px solid rgba(226, 232, 240, 0.8);
+            }
+            .rpa-spec-card__body { padding: 0.85rem 1rem; }
+            .rpa-spec-card__row {
+                display: grid;
+                grid-template-columns: minmax(5rem, auto) 1fr;
+                gap: 0.75rem;
+                padding: 0.55rem 0;
+                border-bottom: 1px dashed rgba(203, 213, 225, 0.8);
+            }
+            .rpa-spec-card__row:last-child { border-bottom: none; }
+            .rpa-spec-card__key {
+                font-weight: 800;
+                font-size: 0.85rem;
+                color: #ea580c;
+            }
+            .dark .doc-theme-responsive .rpa-table-showcase__surface {
+                box-shadow: 0 12px 40px -8px rgba(0, 0, 0, 0.45), 0 0 0 1px rgba(251, 146, 60, 0.22);
+            }
+            .dark .doc-theme-responsive .rpa-table-showcase table.rpa-table,
+            .dark .doc-theme-responsive .rpa-table-showcase table {
+                background: rgba(15, 23, 42, 0.6);
+            }
+            .dark .doc-theme-responsive .rpa-table-showcase table td,
+            .dark .doc-theme-responsive .rpa-table-showcase table th[scope="row"] {
+                color: #e2e8f0;
+                border-bottom-color: rgba(71, 85, 105, 0.55);
+            }
+            .dark .doc-theme-responsive .rpa-table-showcase table tbody tr:nth-child(even) {
+                background: rgba(30, 41, 59, 0.55);
+            }
+            .dark .doc-theme-responsive .rpa-table-showcase table tbody tr:hover {
+                background: rgba(51, 65, 85, 0.65);
+            }
+            .dark .doc-theme-responsive .rpa-table-showcase table th[scope="row"] {
+                background: rgba(51, 65, 85, 0.45);
+            }
+            .dark .doc-theme-responsive .rpa-table-showcase__caption {
+                color: #e2e8f0;
+                background: linear-gradient(to right, rgba(30, 41, 59, 0.95), rgba(15, 23, 42, 0.85));
+                border-top-color: rgba(71, 85, 105, 0.5);
+            }
+            .dark .doc-theme-responsive .rpa-comment-box,
+            .dark .doc-theme-responsive .rpa-chapter--4 .rpa-comment,
+            .dark .doc-theme-responsive .rpa-chapter--7 .rpa-comment {
+                background: linear-gradient(135deg, rgba(30, 41, 59, 0.92), rgba(15, 23, 42, 0.88));
+                border-color: rgba(251, 146, 60, 0.28);
+            }
+            .dark .doc-theme-responsive .rpa-comment-box p,
+            .dark .doc-theme-responsive .rpa-chapter--4 .rpa-comment p,
+            .dark .doc-theme-responsive .rpa-chapter--7 .rpa-comment p {
+                color: #cbd5e1;
+            }
+            .dark .doc-theme-responsive .rpa-chapter--4 .rpa-equation-container,
+            .dark .doc-theme-responsive .rpa-chapter--5 .rpa-equation-container,
+            .dark .doc-theme-responsive .rpa-chapter--7 .rpa-equation-container {
+                background: linear-gradient(90deg, rgba(30, 41, 59, 0.85), rgba(15, 23, 42, 0.65));
+                border-color: rgba(71, 85, 105, 0.55);
+            }
+            .dark .doc-theme-responsive .rpa-spec-card {
+                background: linear-gradient(160deg, rgba(30, 41, 59, 0.95), rgba(15, 23, 42, 0.9));
+                border-color: rgba(71, 85, 105, 0.55);
+            }
         </style>
 
         {{-- delete explanation: toggleRpaTheme script moved to index.blade.php to support the relocated header toggle button --}}
@@ -515,9 +927,11 @@
         </div>
 
         {{-- ==================== CHAPITRE 4: REGLES DE CALCUL ==================== --}}
+        <div class="rpa-chapter rpa-chapter--4">
         @for($p=76; $p<=84; $p++)
             @include('norms::codes.rpa.rpa2024.chapitre4.Ch4Pages.rpa24_ch4_p' . $p)
         @endfor
+        </div>
 
         {{-- ==================== CHAPITRE 5: JUSTIFICATION DE LA SECURITE ==================== --}}
         <div class="rpa-chapter rpa-chapter--5">
@@ -527,10 +941,11 @@
         </div>
 
         {{-- ==================== CHAPITRE 7: STRUCTURES EN BETON ARME ==================== --}}
-        
+        <div class="rpa-chapter rpa-chapter--7">
         @for($p=104; $p<=130; $p++)
             @include('norms::codes.rpa.rpa2024.chapitre7.Ch7Pages.rpa24_ch7_p' . $p)
         @endfor
+        </div>
 
         {{-- delete explanation: Test chapter removed as requested by USER to focus on real chapters. --}}
 
@@ -561,5 +976,49 @@
          * Initialize Navigation & Scroll-Spy
          */
         /* delete explanation: Redundant scroll spy logic removed. Now handled by the unified TOC system in toc.blade.php to avoid conflicts and jumping. */
+
+        (function initRpaFigureControls() {
+            const state = new Map();
+            const getState = (id) => {
+                if (!state.has(id)) state.set(id, { scale: 1, tx: 0, ty: 0 });
+                return state.get(id);
+            };
+            const apply = (id) => {
+                const s = getState(id);
+                const stage = document.querySelector('[data-fig-stage="' + id + '"]');
+                if (stage) stage.style.transform = 'translate(' + s.tx + 'px,' + s.ty + 'px) scale(' + s.scale + ')';
+            };
+            document.addEventListener('click', (e) => {
+                const btn = e.target.closest('[data-fig-action]');
+                if (!btn) return;
+                const id = btn.dataset.figTarget;
+                const action = btn.dataset.figAction;
+                const s = getState(id);
+                if (action === 'zoom-in') s.scale = Math.min(3, s.scale + 0.2);
+                else if (action === 'zoom-out') s.scale = Math.max(0.5, s.scale - 0.2);
+                else if (action === 'reset' || action === 'fit') { s.scale = 1; s.tx = 0; s.ty = 0; }
+                apply(id);
+            });
+            document.querySelectorAll('[data-fig-viewport]').forEach((vp) => {
+                const id = vp.dataset.figViewport;
+                let pan = null;
+                vp.addEventListener('pointerdown', (e) => {
+                    if (e.target.closest('.rpa-fig-ctrl')) return;
+                    pan = { x: e.clientX, y: e.clientY, tx: getState(id).tx, ty: getState(id).ty };
+                    vp.classList.add('is-panning');
+                    vp.setPointerCapture(e.pointerId);
+                });
+                vp.addEventListener('pointermove', (e) => {
+                    if (!pan) return;
+                    const s = getState(id);
+                    s.tx = pan.tx + (e.clientX - pan.x);
+                    s.ty = pan.ty + (e.clientY - pan.y);
+                    apply(id);
+                });
+                const end = () => { pan = null; vp.classList.remove('is-panning'); };
+                vp.addEventListener('pointerup', end);
+                vp.addEventListener('pointercancel', end);
+            });
+        })();
     </script>
 </article>

@@ -1,9 +1,6 @@
 {{-- ==================== PAGE 121 ==================== --}}
 <section id="rpa-p121" class="rpa-page rpa-scroll-spy-section">
-    <div class="rpa-header">
-        <span>121</span>
-        <span class="chapter">Chapter 7. STRUCTURES EN BETON ARME</span>
-    </div>
+    @include('norms::codes.rpa.rpa2024.partials.rpa-page-header', ['page' => 121, 'meta' => 'norms::codes.rpa.rpa2024.partials.ch7-running-meta'])
 
     <div class="rpa-equation-container" id="rpa-eqt-7.18">
         <div class="rpa-equation">

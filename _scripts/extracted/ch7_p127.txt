@@ -1,0 +1,130 @@
+128 
+Chapter 7. STRUCTURES EN SETON ARME 
+OU: 
+• µ ¢ : V a l e ur r e qui se du co efficient de du c tilit e e n c o urbure ; 
+• e sy : V a leur d e la d e form a tion a l a limit e e l as tiqu e d e l' ac ier , donn ee co mm e s uit: 
+f e 
+fsy = -
+E s 
+• E s : modul e d 'e la s ti c it e de l'a ci e r 
+• v d: e ffort norm a l r e duit , ca s d ' un e sec tion re c t a n g ul a ir e 
+• W v : p o ur ce nt age n o rm a li se d es a nn a tur e s ve r t i ca l es d 'a me s 
+A s v / y d 
+C.O v == . -
+(/ w - 2 / c) .b w f ed 
+• A s v : sec ti o n d e fe rraill ag e co rr es p o nd a nt a l a sec ti o n d e ! ' a. m e du vo il e 
+• / y d : v a leur d e ca lcul de la limit e d ' e l as ti c it e d e l'a c i e r 
+• f e d : val e ur d e ca lcul de la r es i s t a nce du b e ton a l a co mpr es sion 
+• a: co effici e nt d ' e ffi c acit e du confin e m e nt , ega l a (a,,. a s ) , a ve c: 
+{ 
+b2 
+a ,,= I - [ ,, (~) 
+a s= ( 1 -
+2
+~J( l -
+2
+;
+10
+) 
+( 7 . 33) 
+( 7. 34) 
+( 7 .35) 
+- n : n o mbr e tot a l d e barre s l o n g itudin a l es l a t era l e ment m a int e nu es par d es a rm a ture s d e 
+co nfinem e nt o u d es epin g l es ; 
+- b;: di s t a n ce e ntr e d es b a rr es m a int e nu es co n sec uti ves (c f . Fi g ur e (7 . 2a) 
+- b o, h o , t : g randeur s g eom e triqu es (c f . Fi g ur e ( 7 . 2 a). 
+II co nvi e nt d e pr ev oir une v aleur minim a l e d e w .,,d ega l e a 0 . 12 d a n s l a zo ne critique a l a b a s e 
+du voil e. 
+L e co effi c i e nt de ductilit e e n courbur e ( µ ip) p e ut et r e d e t e rmin e se lon Eqn . ( 7 .36), e n fo n c tion de 
+l a peri o d e fo nd a m e nt a l e ( T o), d e l a va leur (T 2 ) du s pec t re d e c a lcul , du coe ffi c i e nt d e co mp o rt e m en t 
+(R / Q F) e t du ra pp o rt ( M w / Mno ) . 
+{ 
+2. ( J F·~) - I 
+µ ip = 
+) +2. [( Q R .¥..mM ) - l ] . - r,r , 
+F RD O 
+( 7. 36) 
+, s i T o < T 2 
+M E o e s t l e mom e nt fl e chi ssa nt i ss u d e !' a n a ly se (e nv e lopp e de ca lcul d eca lee d e h e ,.) a l a ba s e 
+du mur ( cf Figur e ( 7 . I 3 )); MnD e s t l a r es i s t a nc e a l a fl e xion de c alcul. 
+L a po s iti o n d e ! 'ax e n e utr e , xu , c o rr es p o nd a nt a l a c ou r bure ultime a p res ec l a t e m e nt du b e t o n 
+s itu e h o r s du no y au c o nfin e d es el e ment s de riv e p e ut e tr e es tim e e corrm1 e s uit : 
+( ) 
+l w. b c 
+X u = v d+ W v .- ­
+ho 
+( 7 .3 7 ) 
+L es par a m e tr es d e l 'E qn. 7 . 37 s ont d e fini s d a n s l es sec tion s pr e c e dent es ( cf . Eqn s. ( 7 . 11 ) & 
+( 7 . 34 ), Figur es ( 7 . 16 )) . 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+1 2 8 C h a p t e r 7 . S T R U C T U R E S E N B E T O N A R M E 
+o ~ : 
+· a : Va l e u r r e q u i s e d u c o e ff i c i e n t d e d u c t i l i t ~ e n c o u r b u r e ; 
+• 
+& , : 
+Va l e u r d e l a d ~ fo r m a t i o n ~ l a l i m i t e ~ l a s t i q u e d e l a c i e r, d o n n ~ e c o m m e s u i t : 
+f 
+& , = ­ 
+· E 
+• E , : m o d u l e d ' ~ l a s t i c i t ~ d e l a c i e r 
+• v : e ff o r t n o r m a l r ~ d u i t , c a s d u n e s e c t i o n r e c t a n g u l a i r e 
+• 0 : p o u r c e n t a g e n o r m a l i s ~ d e s a r m a t u r e s v e r t i c a l e s d ' ~ m e s 
+A , f 
+ft 
+L ­ 
+( 4 , - 2 1 ) . b , fa 
+• A , » : s e c t i o n d e f e rr a i l l a g e c o rr e s p o n d a n t ~ l a s e c t i o n d e l ~ m e d u v o i l e 
+• f : v a l e u r d e c a l c u l d e l a l i m i t e d ' ~ l a s t i c i t ~ d e l a c i e r 
+• f : v a l e u r d e c a l c u l d e l a r ~ s i s t a n c e d u b ~ t o n ~ l a c o m p r e s s i o n 
+• a : c o e ffi c i e n t d ' e f fi c a c i t ~ d u c o n fi n e m e n t , ~ g a l ~ ( 0 , , . a , ) . a v e c : 
+{ 
+b 2 
+, = I - 2L » ( it 
+a , = ( 
+{ ) ( - 5 ) 
+( 7 . 3 3 ) 
+( 7 . 3 4 ) 
+( 7 . 3 5 ) 
+- n : n o m b r e t o t a l d e b a rr e s l o n g i t u d i n a l e s l a t ~ r a l e m e n t m a i n t e n u e s p ar d e s a r m a t u r e s d e 
+c o n fi n e m e n t o u d e s ~ p i n g l e s ; 
+- b ; : d i s t a n c e e n t r e d e s b a rr e s m a i n t e n u e s c o n s ~ c u t i v e s ( c f. F i g u r e ( 7 . 2 a ) 
+- b o . h o . t : g r a n d e u r s g ~ o m ~ t r i q u e s ( c f. F i g u r e ( 7 . 2 a ) . 
+I l c o n v i e n t d e p r ~ v o i r u n e v a l e u r m i n i m a l e d e a ~ g a l e ~ 0 . 1 2 d a n s l a z o n e c ri t i q u e ~ l a b a s e 
+d u v o i l e . 
+L e c o e ff i c i e n t d e d u c t i l i t ~ e n c o u r b u r e 
+( t a ) 
+p e u t ~ t r e d ~ t e r m i n ~ s e l o n E q n . ( 7 . 3 6 ) , e n f o n c t i o n d e 
+l a p~ r i o d e f o n d a m e n t a l e ( To ) , d e l a v a l e u r ( T ) d u s p e c t r e d e c a l c u l , d u c o e ff i c i e n t d e c o m p o r t e m e n t 
+( R / Q r ) e t d u r a p p o r t ( M e o / M a o ) . 
+{ 
+2 . ( g F .
+�
+) - ] 
+H o = 
+1
++ 2 / ( 3 , {
+- 1 h; 
+F R D 0 
+. si To > T 
+. s i To < T 
+( 7 . 3 6 ) 
+M p p e s t l e m o m e n t fl ~ c h i s s a n t i s s u d e T a n a l y s e ( e n v e l o p p e d e c a l c u l d ~ c a l ~ e d e h , , ) ~ l a b a s e 
+d u m u r ( c f F i g u r e ( 7 . 1 3 ) ) ; M p e s t l a r ~ s i s t a n c e ~ l a fl e x i o n d e c a l c u l . 
+L a p o s i t i o n d e F a x e n e u t r e , x . c o rr e s p o n d a n t ~ l a c o u r b u r e u l t i m e a p r ~ s ~ c l a t e m e n t d u b ~ t o n 
+s i t u ~ h o r s d u n o y a u c o n fi n ~ d e s ~ l ~ m e n t s d e r i v e p e u t ~ t r e e s t i m ~ e c o m m e s u i t : 
+( 7 . 3 7 ) 
+L e s p ar a m ~ t r e s d e I ' E q n . 7 . 3 7 s o n t d ~ fi n i s d a n s l e s s e c t i o n s p r ~ c ~ d e n t e s ( c f. E q n s . ( 7 . 1 1 ) & 
+( 7 . 3 4 ) , F i g u r e s ( 7 . 1 6 ) ) . 

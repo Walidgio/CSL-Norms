@@ -13,20 +13,17 @@
         </div>
     </div>
 
-    <div class="rpa-header-meta flex justify-between text-sm text-gray-500 mb-6 border-b border-black pb-1">
-        <span>87</span>
-        <span class="italic chapter">Chapitre 5. Justification de la sécurité</span>
-    </div>
+    @include('norms::codes.rpa.rpa2024.partials.rpa-page-header', ['page' => 87, 'meta' => 'norms::codes.rpa.rpa2024.partials.ch5-running-meta'])
 
     <div id="rpa-art-5.1" style="scroll-margin-top: 100px;">
-        <h3 class="rpa-h2" style="color: #c05621;">5.1 Généralités</h3>
+        <h3 class="rpa-h2">5.1 Généralités</h3>
         <p class="text-justify mb-4 leading-relaxed">
             Les objectifs de sécurité de la structure, soumise aux effets de l'action sismique, sont réputés atteints si les critères ci-après relatifs à la résistance, la ductilité, l'équilibre d'ensemble, la résistance des planchers, la stabilité des fondations, les joints sismiques, déplacements inter-étages et la stabilité de forme (effet P-Δ) sont respectés.
         </p>
     </div>
 
     <section id="rpa-art-5.2" class="mt-10" style="scroll-margin-top: 100px;" aria-labelledby="rpa-ch5-h-5-2">
-        <h3 id="rpa-ch5-h-5-2" class="rpa-h2" style="color: #c05621;">5.2 Combinaisons d'actions</h3>
+        <h3 id="rpa-ch5-h-5-2" class="rpa-h2">5.2 Combinaisons d'actions</h3>
         <p class="text-justify mb-4 leading-relaxed">
             Au sens du principe de calcul aux états limites, l'action sismique est considérée, du fait de sa brève durée d'application, comme une action accidentelle. L'action sismique est caractérisée par trois composantes qui agissent simultanément :
         </p>

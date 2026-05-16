@@ -1,9 +1,6 @@
 {{-- Chapitre 5 — résistance, ductilité, équilibre ; repère imprimé env. p. 89 --}}
 <section id="rpa-p89" class="rpa-page rpa-scroll-spy-section" data-annotatable="true">
-    <div class="rpa-header-meta flex justify-between text-sm text-gray-500 mb-6 border-b border-black pb-1">
-        <span>89</span>
-        <span class="italic chapter">Chapitre 5. Justification de la sécurité</span>
-    </div>
+    @include('norms::codes.rpa.rpa2024.partials.rpa-page-header', ['page' => 89, 'meta' => 'norms::codes.rpa.rpa2024.partials.ch5-running-meta'])
 
     <div class="rpa-equation-container" id="rpa-eqt-5.3">
         <div class="rpa-equation">
@@ -119,7 +116,7 @@
     </aside>
 
     <section id="rpa-art-5.3" class="mt-10" style="scroll-margin-top: 100px;" aria-labelledby="rpa-ch5-h-5-3">
-        <h3 id="rpa-ch5-h-5-3" class="rpa-h2" style="color: #c05621;">5.3 Justification vis-à-vis de la résistance</h3>
+        <h3 id="rpa-ch5-h-5-3" class="rpa-h2">5.3 Justification vis-à-vis de la résistance</h3>
         <p class="text-justify mb-4 leading-relaxed">
             La condition de résistance suivante doit être satisfaite pour tous les éléments structuraux, leurs assemblages, ainsi que les éléments non structuraux critiques :
         </p>
@@ -142,14 +139,14 @@
     </section>
 
     <section id="rpa-art-5.4" class="mt-10" style="scroll-margin-top: 100px;" aria-labelledby="rpa-ch5-h-5-4">
-        <h3 id="rpa-ch5-h-5-4" class="rpa-h2" style="color: #c05621;">5.4 Justification vis-à-vis de la ductilité</h3>
+        <h3 id="rpa-ch5-h-5-4" class="rpa-h2">5.4 Justification vis-à-vis de la ductilité</h3>
         <p class="text-justify leading-relaxed">
             Les exigences de ductilité minimale sont réputées satisfaites si toutes les dispositions constructives relatives au matériau et aux éléments structuraux telles que définies dans les chapitres correspondants du présent document technique réglementaire sont appliquées.
         </p>
     </section>
 
     <section id="rpa-art-5.5" class="mt-10" style="scroll-margin-top: 100px;" aria-labelledby="rpa-ch5-h-5-5">
-        <h3 id="rpa-ch5-h-5-5" class="rpa-h2" style="color: #c05621;">5.5 Justification vis-à-vis de l'équilibre d'ensemble</h3>
+        <h3 id="rpa-ch5-h-5-5" class="rpa-h2">5.5 Justification vis-à-vis de l'équilibre d'ensemble</h3>
         <p class="text-justify mb-4 leading-relaxed">
             Cette condition d'équilibre se réfère à la stabilité d'ensemble du bâtiment ou de l'ouvrage, soumis à des effets de renversement et/ou de glissement dus aux sollicitations résultant des combinaisons d'actions.
         </p>

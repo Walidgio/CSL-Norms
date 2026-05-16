@@ -1,0 +1,85 @@
+9.5 Calcul et ver ifi cation des elements structurau x principau x 153 
+9.5 Calcul et verification des elements structuraux principaux 
+L es pr es cript io n s q u i s ui ve nt so nt fac ult a ti ves p o ur J es co n s tru c tion s e n m ay onn er i e po rt e u se 
+c h a 1n ee d e I a 2 ni v e a u x (h a ut e ur s m ax im a l es d e 5 m a 8 m ) , e n t o ut e z on e s i s miqu e. E ll es d o i ven t , 
+n ea nm o in s, r es p ec te r J es pr esc ription s e n o n cees d a n s J es p aragra ph es pr ece d e nt s e t e n p a rticuli e r 
+Je s ind ex d e d e n s it e d u T a bl ea u ( 9 .3). 
+9.5.1 Principe de fonctionnement 
+L a m ayo nn e ri e c h a i nee off r e un e b o nn e r es i s t a n ce a u x ac ti o n s h o ri zo nt a l es du es a u x seco u sses 
+s i s miqu es. 
+Le r o l e de s cha 1 n ages pe riph e rique s es t d e r e pr e ndr e J es e ff o rt s d e t ra cti o n e t d e r e n ve r se m e nt 
+s olli c i ta nt l e mur (c f. F i g ur e (9. 1 2)) . L es c h a1' n ages a in s i r ea li ses forment un e ce inture qui r e n force 
+l e li a i so nn e m e nt int erne d es e l e m e nt s d e m ayo nn er i e . 
+Charge Verticale N 
+Effort 
+du au seism e 
+Fi g ur e 9 . 1 2 : Prin c ip e d e fon c ti o nn e m e nt d ' un p a nn ea u de ma y onn er i e c h a1 n ee 
+9 . 5.2 Sollicitation agissantes 
+L es so lli c it a ti o n s ag i ss a nt es so nt d e t e rmin ees s ui va nt l e c h a pi tre V , e t e n t e n a nt co mpt e du coeffic i e nt 
+d e c o m po rt e m e nt , R , ( c f. c h a pitr e III e t § 3.6 a in s i qu e T a bl ea u (3. 17 )) so it R= 2 .5. 
+9 .5.3 Sollicitations resistantes 
+L es so lli c it a tion s r es i s t. a nt es so nt c alcul ees co mpt e tenu d e J' a ppl ic ati o n , a u x r es i s t a n ces carac t e ri s ­
+tiqu es des m a t er i a u x o u c o n s id erees co mm e t e ll es, d es coeffic i e nt s p a rtiel s d e sec urit e s uiv a nt s 
+• B e ton d e gra nul a t s co u ra nt s : y,
+11 
+= I . 5 
+• Aci e r : y,
+11 
+= 1 . 0 
+• Bl o c s de ma yo n ne r ie: cf. T a bl ea u (9.4) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+9 . 5 C a l c ul e t v ~ r i fi c a t i o n d e s ~l ~ m e n t s s t r u c t u r a u x p r i n ci p a u x 1 5 3 
+9 . 5 C a l c u l e t v ~ ri f i c a t i o n d e s ~ l ~ m e n t s s t r u c t u r a u x p ri n c i p a u x 
+L e s 
+p r e s c r i p t i o n s q u i 
+s u i v e n t s o n t f a c u l t a t i v e s p o u r l e s c o n s t ru c t i o n s e n m a ~ o n n e r i e p o rt e u s e 
+c h a ~ n ~ e d e I ~ 2 n i v e a u x ( h a u t e u r s m a x i m a l e s d e 5 m ~ 8 m ) , e n t o u t e z o n e s i s m i q u e . E l l e s d o i v e n t . 
+n ~ a n m o i n s , r e s p e c t e r l e s 
+p r e s c r i p t i o n s 
+~ n o n c ~ e s d a n s l e s p a r a g r a p h e s p r ~ c ~ d e n t s e t e n p a r t i c u l i e r 
+l e s i n d e x d e d e n s i t ~ d u T a b l e a u ( 9. 3 ). 
+9. 5 . 1 P r i n c i p e d e f o n c t i o n n e m e n t 
+L a m a o n n e r i e c h a i n ~ e o ff r e u n e b o n n e r ~ s i s t a n c e a u x a c t i o n s h o r i z o n t a l e s d u e s a u x s e c o u s s e s 
+s i s m i q u e s . 
+L e r ~ l e d e s c h a ~ n a g e s p ~ r i p h ~ r i q u e s e s t d e r e p r e n d r e l e s e ff o r t s d e t r a c t i o n e t d e r e n v e r s e m e n t 
+s o l l i c i t a n t l e m u r ( c f . F i g u r e ( 9 . 1 2 ) ) . L e s c h a ~ n a g e s a i n s i r ~ a l i s ~ s fo r m e n t u n e c e i n t u r e 
+q u i 
+r e n f o r c e 
+l e l i a i s o n n e m e n t i n t e r n e d e s ~ l ~ m e n t s d e m a ~ o n n e ri e . 
+C h a r g e V e rt i c a l e N 
+E ff o rt 
+d ~ a u s ~ i s m e 
+F i g u r e 
+9 . 1 2 : 
+P ri n c i p e 
+d e f o n c t i o n n e m e n t d ' u n p a n n e a u d e m a ~ o n n e ri e c h a ~ n ~ e 
+9 . 5 . 2 S o l l i c i t a t i o n a g i s s a n t e s 
+L e s s o l l i c i t a t i o n s 
+a g i s s a n t e s 
+s o n t d ~ t e rm i n ~ e s s u i v a n t l e c h a p i t r e V, e t e n t e n a n t c o m p t e d u c o e ff i c i e n t 
+d e 
+c o m p o r t e m e n t , 
+R , ( c f. 
+c h a p i t r e 
+I I I e t $ 3. 6 a i n s i q u e T a b l e a u ( 3 . 1 7 ) ) s o i t R = 2 . 5 . 
+9 . 5 . 3 S o l l i c i t a t i o n s r ~ s i s t a n t e s 
+L e s s o l l i c i t a t i o n s r ~ s i s t a n t e s s o n t c a l c u l ~ e s 
+c o m p t e 
+t e n u d e l a p p l i c a t i o n , a u x r ~ s i s t a n c e s c ar a c t ~ r i s ­ 
+t i q u e s d e s m a t ~ r i a u x o u c o n s i d ~ r ~ e s c o m m e t e l l e s , d e s c o e ff i c i e n t s p a rt i e l s d e s ~ c u r i t ~ s u i v a n t s 
+• B ~ t o n d e g r a n u l a t s c o u r a n t s : % = 1 . 5 
+• A c i e r : % = 1 . 0 
+• B l o c s d e m a ~ o n n e ri e : c f. Ta b l e a u ( 9 . 4 ) 

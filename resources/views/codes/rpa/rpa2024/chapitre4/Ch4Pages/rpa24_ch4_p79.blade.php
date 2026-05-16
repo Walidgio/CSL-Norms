@@ -1,9 +1,6 @@
 {{-- ==================== PAGE 79 ==================== --}}
 <section id="rpa-p79" class="rpa-page rpa-scroll-spy-section" data-annotatable="true">
-    <div class="rpa-header">
-        <span>79</span>
-        <span class="chapter">4.2 Méthode statique équivalente</span>
-    </div>
+    @include('norms::codes.rpa.rpa2024.partials.rpa-page-header', ['page' => 79, 'meta' => 'norms::codes.rpa.rpa2024.partials.ch4-running-meta'])
 
     <div id="rpa-art-4.2.2" style="scroll-margin-top: 100px;">
         <h3 class="rpa-h3">4.2.2 Modélisation</h3>

@@ -1,0 +1,131 @@
+7.5 Specifications pour l es poutres 
+7 .5 Specifications po u r les poutres 
+7.5.1 Coffrage 
+Les poutres doivent respecter J es dimen sions ci-apres (cf. Figur e ( 7.4)): 
+b 2'. 20 cm : e n zones I , 11 et III 
+b 2'. 25 cm : e n zones IV , V et VI 
+h 2'. 30 cm 
+~ S 4.0 
+bm ax S ( 1.5h + b c) 
+ou: h peut etre ramenee a 20 cm dan s Jes ouvrages contreventes par voiles. 
+a) 
+~ 
+• 
+b, J 
+' 
+.... __ h, _ .,. 
+r 
+~ max( b ,12, h ,12) 
+b) 
+""' 
+h 
+..., 
+b 
+· i D' 
+' l 
+~ max(b,12, h.12) 
+Figur e 7.4: D i men s ion a respecter po u r Jes poutre s 
+7.5.2 Ferraillage 
+Exigences de duct i li t e pour la zone cr i tique 
+1 13 
+Les zones d ' une poutre qui s ' etendent s ur une di s t a nc e (I'= I .S h ) depui s la sec tion tran sversa le 
+d ' extremite ou la poutre est connectee a un nreud poteau-poutre , a insi que de part et d ' autre de toute 
+autre sec tion transver sa le s u s ceptible de plastification dans l a s ituation s i sm ique de calcul, doi vent 
+etre considerees comme de s zones critiques, h etant la haut e ur de la poutre (cf. Figure (7 . 2b)). 
+Armatu r es longitud in al e s 
+Le po u rcentage total minimum des aciers longitudinaux , s ur toute la longueur de la poutre , est de 
+0,5 % en toute s ection . 
+Le pourcentage total maximum des aciers lon git udin a ux est de : 
+• 4 % en zo ne courante 
+• 6% en zone de reco uvrement 
+avec: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+7 . 5 S p ~ ci fi c a ti o n s p o u r l e s p o u t r e s 
+7 . 5 S p ~ c i fi c a t i o n s p o u r l e s p o u t r e s 
+7 . 5 . 1 C o ff r a g e 
+L e s 
+p o u t r e s 
+d o i v e n t 
+r e s p e c t e r 
+l e s d i m e n s i o n s 
+c i - a p r ~ s 
+( c f. 
+F i g u r e 
+( 7 . 4 ) ) : 
+b > 2 0 c m : e n z o n e s I , I I e t I I 
+b > 2 5 c m : e n zo n e s I V , V e t V I 
+h > 3 0 c m 
+{ < 4. 0 
+b » a < ( 1 . 5 h + b , ) 
+o ~ : h p e u t ~ t r e r a m e n ~ e ~ 2 0 c m d a n s l e s o u v r a g e s c o n tr e v e n t ~ s p a r v o i l e s . 
+1 1 3 
+a ) 
+�  
+A 
+b , 
+' 
+h , 
+I 
+-« 
+► 
+b ) 
+◄ 
+h , 
+.. 
+A 
+A 
+: 
+b 
+b e 
+• 
+' 
+< m a x ( b / 2 , h / 2 ) 
+< m a x ( b / 2 , h / 2 ) 
+F i g u r e 7 .4 : D i m e n s i o n a 
+r e s p e c t e r 
+p o u r J e s 
+p o u t r e s 
+7 . 5 . 2 F e r r a il l a g e 
+E x i g e n c e s 
+d e d u c t i l i t ~ p o u r l a z o n e c r i t i q u e 
+L e s z o n e s d u n e 
+p o u t r e 
+q u i s ' ~ t e n d e n t s u r u n e d i s t a n c e ( /' =- 
+1 . 5 h ) d e p u i s 
+l a s e c t i o n t r a n s v e r s a l e 
+d e x t r ~ m i t ~ o ~ l a p o u t r e e s t c o n n e c t ~ e ~ u n n c u d p o t e a u - p o u t r e , a i n s i q u e d e p a rt e t d ' a u t r e d e t o u t e 
+a u t r e s e c t i o n t ra n s v e r s a l e 
+s u s c e p t i b le 
+d e 
+p l a s t i fi c a t i o n 
+d a n s l a s i t u a t i o n s i s mi q u e d e c a l c u l , d o i v e n t 
+~ t r e c o n s i d ~ r ~ e s c o m m e d e s z o n e s c r i t i q u e s , h ~ t a n t l a h a u t e u r d e l a 
+p o u t r e 
+( c f . F i g u r e ( 7 . 2 b ) ) . 
+A r m a t u r e s 
+l o n g i t u d i n a l e s 
+Le 
+p o u r c e n t a g e 
+t o t a l m i n i m u m d e s a c i e r s 
+l o n g i t u d i n a u x , 
+s u r t o u t e l a l o n g u e u r d e l a p o u t r e , e s t d e 
+0 , 5 % e n t o ut e s e c t i o n . 
+L e 
+p o u r c e n t a g e 
+t o t a l m a x i m u m d e s a c i e r s i o n g i t u d i n a u x e s t d e : 
+• 4 % e n zo n e c o u ra n t e 
+• 6 % e n z o n e d e r e c o u v r e m e n t 
+a v e c : 

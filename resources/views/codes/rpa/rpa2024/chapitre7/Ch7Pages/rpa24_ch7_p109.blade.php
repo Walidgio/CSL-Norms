@@ -1,8 +1,5 @@
 <section id="rpa-p109" class="rpa-page rpa-scroll-spy-section">
-    <div class="rpa-header">
-        <span>7.4 Spécifications pour les poteaux</span>
-        <span>109</span>
-    </div>
+    @include('norms::codes.rpa.rpa2024.partials.rpa-page-header', ['page' => 109, 'meta' => 'norms::codes.rpa.rpa2024.partials.ch7-running-meta'])
 
     <div class="rpa-bullet" style="margin-top: 15px;">• <i>l<sub>cl</sub></i> (unités: cm): la longueur libre du poteau</div>
     <p style="text-align: justify; margin-top: 10px;">
@@ -55,6 +52,6 @@
         La zone nodale est constituée par le nœud poteau-poutre, proprement dit, et les extrémités des éléments (poutres et poteaux) qui y concourent (cf. <a href="#rpa-fig-7.2" class="rpa-link">Figure (7.2b)</a>). Les longueurs à prendre en compte, pour chaque barre, sont données par <a href="#rpa-eqt-7.2" class="rpa-link">Eqn. (7.2)</a>.
     </p>
     <p style="text-indent: 20px; text-align: justify;">
-        La longueur d'ancrage des armatures des poutres et des poteaux ancrées dans les noeuds poteaux-poutres doit être mesurée à partir d'un point de l'armature situé à une distance de (5<i>&phi;<sub>l</sub></i>) de la face du noeud, vers l'intérieur du noeud, pour prendre en compte l'extension de la zone plastifiée due aux déformations cycliques post-élastiques.
+        La longueur d'ancrage des armatures des poutres et des poteaux ancrées dans les n&oelig;uds poteaux-poutres doit être mesurée à partir d'un point de l'armature situé à une distance de (5<i>&phi;<sub>l</sub></i>) de la face du n&oelig;ud, vers l'intérieur du n&oelig;ud, pour prendre en compte l'extension de la zone plastifiée due aux déformations cycliques post-élastiques.
     </p>
 </section>

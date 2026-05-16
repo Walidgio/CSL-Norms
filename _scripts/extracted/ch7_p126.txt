@@ -1,0 +1,131 @@
+7 . 7 Voiles de con t reventement 127 
+O U: 
+• bo r e pr e e nt e l a lar ge ur du no y au c onfin ee d e !' e l e m e nt d e ri ve 
+• (Ag / Ac) r e pr ese nt e l e rapp o rt d e l a s urfac e t o t a l e de ! 'e l e m e nt d e ri ve s ur sa s ur face c o nfin ee 
+Au - d ess u s d e l a zo n e c ritiqu e, e t e n r es p ec t a nt l a di s po s iti o n de co ntr eve nt e m e nt e n v oil es d a n s 
+deu x dir ec tion s orth ogo n a l es , l e ca lcul d es v oil es e t d es trum ea u x se fera ex clu s i ve m e nt d a n s l a 
+dir ec ti o n d e leur pl a n mo ye n , e n a ppliqu a nt Je s r eg l es d e b e t o n a rm e e n v i g u e ur. 
+II co n v i e nt , e n outr e, d e p re vo i r d es e l e m e nt s d e ri v e s ur un niv e au s uppl e ment a ir e, a vec a u 
+m a in s l a moiti e d es ar m a tur es d e confin e m e nt r e qui ses d a n s l a zo n e c ritiqu e. 
+Ferraillage de l'ame 
+• Aciers verticaux 
+Les arm a tur es d'ii m e d o i ve nt s e co mpo se r d e d e ux tr e illi s d e b a rr es aya nt J es m e m es carac­
+t er i s tiqu es d ' a dh e ren c e , r e li es p a r d es e tri e r s es p a ce s d 'e nviron 500 mm . 
+L e di a m e tre m ax im a l , </>max, d es a rm a tur es d 'a m e doi ve nt r es p ecte r l a co nditi o n : 
+Smm :S: </>max :S: bw / 8 
+(7.28) 
+L ' es p a c e ment d es a rm a tur es d ' ii m e n e doit pa s e tr e s up e ri e ur a 2 50 mm o u 25 fo i s l e di a m e tr e 
+d es b arres , e n p re n a nt l a plu s p e tit e va leu r . 
+Les barr es ve rti ca l es du d e rni e r ni vea u doi ve nt e tr e muni es d e croc h e t s a l a p ar ti e s up e ri e u re. 
+T o ut es Je s a utr es barr es n 'o nt p as de c ro c h e t s U on c ti o n p a r r eco uvr e m e nt ). 
+• A ciers horizon t aux 
+L es b a rr es h o ri zo ntal es doi ve nt etre muni es d e c ro c het s. D a n s l e cas o u ii exis t e d es ex tr e mit es 
+c onfinee s, !e s b a rre s horizont a le s peu v ent etr e a n c re es sa n s croch e t s s i !e s dimen s ion s d es 
+t a lon s p e rm e tt en t la r e ali sa ti o n d ' un a ncra g e droit. 
+L e f e rraill age h o ri zo nt a l , n ecessa ir e p o ur l a r es i s t a nc e a ! ' eff ort tran c h a nt , d o it sa ti s f ai r e Eqn . 
+(7.2 9 ): 
+a ve c : 
+A 1, V 
+- >­
+s - z . J . 
+- V : eff ort tra n c h a nt d e c alcul , V = l .4V,, 
+(7.29) 
+- z : di s tan ce e ntr e !e s ce ntr es d e grav it e d es armatur es de s d e u x ex tr e mit es co nfin ees. 
+7.7.5 Conditions de duc t ilite locale 
+Dan s ! es v oil es de secti on r ec t a n g ul a ir e, l e rapport m eca niqu e e n v olum e de s ar m a tur es de confin e­
+ment r e qui s e s, W.. v d , d a n s !e s e l e ment s d e ri ve, d o it r es p ec t e r l a c ondition c i-d esso u s : 
+(7.3 0 ) 
+volum e de s ar m a ture s d e co nfinem e nt f )'d 
+W wd = - - -- - - - ----- - --
+v o l ume du n o yau en b e ton f e d 
+(7.3 1 ) 
+avec: 
+f 1 • d f e 'Yb 
+f e d f c 28 . 'Y s 
+( 7 .32) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+7 . 7 V o il e s d e c o n t r e v e n t e m e n t 1 2 7 
+o ~ : 
+• b o r e p r ~ s e n t e l a l ar g e u r d u n o y a u c o n fi n ~ e d e l ' ~ l ~ m e n t d e r i v e 
+• ( A / A ) r e p r ~ s e n t e l e r a p p o r t d e l a s u r f a c e t o t a l e d e T ' ~ l ~ m e n t d e r i v e s u r s a s u r fa c e c o n fi n ~ e 
+A u - d e s s u s d e l a zo n e c r i t i q u e , e t e n r e s p e c t a n t l a 
+d i s p o s i t i o n 
+d e c o n t r e v e n t e m e n t e n v o i l e s d a n s 
+d e u x d i r e c t i o n s 
+o r t h o g o n a l e s , 
+l e c a lc u l d e s v o i l e s e t d e s t ru m e a u x s e f e ra e x cl u s i v e m e n t d a n s l a 
+d i r e c t i o n d e l e u r p l a n m o y e n , e n 
+a p p l i q u a n t 
+l e s r ~ g l e s d e b ~ t o n a r m ~ e n 
+v i g u e u r. 
+I ] c o n v i e n t , e n o u t r e , d e p r ~ v o i r d e s ~ l ~ m e n t s d e r i v e s u r u n n i v e a u 
+s u p p l ~ m e n t a i r e , 
+a v e c a u 
+m o i n s l a m o i t i ~ d e s ar m a t u r e s d e c o n fi n e m e n t 
+r e q u i s e s 
+d a n s l a z o n e 
+c r i t i q u e . 
+F e r r a i l l a g e d e l ' ~ m e 
+• A c i e r s v e r t i c a u x 
+L e s arm a t u r e s d ' ~ m e d o i v e n t s e c o m p o s e r d e d e u x t r e i l l i s d e b a r r e s a y a n t l e s m ~ m e s c a r a c ­ 
+t ~ ri s t i q u e s d a d h ~ r e n c e , r e l i ~ s p a r d e s ~ t r i e r s e s p a c ~ s d ' e n v i r o n 5 0 0 m m . 
+L e d i a m ~ t r e m a x i m a l , 0 , , d e s a r m a t u r e s d ' ~ m e d o i v e n t r e s p e c t e r l a c o n d i t i o n : 
+8 m m < @ % < b , / 8 ( 7 . 2 8 ) 
+L e s p a c e m e n t d e s ar m a t u r e s d ' ~ m e n e d o i t p a s ~ t r e s u p ~ ri e u r ~ 2 5 0 m m o u 2 5 fo i s l e d i a m ~ t r e 
+d e s b a rr e s , e n p r e n a n t l a p l u s 
+p e t i t e 
+v a l e u r . 
+L e s b arr e s v e rt i c a l e s d u d e rn i e r n i v e a u d o i v e n t ~ t r e m u n i e s d e c r o c h e t s ~ l a p art i e s u p ~ r i e u r e . 
+To u t e s l e s a u t r e s b arr e s n ' o n t 
+p a s 
+d e c r o c h e t s (j o n c t i o n p a r r e c o u v r e m e n t ) . 
+• A ci e r s h o r i z o n t a u x 
+L e s b arr e s h o r i z o n t a l e s d o i v e n t ~ t r e m u n i e s d e c r o c h e t s . D a n s l e c a s o u i l e x i s t e d e s e x t r ~ m i t ~ s 
+c o n fi n ~ e s , l e s b a r r e s h o r i z o n t a l e s p e u v e n t ~ t r e a n c r ~ e s s a n s c r o c h e t s s i l e s d i m e n s i o n s d e s 
+t a l o n s p e r m e t t e n t l a r ~ a l i s a t i o n d ' u n a n c r a g e d r o i t . 
+L e fe rr a i l l a g e h o r i z o n t a l , n ~ c e s s a i r e p o u r l a r ~ s i s t a n c e ~ l ' e ff o r t t r a n c h a n t , d o i t s a t i s fa i r e 
+E q n . 
+( 7 . 2 9 ) : 
+A n V 
+­ 
+s z f. 
+( 7 . 2 9 ) 
+a v e c : 
+- V : e ff o r t t r a n c h a n t d e c a l c u l , V =- 1 . 4 V 
+- z : d i s t a n c e e n t r e l e s c e n t r e s d e g r a v i t ~ d e s ar m a t u r e s d e s d e u x e x t r ~ m i t ~ s c o n fi n ~ e s . 
+7 . 7 . 5 C o n d i t i o n s d e d u c t i l i t ~ l o c al e 
+D a n s J e s v o i l e s d e s e c t i o n r e c t a n g u l a i r e . l e r a p p o rt m ~ c a n i q u e 
+e n v o l u m e d e s a rm a t u r e s d e co n fi n e ­ 
+m e n t r e q u i s e s , ( a , d a n s l e s ~ l ~ m e n t s d e r i v e , d o i t r e s p e c t e r l a c o n d i t i o n c i - d e s s o u s : 
+a v e c : 
+) 
+b e 
+0 0,
+=
+3 0 . . (
++
+0 ) . € s d , 
+0. 0 3 5 
+• '0 
+v o l u m e d e s ar m a t u r e s d e c o n fi n e m e n t 
+f 
+W. , · d = - - - - - - - - - - - - - - - 
+v o l u m e d u n o y a u e n b ~ t o n fa 
+f a fe 1% 
+fa fe s Y 
+( 7. 3 0 ) 
+( 7. 3 1 ) 
+( 7 . 3 2 ) 

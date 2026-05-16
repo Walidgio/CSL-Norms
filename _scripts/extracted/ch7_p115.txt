@@ -1,0 +1,79 @@
+116 
+Chapter 7. STRUCTURES EN BETON ARME 
+7.6.2 Dimensionnement du nceud vis-a-vis des moments flechissants 
+D a n s J es b a tim e nt s a plu s i e ur s e t ages, l a fo rm a ti o n d ' un m eca ni s m e pl ast iqu e s ur un se ul ni vea u 
+d oi t e t re ev it ee, d a n s l a m es ur e o t1 un t e l m eca ni s m e p o ur ra it induir e des d e m a nd es d e du c ti l it e 
+l oca l e excess i ves , d a n s l es p o t ea u x d u ni vea u conce rn e. 
+P o ur r es p ec t e r ce tt e ex i ge nc e d a n s l es b a tim e nt s a ossa tur es, y c o mpri s l es s y s t e m es e qui va l e nt s 
+a d es ossa tur es (sys t e m es de co ntr eve nt e m e nt ( I ), (2) e t (3)) avec a u m o in s d e u x ni vea u x, l a so m me 
+d es m o m e nt s r es i s t a nt s ultim es, d es ex t re mi tes d e po t ea u x o u mont a nt s a b o u t i ssa nt a u n ce ud , es t a u 
+m a in s ega l e, e n va l e ur a b so lu e , a l a so mm e d es va l e ur s a b so lu es , d es m o m e nt s res i s t a nt s ultim es 
+d es ex tr e mit es d es p o u t r es o u traverses , m ajo r ee d' un coeffic i e nt d e 1 .3 0 (cf. E qn . ( 7 . 8)). Cette 
+co nditi o n es t sa ti sfa it e a t a u s J es n ce ud s de p o utr es prim a ir es ou seco nd ai r es avec d es p o te a u x ( cf. 
+Fi g u re (7.6)). 
+II y a li e u de n o t e r q u e cette ex i ge n ce n e s ' a ppliqu e p as a u d e rni er ni vea u d e ba t i m e nt s a 
+plu s i e ur s e t ages. 
+{ 
+I M Rcnl + I M Rcsl 2 .Q (I MR bw l + I M Rb e l ) 
+I M~ c n l + I M~ c s l 2 .Q ( I M~ bwl + I M~b el) 
+avec: 
+I . I : e n zo n es s i sm i q u es I , II e t III 
+1 .3 : e n zo n es s i s mi q u es I V , Ve t VI 
+(a) oe u d potea u -po u tre s : j o n ct i on co mpl e t e 
+l' I:)llm- 1.~ ~. ~ =i ~ Q 
+4 ' M OM, ~ 
+'-..../ · ~ 
+n M, " 
+l x::iiii-- 1. ~ ~ - . ... -=i ,, :c- ~ ? 
+C)M, Q C)M, ~ 
+( b ) Noe ud p o t ea u -po ut res: jo n c ti o n s p a rti c ul ie r es 
+F i g ur e 7. 6 : Dim e n s i o nn e m e nt d ' un n ce ud poutr e- pot ea u 
+(7.8) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+1 1 6 
+C h a p t e r 7 . S T R U C T U R E S E N B E T O N A R M E 
+7 . 6 . 2 D i m e n s i o n n e m e n t d u n oe u d v i s - ~ - v i s d e s m o m e n t s f l ~ c hl ss a n t s 
+D a n s l e s b ~ ti m e n t s ~ p l u s i e u r s ~ t a g e s , l a f o rm a t i o n d ' u n m ~ c a n i s m e p l a s ti q u e s u r u n s e u l n i v e a u 
+d o i t ~ tre ~ v i t ~ e , d a n s l a m e s u r e o ~ u n t e l m ~c a n i s m e po u rra i t i n d u i re d e s d e m an d e s d e d u c t i l i t ~ 
+l oc a l e e x c e ss i v es , d an s l e s po t e a u x d u n i v e a u co n c e rn ~ . 
+P o ur re s pec t er ce t t e e x i g e n c e d a n s l es b ~ ti m e n t s ~ o s s a t u r e s , y c o m p ri s l es s y s t ~ m e s e q u i v a l e n ts 
+~ d e s o s s a tu re s ( s y s t ~ m es d e c o n trev e n t e m e n t ( 1 ) , ( 2 ) e t ( 3 ) ) a v ec a u m o i n s de u x n i v e a u x , l a s o m m e 
+d e s m o m e n t s r~s i s tan t s u l t i m e s , d e s e x tr~ mi t ~s d e po t e a u x o u m o n ta n t s a bo u t i s sa n t a u n u d , e s t a u 
+m o i n s ~ g a l e , e n v al e ur a b so l u e , ~ l a so m m e d e s v a l e u rs a b so l u e s , d es m o m e n t s r ~ s i s t a n t s u l t i m es 
+d e s e x t r~ m i t ~ s d e s po u tre s o u tra v e r ses , m a j o r ~e d ' un coe ffi c i e n t d e 1 . 30 ( c f. 
+Eq n . 
+( 7 . 8 ) ) . C e t t e 
+co n d i t i o n e s t s a ti s f a i t e ~ t o u s l e s n c ud s d e po u t re s p ri m a i re s o u seco n d ai re s a v ec d e s po t e a u x ( c f. 
+F i g u r e ( 7 . 6 ) ) . 
+I l y a l i e u d e n o t e r q u e ce tt e e x i g e n ce n e s ' a p p l i q u e p a s a u d e rn i e r n i v e a u d e b ~ t im e n t s ~ 
+p l u s i e urs ta g e s . 
+{ 
+!Af , ,. j + I M , u l 2: !l ( j M ,. . I + I M , ,,. I) 
+M % . I + 1 M l 2> 9( 1 4 % .I + 1 M' %. D 
+( 7. 8 ) 
+a v ec 
+1 . 1 : e n z o ne s s i s m i q u e s I , JI e t IL 
+1 . 3 : e n z o n e s si s m i q u e s IV, V e t VI 
+D 
+M e 
+r 
+0 . 
+( a ) N oe u d pote a u - po u tr e s : j o n c ti o n c o m p l e t e 
+- 1 ° 
+€ . 
+(b ) N oe u d po t e a u - po u tre s : j o n c ti o n s p art i c ul i ~ re s 
+F i g u re 7 . 6 : D i m e n s i o n n e m e n t d ' u n n c ud 
+po u tre - po t ea u 

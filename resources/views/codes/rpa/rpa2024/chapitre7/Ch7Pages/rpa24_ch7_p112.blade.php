@@ -1,20 +1,21 @@
-<section id="rpa-p112" class="rpa-page rpa-scroll-spy-section">
-    <div class="rpa-header">
-        <span class="chapter">Chapter 7. STRUCTURES EN BETON ARME</span>
-        <span>112</span>
+<section id="rpa-p112" class="rpa-page rpa-scroll-spy-section" data-annotatable="true">
+    <div class="rpa-header-meta flex flex-wrap items-start justify-between gap-2 text-sm mb-6 border-b border-black/90 dark:border-slate-500 pb-2">
+        <span class="tabular-nums font-semibold text-slate-700 dark:text-slate-300">112</span>
+        <div class="text-right max-w-[min(100%,28rem)] space-y-0.5">
+            @include('norms::codes.rpa.rpa2024.partials.ch7-running-meta')
+        </div>
     </div>
-
-    <p style="text-indent: 20px; text-align: justify;">
-        Les symboles ont les mêmes significations qu'en <a href="#rpa-art-7.1.3" class="rpa-link">§ 7.1.3</a>.
+<p style="text-indent: 20px; text-align: justify;">
+        Les symboles ont les memes significations qu'en Â§ 7.1.3.
     </p>
 
     <p style="text-align: justify; font-style: italic; margin-top: 20px;">
-        Commentaire : La limitation, cf. <a href="#rpa-eqt-7.5" class="rpa-link">Eqn. (7.5)</a>, a pour objectif, à défaut d'empêcher la rupture d'une section critique d'un poteau (généralement soumis à une flexion composée), de la retarder ou, au cas où elle se produit, de faire en sorte qu'elle se manifeste, le plus souvent sous forme de rupture ductile, c'est-à-dire par rupture des aciers tendus (suite à leur allongement dans le palier plastique), préalablement à l'atteinte de la résistance ultime du béton comprimé. La disposition d'armatures transversales rapprochées, dans la zone critique concernée qu'elles confinent, contribue également à l'atteinte de cet objectif.
+        Commentaire : La limitation, cf. <a href="#rpa-eqt-7.5" class="rpa-link">Eqn. (7.5)</a>, a pour objectif, Ã  dÃ©faut d'empcher la rupture d'une section critique d'un poteau (gÃ©nralement soumis Ã  une flexion compose), de la retarder ou, au cas oÃ¹ elle se produit, de faire en sorte qu'elle se manifeste, le plus souvent sous forme de rupture ductile, c'est--dire par rupture des aciers tendus (suite Ã  leur allongement dans le palier plastique), prÃ©alablement Ã  l'atteinte de la rÃ©sistance ultime du bÃ©ton comprim. La disposition d'armatures transversales rapproches, dans la zone critique concerne qu'elles confinent, contribue galement Ã  l'atteinte de cet objectif.
     </p>
 
     <div class="rpa-h2-black">Sollicitations tangentes</div>
     <p style="text-align: justify;">
-        La contrainte de cisaillement conventionnelle de calcul dans le béton, <span style="text-decoration: overline;">&tau;</span><sub>bu</sub>, sous combinaison sismique doit être inférieure ou égale à la valeur limite, <a href="#rpa-eqt-7.6" class="rpa-link"><span style="text-decoration: overline;">&tau;</span><sub>bu</sub></a>:
+        La contrainte de cisaillement conventionnelle de calcul dans le beton, 1:b11 , sous combinaison
     </p>
 
     <div class="rpa-equation-container" id="rpa-eqt-7.6" style="margin-top: 20px;">
@@ -25,27 +26,28 @@
     </div>
 
     <div style="margin-top: 15px;">
-        où: <i>&rho;<sub>d</sub></i> est égal à 0.075 si l'élancement géométrique, dans la direction considérée, est supérieur ou égal à 5; il est égal à 0.04, dans le cas contraire.
+        o: p est ~gal ~ 0.075 si l'~lancement g~om~trique. dans la direction consid~r~e, est sup~rieur
     </div>
 
     <p style="text-indent: 20px; text-align: justify; margin-top: 15px;">
-        Dans le cas de remplissage en maçonnerie, ne régnant pas sur toute la hauteur d'un poteau (présence d'ouvertures en vasistas par exemple), la hauteur de calcul de l'élancement géométrique sera celle de l'ouverture.
+        Dans le cas de remplissage en maÃ§onnerie, ne rgnant pas sur toute la hauteur d'un poteau (prsence d'ouvertures en vasistas par exemple), la hauteur de calcul de l'lancement gomtrique sera celle de l'ouverture.
     </p>
+    @include('norms::codes.rpa.rpa2024.partials.rpa-figure-showcase', [
+        'id' => 'rpa-fig-7.3',
+        'kicker' => 'Poteau court',
+        'caption' => 'Figure 7.3 : Cas de constitution de poteau court, par hauteur insuffisante de la ma~onnerie de',
+        'svg' => 'norms::codes.rpa.rpa2024.chapitre7.Ch7Svg.rpa24_ch7_fig7_3',
+    ])
 
-    <!-- Figure 7.3 SVG -->
-    <div class="rpa-figure-container my-8" id="rpa-fig-7.3-container">
-        @include('norms::codes.rpa.rpa2024.chapitre7.Ch7Svg.rpa24_ch7_fig7_3')
-        <div class="rpa-figure-title" id="rpa-fig-7.3">Figure 7.3: Cas de constitution de poteau court, par hauteur insuffisante de la maçonnerie de remplissage</div>
-    </div>
 
     <p style="text-indent: 20px; text-align: justify; margin-top: 20px;">
-        Il y a lieu de noter que cette partie de poteau de hauteur h, considérée comme poteau court si <i>&lambda;<sub>g</sub> &lt; 5</i>, doit être confinée par des armatures transversales calculées avec <a href="#rpa-eqt-7.3" class="rpa-link">Eqn. (7.3)</a> ou déduites des minima donnés au <a href="#rpa-art-7.4.2" class="rpa-link">§ 7.4.2</a>.
+        Il y a lieu de noter que cette partie de poteau de hauteur h, considÃ©re comme poteau court si <i>&lambda;<sub>g</sub> &lt; 5</i>, doit tre confine par des armatures transversales calcules avec <a href="#rpa-eqt-7.3" class="rpa-link">Eqn. (7.3)</a> ou dduites des minima donns au <a href="#rpa-art-7.4.2" class="rpa-link">Ã  7.4.2</a>.
     </p>
     <p style="text-indent: 20px; text-align: justify;">
-        Dans <a href="#rpa-eqt-7.3" class="rpa-link">Eqn. (7.3)</a>, il y a lieu de bien veiller à ce que l'effort, <i>V<sub>u</sub></i>, sollicitant le poteau court, ait bien été calculé en considérant la grande raideur de ce dernier par rapport aux autres poteaux d'étage de hauteur "normale".
+        ait bien ~t~ calcul~ en consid~rant la grande raideur de ce dernier par rapport aux autres poteaux
     </p>
     <p style="text-indent: 20px; text-align: justify;">
-        Les poteaux courts, d'une manière générale, amènent à de graves désordres à l'occasion de séismes, même modérés. Si leur usage ne peut-être évité, il est recommandé que des contreventements par voiles ou palées prennent l'essentiel de l'effort horizontal.
+        Les poteaux courts, d'une manire gÃ©nrale, amnent Ã  de graves dÃ¨sordres Ã  l'occasion de sismes, mme modrs. Si leur usage ne peut-tre vit, il est recommandÃ  que des contreventements par voiles ou palÃ©es prennent l'essentiel de l'effort horizontal.
     </p>
 </section>
 
